@@ -1,0 +1,377 @@
+@charset "utf-8";
+
+@use 'sass:map';
+@use 'sass:meta';
+
+$_breakpoints: (
+	'xs': 375px,
+	'sm': 576px,
+	'md': 768px,
+	'lg': 992px,
+	'xl': 1200px,
+	// 'xxl': 1400px,
+);
+@mixin mq($mq, $bp) {
+	// $min: 'min-width: #{$bp-min}';
+	// $max: 'max-width: #{$bp-max} - 1';
+	$breakpoint: map-get($_breakpoints, $bp);
+
+	@if $mq == min {
+		$min: 'min-width: #{$breakpoint}';
+		@media screen and ($min) {
+			@content;
+		}
+	} @else if $mq == max {
+		$max: 'max-width: #{$breakpoint - 1}';
+		@media screen and ($max) {
+			@content;
+		}
+	}
+};
+
+
+/// color
+$color_white: #fff;
+$color_black: #333;
+$color_corporate: #e53947;
+$color_pastel-pink: #ea6c92;
+$color_pastel-orange: #f0a573;
+$color_pastel-yellow: #fff6a3;
+$color_pastel-green: #98e88c;
+$color_pastel-blue: #9eb8ff;
+$color_line: #06C755;
+// $color_pastel-yellow-light40: lighten($color_pastel-yellow, 4);
+// $color_pastel-yellow-light-bg: rgba($color_pastel-yellow, 0.4);
+$color_pastel-yellow-light-bg: mix($color_pastel-yellow, $color_white, 30%);
+
+$font_m-gothic: "Zen Maru Gothic", serif;
+$font_reggae: "Reggae One", system-ui;
+
+
+
+@mixin textLineMarker() {
+	background:linear-gradient(transparent 60%, #ff6 60%);
+}
+
+@mixin flex($flow:null, $justify:null, $align:null,) {
+	display: flex;
+	flex-flow: $flow;
+	justify-content: $justify;
+	align-items: $align;
+}
+
+
+
+/* Basic font size */
+html {
+	font-size: 16px;
+}
+
+/* default setting */
+body {
+	background: $color_white;
+	color: $color_black;
+	font-family: $font_m-gothic;
+	font-feature-settings: "palt";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+a {
+	color: $color_black;//文字色デフォルトから変更
+	text-decoration: none;// 下線を非表示
+	cursor: pointer;
+}
+
+img {
+	border-style: none;
+	box-sizing: border-box;
+	height: auto;
+	object-fit: cover;// アスペクト比
+	max-width: 100%;
+	vertical-align: bottom;// 画像下の余白を消す
+}
+
+li {
+	list-style: none;// マーク非表示
+}
+
+h3 {
+	font-size: 1.3rem;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 1.6rem;
+
+	// @include bq(tb-x) {
+	// 	line-height: 1.8;
+	// }
+}
+
+p {
+	letter-spacing: 2px;
+	line-height: 1.7;
+}
+
+
+/* ============================
+* 共通
+* ========================= */
+.common {
+	&__inner {
+		padding: 60px 0;
+	}
+
+	.home-title {
+		text-align: center;
+		&__en {
+			font-family: $font_reggae;
+			font-size: 2.25em;
+			font-weight: normal;
+			letter-spacing: 0.05em;
+			line-height: 1;
+			padding-bottom: 0.625rem;
+		}
+		&__ja {
+			font-size: 1.5em;
+			font-weight: 700;
+			letter-spacing: 0.02em;
+			line-height: 1;
+		}
+	}
+}
+
+.txt-pink {
+	color: $color_pastel-pink;
+}
+.txt-orange {
+	color: $color_pastel-orange;
+}
+.txt-yellow {
+	color: $color_pastel-yellow;
+}
+.txt-green {
+	color: $color_pastel-green;
+}
+.txt-blue {
+	color: $color_pastel-blue;
+}
+.txt-red {
+	color: $color_corporate;
+}
+
+
+.home {
+	position: relative;
+}
+
+
+/* ============================
+* header / footer
+* ========================= */
+.header {
+	background: $color_white;
+	height: 80px;
+	width: 100%;
+	// position: absolute;
+	// top: 0;
+	position: sticky;
+	z-index: 2;
+	@include mq(min, md) {
+		height: 100px;
+	}
+
+	&__inner {
+		@include flex(null, space-between, center);
+		padding: 0.625em;
+		height: 100%;
+
+	}
+
+	&__logo {
+		width: 200px;
+
+		img {
+			height: auto;
+			width: 100%;
+		}
+	}
+}
+
+/* ============================
+* gnav
+* ========================= */
+.gnav-content {
+	width: 100%;
+	// z-index: 999;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	.gnav-btn {
+		background-color: $color_corporate;
+		border-radius: 0.25rem;
+		color: $color-white;
+		cursor: pointer;
+		@include flex(column, center, center);
+		gap: 0.625rem;
+		padding: 0.625rem;
+		height: 60px;
+		width: 60px;
+		z-index: 940;
+
+		position: fixed;
+		top: 0.625em;
+		right: 0.625em;
+
+		@include mq(min, xl) {
+			display: none;
+		}
+
+		span {
+			display: block;
+			transition: all .4s;
+
+			&:nth-of-type(1),
+			&:nth-of-type(3) {
+				background: $color_white;
+				height: 3px;
+				width: 40px;
+			}
+
+			&:nth-of-type(2) {
+				font-size: 0.875em;
+				font-weight: 700;
+				line-height: 1;
+				text-transform: uppercase;
+			}
+		}
+
+		&.active {
+			span {
+				&:nth-of-type(1) {
+					width: 30px;
+					transform: translateY(1.125rem) rotate(-45deg);
+				}
+				&:nth-of-type(3) {
+					width: 30px;
+					transform: translateY(-1.125rem) rotate(45deg);
+				}
+
+				&:nth-of-type(2) {
+					opacity: 0;
+				}
+			}
+		}
+	}
+
+	.gnav {
+		color: $color_white;
+		display: none;
+
+		&.open {
+			// background: $color_corporate;
+			display: block;
+			height: 100vh;
+			width: 100%;
+			position: sticky;
+			z-index: 920;
+		}
+
+		&__inner {
+			// @include flex(null, center, center);
+			padding: 60px 40px 40px;
+			height: 100%;
+			width: 100%;
+		}
+
+		&__unit {
+			@include flex(column, center, center);
+			gap: 20px;
+		}
+
+		&__title {
+			font-size: 1em;
+			font-weight: 500;
+			line-height: 1;
+		}
+
+		&__list {
+			width: 100%;
+		}
+
+		&__item {
+			width: 100%;
+			&:not(:first-of-type) {
+				border-top: 1px dashed $color_white;
+			}
+
+			a {
+				color: $color_white;
+				@include flex(null, space-between, center);
+				font-size: 12px;
+				font-weight: 500;
+				line-height: 1;
+				padding: 12px 20px;
+
+				&::after {
+					content: '';
+					border-top: solid 2px $color_white;
+					border-right: solid 2px $color_white;
+					display: block;
+					transform: rotate(45deg);
+					height: 0.875rem;
+					width: 0.875rem;
+				}
+			}
+		}
+	}
+}
+
+.circle-bg {
+	position: fixed;
+	z-index: 910;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: $color_corporate;
+	transform: scale(0);
+	bottom:-50px;
+	left:calc(50% - 50px);
+	transition: all .6s;
+
+	&.circleactive {
+		transform: scale(50);
+	}
+}
+
+
+
+/* ============================
+* HOME
+* ========================= */
+
+.main-visual {
+	// height: calc(100vh - 80px);
+	// margin-top: 80px;
+	@include mq(min, md) {
+		// margin-top: 100px;
+		// height: calc(100vh - 100px);
+		// height: 100vh;
+		// top: 0;
+	}
+
+	&__img {
+		height: 100%;
+
+		img {
+			height: 100%;
+			width: 100%;
+		}
+	}
+}
+
+.home-about {
+	background: $color_pastel-yellow-light-bg;
+
+}
