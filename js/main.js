@@ -25,3 +25,45 @@ $('a[href*="#"]').click(function () {
 	$('body,html').animate({scrollTop: pos}, 500);
 	return false;
 });
+
+
+/* ============================
+* MAIN
+* ========================= */
+
+const swiper = new Swiper('.swiper', {
+	// Optional parameters
+	// direction: 'vertical',
+	loop: true,
+	// centeredSlides: true,
+	loopAdditionalSlides: 1,
+	slidesPerView: '1',
+	slidesPerGroup: 1,
+	spaceBetween: 0,
+	centeredSlidesBounds: true,
+	effect: 'coverflow',
+
+
+	// If we need pagination
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+		type: 'bullets',
+	},
+
+	// Navigation arrows
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
+
+	autoplay: {
+		delay: 6000,
+		disableOnInteraction: false,
+		waitForTransition: false,
+	},
+
+	allowTouchMove: true,
+});
+
+//
