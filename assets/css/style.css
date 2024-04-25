@@ -154,16 +154,6 @@ p {
 /* ============================
 * body
 * ========================= */
-.home {
-	position: relative;
-}
-
-.home-main {
-	position: absolute;
-	top: -100px;
-	width: 100%;
-}
-
 /* ============================
 * header / footer
 * ========================= */
@@ -171,7 +161,7 @@ p {
 	background: #fff;
 	height: 80px;
 	width: 100%;
-	position: sticky;
+	position: relative;
 	z-index: 2;
 }
 @media screen and (min-width: 768px) {
@@ -502,17 +492,17 @@ p {
 	font-size: 1.25rem;
 }
 
-.news__inner {
+.announce__inner {
 	background: #f0f4ff;
 }
-.news__content {
+.announce__content {
 	background: #fff;
 	border-radius: 1.25em;
 }
-.news__list {
+.announce__list {
 	padding: 1.25rem 1rem;
 }
-.news__item {
+.announce__item {
 	border-bottom: 1px solid #adadad;
 	display: flex;
 	flex-flow: column;
@@ -521,18 +511,72 @@ p {
 	gap: 0.625em;
 	padding: 0.625rem 1rem;
 }
-.news__date {
+.announce__date {
 	color: #f0a573;
 	font-size: 1em;
 	font-weight: 700;
 	line-height: 1;
 }
-.news__title {
+.announce__title {
 	color: #858585;
 	font-size: 1em;
 	font-weight: 500;
 	line-height: 1.5;
 }
-.news__btn {
+.announce__btn {
 	background: #9eb8ff;
+}
+
+.course {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+.course__img {
+	height: 200px;
+}
+.course__img img {
+	border-radius: 1.25rem;
+	box-shadow: 2px 2px 4px 0px #ebebeb;
+	height: 100%;
+}
+.course__content {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+.course__title-area {
+	align-items: flex-start !important;
+	width: 100%;
+}
+.course__title-area.home-title .home-title__ja {
+	padding-bottom: 0;
+}
+.course__title-area.home-title .dots-inner {
+	padding-bottom: 1.25rem;
+}
+.course__text-area {
+	color: #858585;
+	text-align: center;
+}
+.course__lead {
+	font-size: 1.25em;
+	font-weight: 700;
+	letter-spacing: 0.01em;
+	line-height: 1;
+	padding-bottom: 1.25rem;
+}
+.course__text {
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 1.6;
+	text-align: left;
+}
+.course__btn {
+	background: #ea6c92;
+	width: 100%;
 }
