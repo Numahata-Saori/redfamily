@@ -153,7 +153,7 @@ require_once ('include/header.php');
 						</ul>
 					</div>
 					<div class="announce-btn common-btn">
-						<a class="common-btn__inner" href="">もっとみる</a>
+						<a class="common-btn__inner" href="news/">もっとみる</a>
 					</div>
 				</div>
 			</div>
@@ -182,7 +182,7 @@ require_once ('include/header.php');
 								</p>
 							</div>
 							<div class="course-btn common-btn">
-								<a class="common-btn__inner" href="#">もっとみる</a>
+								<a class="common-btn__inner" href="course/">もっとみる</a>
 							</div>
 						</div>
 					</div><!-- /.course -->
@@ -204,7 +204,7 @@ require_once ('include/header.php');
 								</p>
 							</div>
 							<div class="instructor-btn common-btn">
-								<a class="common-btn__inner" href="#">もっとみる</a>
+								<a class="common-btn__inner" href="instructor/">もっとみる</a>
 							</div>
 						</div>
 					</div><!-- /.instructor -->
@@ -231,14 +231,14 @@ require_once ('include/header.php');
 					</div>
 					<div class="schedule__btn-wrap">
 						<div class="schedule-btn-mini common-btn">
-							<a class="common-btn__inner schedule-btn-mini__inner" href="#">クラスごとのスケジュールをみる</a>
+							<a class="common-btn__inner schedule-btn-mini__inner" href="course/">クラスごとのスケジュールをみる</a>
 						</div>
 						<div class="schedule-btn-mini common-btn">
-							<a class="common-btn__inner schedule-btn-mini__inner" href="#">スタジオごとのスケジュールをみる</a>
+							<a class="common-btn__inner schedule-btn-mini__inner" href="studio/">スタジオごとのスケジュールをみる</a>
 						</div>
 					</div>
 					<div class="schedule-btn common-btn">
-						<a class="common-btn__inner schedule-btn__inner" href="#">無料体験レッスン<br class="non-lg">随時受付中</a>
+						<a class="common-btn__inner schedule-btn__inner" href="contact/">無料体験レッスン<br class="non-lg">随時受付中</a>
 					</div>
 				</div>
 			</div>
