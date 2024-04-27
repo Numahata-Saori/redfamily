@@ -38,10 +38,20 @@ const swiper = new Swiper('.swiper', {
 	// centeredSlides: true,
 	loopAdditionalSlides: 1,
 	slidesPerView: '1',
+	breakpoints: {
+		// 768:{
+		// 	slidesPerView: 2,
+		// 	spaceBetween: 40,
+		// }
+		1200:{
+			slidesPerView: 3,
+			spaceBetween: 40,
+		}
+	},
 	slidesPerGroup: 1,
 	spaceBetween: 0,
 	centeredSlidesBounds: true,
-	effect: 'coverflow',
+	// effect: 'coverflow',
 
 
 	// If we need pagination

@@ -35,10 +35,11 @@ $host_url = (empty($_SERVER['HTTPS']) ? 'http://' : 'https://'). $_SERVER['HTTP_
 
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
 
-	<link rel="stylesheet" href="assets/css/swiper.css">
-	<link rel="stylesheet" href="assets/css/modal.css">
+
+
 	<link rel="stylesheet" href="assets/css/style.css">
-	<!-- <link rel="stylesheet" href="css/swiper.css"> -->
+	<link rel="stylesheet" href="assets/css/modal.css">
+	<link rel="stylesheet" href="assets/css/swiper.css">
 
 	<!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
 
@@ -56,6 +57,7 @@ require_once ('include/header.php');
 			</picture>
 		</h1>
 	</div>
+
 	<main>
 		<section class="home-about">
 			<div class="home-about__inner common">
@@ -70,11 +72,11 @@ require_once ('include/header.php');
 					<div class="home-about__content">
 						<p class="home-about__text">私たちは、子どもたち一人ひとりが持つ<br class="non-md">無限の可能性を信じています。</p>
 						<p class="home-about__text">RedFamilyでは、<br class="non-md">ダンスを通じてその才能を引き出し、<br class="non-md">自信と創造性を育んでいます。</p>
-						<p class="home-about__text">当スクールでは、<br class="non-md">子どもたちが自分自身を表現し、<br class="non-md">仲間との絆を深めながら、<br class="non-md">楽しみながら学べる環境を提供しています。</p>
+						<p class="home-about__text">当スクールでは、<br class="non-md">子どもたちが自分自身を表現し、<br class="non-md">仲間との絆を深めながら、<br>楽しみながら学べる環境を提供しています。</p>
 						<p class="home-about__text"> 皆さんのご家族が<br class="non-md">Red Family の一員として加わることを<br class="non-md">心よりお待ちしております。</p>
 						<p class="home-about__text"> 一緒に、子どもたちの輝く未来を<br class="non-md">創り上げましょう。</p>
 					</div>
-					<div class="about-btn common-btn">
+					<div class="about-btn common-btn common-btn-arrow">
 						<a class="common-btn__inner" href="about/">詳しくみる</a>
 					</div>
 				</div>
@@ -115,9 +117,11 @@ require_once ('include/header.php');
 
 							</div>
 							<!-- <div class="swiper-pagination"></div> -->
-							<div class="swiper-button-prev"></div>
-							<div class="swiper-button-next"></div>
+							<!-- <div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div> -->
 						</div><!-- /.swiper -->
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
 						<div class="swiper-pagination"></div>
 					</div>
 				</div>
@@ -152,7 +156,7 @@ require_once ('include/header.php');
 							</li>
 						</ul>
 					</div>
-					<div class="announce-btn common-btn">
+					<div class="announce-btn common-btn common-btn-arrow">
 						<a class="common-btn__inner" href="news/">もっとみる</a>
 					</div>
 				</div>
@@ -181,7 +185,7 @@ require_once ('include/header.php');
 									キッドピクスプログラム（親子クラス・こどもクラス）から成人クラスまで、一人ひとりのニーズに合わせたダンスの楽しさを提供します。
 								</p>
 							</div>
-							<div class="course-btn common-btn">
+							<div class="course-btn common-btn common-btn-arrow">
 								<a class="common-btn__inner" href="course/">もっとみる</a>
 							</div>
 						</div>
@@ -203,7 +207,7 @@ require_once ('include/header.php');
 									子どもたちの心と体の成長をサポートする専門的な知識と経験を持つ、信頼できるインストラクターたちが、皆さんを暖かく迎え入れます。
 								</p>
 							</div>
-							<div class="instructor-btn common-btn">
+							<div class="instructor-btn common-btn common-btn-arrow">
 								<a class="common-btn__inner" href="instructor/">もっとみる</a>
 							</div>
 						</div>
@@ -229,16 +233,16 @@ require_once ('include/header.php');
 							<a class="js_img-modal" href="assets/img/redfamily_studio-schedule.jpg"><img src="assets/img/redfamily_studio-schedule.jpg" alt=""></a>
 						</div>
 					</div>
-					<div class="schedule__btn-wrap">
-						<div class="schedule-btn-mini common-btn">
+					<div class="schedule__btn-box">
+						<div class="schedule-btn-mini common-btn common-btn-arrow">
 							<a class="common-btn__inner schedule-btn-mini__inner" href="course/">クラスごとのスケジュールをみる</a>
 						</div>
-						<div class="schedule-btn-mini common-btn">
+						<div class="schedule-btn-mini common-btn common-btn-arrow">
 							<a class="common-btn__inner schedule-btn-mini__inner" href="studio/">スタジオごとのスケジュールをみる</a>
 						</div>
 					</div>
-					<div class="schedule-btn common-btn">
-						<a class="common-btn__inner schedule-btn__inner" href="contact/">無料体験レッスン<br class="non-lg">随時受付中</a>
+					<div class="schedule-btn common-btn common-btn-arrow">
+						<a class="common-btn__inner schedule-btn__inner" href="contact/">無料体験レッスン<br class="non-md">随時受付中</a>
 					</div>
 				</div>
 			</div>
