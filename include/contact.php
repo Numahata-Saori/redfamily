@@ -5,7 +5,7 @@
 			<div class="home-title">
 				<p class="home-title__en contact-mini__title-en">CONTACT</p>
 				<h2 class="home-title__ja txt-red">お問い合わせ</h2>
-				<div class="dots-inner"><img src="assets/img/decor-dots.svg" alt=""></div>
+				<div class="dots-inner"><img src="<?php echo $path; ?>assets/img/decor-dots.svg" alt=""></div>
 			</div>
 			<!-- <div class="contact-mini__content"> -->
 				<div class="contact-mini__head">
@@ -17,7 +17,7 @@
 						<a class="contact__item-inner contact-btn" href="tel:09083656461">
 							<p class="contact-btn__title">お電話でお問い合わせ</p>
 							<div class="contact-btn__body common-btn-arrow">
-								<p class="contact-btn__number">090-8365-6461</p>
+								<p class="contact-btn__number phone-btn-icon">090-8365-6461</p>
 							</div>
 						</a>
 					</div>
@@ -25,7 +25,7 @@
 						<a class="contact__item-inner contact-btn--mail" href="#">
 							<p class="contact-btn__title">メールでお問い合わせ</p>
 							<div class="contact-btn__body common-btn-arrow">
-								<p class="contact-btn__text">お問い合わせはこちら</p>
+								<p class="contact-btn__text mail-btn-icon">お問い合わせはこちら</p>
 							</div>
 						</a>
 					</div>
@@ -33,7 +33,7 @@
 						<a class="contact__item-inner contact-btn--line" href="#">
 							<p class="contact-btn__title">LINEでお問い合わせ</p>
 							<div class="contact-btn__body common-btn-arrow">
-								<p class="contact-btn__text">お友達登録はこちら</p>
+								<p class="contact-btn__text line-btn-icon">お友達登録はこちら</p>
 							</div>
 						</a>
 					</div>

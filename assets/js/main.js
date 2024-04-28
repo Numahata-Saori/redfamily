@@ -15,6 +15,44 @@ $("#gnav a").click(function () {
 });
 
 
+
+/* ============================
+* MAIN
+* ========================= */
+
+let beforePos = 0;
+
+function ScrollAnime() {
+	const elemTop = $('#up-area').offset().top;
+	const scroll = $(window).scrollTop();
+	if(scroll == beforePos) {
+	} else if(elemTop > scroll || 0 > scroll - beforePos){
+		$('#header').removeClass('js_up-move');
+		$('#header').addClass('js_down-move');
+	} else {
+		$('#header').removeClass('js_down-move');
+		$('#header').addClass('js_up-move');
+	}
+
+	beforePos = scroll;
+}
+
+$(window).scroll(function () {
+	ScrollAnime();
+});
+
+$(window).on('load', function () {
+	ScrollAnime();
+});
+
+// const headerH = $("#header").outerHeight(true);
+// $('#gnav li a').click(function () {
+// 	const elmHash = $(this).attr('href');
+// 	const pos = $(elmHash).offset().top-headerH;
+// 	$('body,html').animate({scrollTop: pos}, 1000);
+// 	return false;
+// });
+
 /* ============================
 * ページ内リンク
 * ========================= */
@@ -27,8 +65,9 @@ $('a[href*="#"]').click(function () {
 });
 
 
+
 /* ============================
-* MAIN
+* swiper
 * ========================= */
 
 const swiper = new Swiper('.swiper', {
