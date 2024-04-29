@@ -1,0 +1,27 @@
+// breakpoints
+
+$_breakpoints: (
+	'xs': 375px,
+	'sm': 576px,
+	'md': 768px,
+	'lg': 992px,
+	'xl': 1280px,
+	// 'xxl': 1400px,
+);
+@mixin mq($mq, $bp) {
+	// $min: 'min-width: #{$bp-min}';
+	// $max: 'max-width: #{$bp-max} - 1';
+	$breakpoint: map-get($_breakpoints, $bp);
+
+	@if $mq == min {
+		$min: 'min-width: #{$breakpoint}';
+		@media screen and ($min) {
+			@content;
+		}
+	} @else if $mq == max {
+		$max: 'max-width: #{$breakpoint - 1}';
+		@media screen and ($max) {
+			@content;
+		}
+	}
+};

@@ -1,0 +1,29 @@
+@use '../global/color' as *;
+@use '../global/breakpoints' as *;
+@use '../global/mixin' as *;
+@use '../common/header' as *;
+
+/* ============================
+* footer
+* ========================= */
+
+.footer {
+	background: $color_corporate;
+	@include flex(column, null, center);
+	gap: 0.625rem;
+	padding: 1.25rem;
+
+	&__logo {
+		@extend .header__logo !optional;
+	}
+
+	&__copyright {
+		color: $color_white;
+		font-size: 0.75em;
+		font-weight: 500;
+		line-height: 1;
+		@include mq(min, md) {
+			font-size: 0.875em;
+		}
+	}
+}

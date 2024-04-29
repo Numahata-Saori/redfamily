@@ -1,0 +1,55 @@
+@use '../global/color' as *;
+
+/* ============================
+* base
+* ========================= */
+
+/* Basic font size */
+html {
+	font-size: 16px;
+}
+
+/* default setting */
+body {
+	background: $color_white;
+	color: $color_black;
+	font-family: $font_m-gothic;
+	font-feature-settings: "palt";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+a {
+	color: $color_black;//文字色デフォルトから変更
+	text-decoration: none;// 下線を非表示
+	cursor: pointer;
+}
+
+img {
+	border-style: none;
+	box-sizing: border-box;
+	height: auto;
+	object-fit: cover;// アスペクト比
+	max-width: 100%;
+	vertical-align: bottom;// 画像下の余白を消す
+}
+
+li {
+	list-style: none;// マーク非表示
+}
+
+h3 {
+	font-size: 1.3rem;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 1.6rem;
+
+	// @include bq(tb-x) {
+	// 	line-height: 1.8;
+	// }
+}
+
+p {
+	line-height: 1.6;
+}

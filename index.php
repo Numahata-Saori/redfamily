@@ -1,6 +1,9 @@
 <?php
 $is_home = true;
 $path = './';
+$pathChild = 'assets/img/';
+$title = 'Red Familyダンススタジオ｜一般社団法人日本こどもフィットネス協会公認クラブ';
+$description = '岸和田市のキッズダンス教室・泉佐野市のキッズダンス教室・岸和田市のHIPHOPダンス教室';
 ?>
 
 

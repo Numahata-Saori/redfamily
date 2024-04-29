@@ -1,0 +1,44 @@
+// color
+
+// デフォルト色
+$color_white: #fff;
+$color_black: #333;
+$color_corporate: #e53947;
+$color_pastel-pink: #ea6c92;
+$color_pastel-orange: #f0a573;
+$color_pastel-yellow: #fff6a3;
+$color_pastel-green: #98e88c;
+$color_pastel-blue: #9eb8ff;
+$color_line: #06C755;
+
+// 文字色
+$color_black-light: mix($color_black,  $color_white, 60%);
+$color_corporate-light: mix($color_corporate,  $color_white, 30%);
+
+// 線
+$color_black-border: mix($color_black,  $color_white, 40%);
+$color_contact-border: mix($color_pastel-pink,  $color_white, 60%);
+
+$color_contact-phone-stripe: mix($color_pastel-pink,  $color_white, 90%);
+$color_contact-mail-stripe: mix($color_pastel-orange,  $color_white, 90%);
+
+// 影
+$color_img-shadow: mix($color_black,  $color_white, 10%);
+$color_btn-shadow: rgba($color_black, 0.2);
+
+// 背景色
+// $color_pastel-yellow-light40: lighten($color_pastel-yellow, 4);
+// $color_pastel-yellow-light-bg: rgba($color_pastel-yellow, 0.4);
+$color_pastel-pink-light-bg: mix($color_pastel-pink, $color_white, 10%);
+$color_pastel-yellow-light-bg: mix($color_pastel-yellow, $color_white, 30%);
+$color_pastel-blue-light-bg: mix($color_pastel-blue, $color_white, 15%);
+$color_corporate-light-bg: mix($color_corporate, $color_white, 15%);
+
+// ボタン色
+$color_contact-btn: mix($color_corporate, $color_white, 60%);
+// $color_contact-btn: rgba(229, 57, 71, 0.60);
+
+// フォント
+$font_m-gothic: "Zen Maru Gothic", serif;
+$font_reggae: "Reggae One", system-ui;
+$font_m-gothic2: "M PLUS 1p", sans-serif;

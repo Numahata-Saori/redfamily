@@ -1,0 +1,192 @@
+@use '../global/color' as *;
+@use '../global/breakpoints' as *;
+@use '../global/mixin' as *;
+
+/* ============================
+* gnav
+* ========================= */
+.gnav-content {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	.gnav-btn {
+		background-color: $color_corporate;
+		border-radius: 0.25rem;
+		color: $color-white;
+		cursor: pointer;
+		@include flex(column, center, center);
+		gap: 0.625rem;
+		padding: 0.625rem;
+		height: 60px;
+		width: 60px;
+		z-index: 940;
+
+		position: fixed;
+		top: 0.625em;
+		right: 0.625em;
+
+		@include mq(min, xl) {
+			display: none;
+		}
+
+		span {
+			display: block;
+			transition: all .4s;
+
+			&:nth-of-type(1),
+			&:nth-of-type(3) {
+				background: $color_white;
+				height: 3px;
+				width: 40px;
+			}
+
+			&:nth-of-type(2) {
+				font-size: 0.875em;
+				font-weight: 700;
+				line-height: 1;
+				text-transform: uppercase;
+			}
+		}
+
+		&.active {
+			span {
+				&:nth-of-type(1) {
+					width: 30px;
+					transform: translateY(1.125rem) rotate(-45deg);
+				}
+				&:nth-of-type(3) {
+					width: 30px;
+					transform: translateY(-1.125rem) rotate(45deg);
+				}
+
+				&:nth-of-type(2) {
+					opacity: 0;
+				}
+			}
+		}
+	}
+}
+
+.gnav {
+	color: $color_white;
+	display: none;
+
+	&.open {
+		display: block;
+		height: 100vh;
+		width: 100%;
+		position: fixed;
+		z-index: 920;
+	}
+
+	&__inner {
+		@include flex(column, flex-start, center);
+		gap: 30px;
+		padding: 60px 40px 40px;
+		height: 100%;
+		width: 100%;
+		overflow-y: scroll;
+	}
+
+	&__main {
+		@include flex(column, flex-start, center);
+		gap: 30px;
+		width: 100%;
+	}
+
+	&__unit {
+		@include flex(column, center, center);
+		gap: 20px;
+		width: 100%;
+	}
+
+	&__title {
+		font-size: 1em;
+		font-weight: 500;
+		line-height: 1;
+	}
+
+	&__list {
+		width: 100%;
+	}
+
+	&__item {
+		width: 100%;
+		&:not(:first-of-type) {
+			border-top: 1px dashed $color_white;
+		}
+	}
+
+	&__link {
+		color: $color_white;
+		@include flex(null, space-between, center);
+		font-size: 0.75em;
+		font-weight: 500;
+		line-height: 1;
+		padding: 0.75rem 1.875rem;
+
+		&::after {
+			content: '';
+			border-top: solid 2px $color_white;
+			border-right: solid 2px $color_white;
+			display: block;
+			transform: rotate(45deg);
+			height: 0.875rem;
+			width: 0.875rem;
+		}
+
+		&--btn {
+			@extend .gnav__link;
+			color: $color_black;
+			font-size: 1em;
+			&::after {
+				border-color: $color_corporate;
+			}
+		}
+	}
+
+	&__btn {
+		background: $color_white;
+		border-radius: 100vh;
+		width: 100%;
+	}
+}
+
+.circle-bg {
+	position: fixed;
+	z-index: 910;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: $color_corporate;
+	transform: scale(0);
+	bottom:-50px;
+	left:calc(50% - 50px);
+	transition: all .6s;
+
+	&.circleactive {
+		transform: scale(50);
+	}
+}
+
+.footer-gnav {
+	@include mq(min, xl) {
+		background: $color_corporate;
+		margin-bottom: -0.1em;
+		padding-bottom: 60px;
+
+		.gnav {
+			display: block;
+
+			&__inner {
+				flex-direction: row;
+				align-items: flex-start;
+				gap: 40px;
+				padding: 0;
+				overflow: inherit;
+			}
+		}
+	}
+}

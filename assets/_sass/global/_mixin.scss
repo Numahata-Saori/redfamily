@@ -1,0 +1,12 @@
+// mixin
+
+@mixin textLineMarker() {
+	background:linear-gradient(transparent 60%, #ff6 60%);
+}
+
+@mixin flex($flex:null, $justify:null, $align:null,) {
+	display: flex;
+	flex-direction: $flex;
+	justify-content: $justify;
+	align-items: $align;
+}
