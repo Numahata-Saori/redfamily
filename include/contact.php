@@ -1,5 +1,5 @@
 <section class="contact-mini">
-	<!-- <div class="shape-bottom"></div> -->
+	<!-- <div class="shape-bottom-contact-mini"></div> -->
 	<div class="contact-mini__inner common">
 		<div class="common__inner">
 			<div class="home-title">

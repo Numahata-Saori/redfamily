@@ -75,6 +75,7 @@
 		@include flex(null, space-between, center);
 		width: 100%;
 		height: 40px;
+		// max-width: 1200px;
 	}
 
 	&__logo {
@@ -102,6 +103,7 @@
 			display: block;
 			@include flex(null, space-between, flex-start);
 			width: 100%;
+			// max-width: 1200px;
 		}
 	}
 }
@@ -202,9 +204,11 @@
 
 	&__list {
 		@include flex(null, space-between, flex-start);
+		width: 80%;
 	}
 
 	&__item {
+		width: calc(100% / 8);
 		&:not(:last-of-type) {
 			#{$block}__link {
 				border-right: 1px dashed $color_black-border;
@@ -230,7 +234,7 @@
 		@include flex(column, flex-start, center);
 		gap: 6px;
 		padding: 0 0.625rem;
-		width: 120px;
+		min-width: 120px;
 		height: 80px;
 	}
 

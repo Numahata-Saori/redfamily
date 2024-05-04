@@ -1,5 +1,8 @@
 // breakpoints
 
+@use 'sass:map';
+@use 'sass:meta';
+
 $_breakpoints: (
 	'xs': 375px,
 	'sm': 576px,

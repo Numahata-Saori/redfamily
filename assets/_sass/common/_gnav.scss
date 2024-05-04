@@ -172,6 +172,7 @@
 }
 
 .footer-gnav {
+	display: none;
 	@include mq(min, xl) {
 		background: $color_corporate;
 		margin-bottom: -0.1em;

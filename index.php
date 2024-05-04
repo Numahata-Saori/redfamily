@@ -215,7 +215,7 @@ require_once ('include/header.php');
 					</div>
 				</div>
 			</div>
-			<div class="shape-bottom-contact-mini"></div>
+			<div class="shape-bottom--contact-mini"></div>
 		</section><!-- /.schedule -->
 
 <?php
@@ -227,14 +227,6 @@ require_once ('include/contact.php');
 <?php
 require_once ('include/footer.php');
 ?>
-	<!-- jquery -->
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-	<!-- modaal -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
-
-	<!-- swiper -->
-	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-	<script src="assets/js/main.js"></script>
 </body>
 </html>
