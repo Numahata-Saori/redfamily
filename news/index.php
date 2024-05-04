@@ -18,7 +18,7 @@ require_once $path . 'include/header.php';
 ?>
 
 	<main class="child">
-		<div class="child-about child-title child-top">
+		<div class="child-news child-title child-top">
 			<div class="child-top__inner">
 				<div class="child-title__inner">
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
@@ -28,7 +28,7 @@ require_once $path . 'include/header.php';
 			</div>
 		</div>
 
-		<section class="child-about__main">
+		<section class="child-news__main">
 			<div class="shape-top--pinnk-light"></div>
 			<div class="common">
 				<div class="common__inner"></div>

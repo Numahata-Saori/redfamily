@@ -4,5 +4,30 @@
 @use '../global/common' as *;
 
 .child-course {
+	background: $color_pastel-yellow-light-bg;
+
+	&__main {
+		.course-main {
+			&__banner {
+				width: 100%;
+			}
+
+			&__btn {
+				background: $color_contact-btn;
+				width: 100%;
+				max-width: none;
+			}
+
+			&__btn-inner {
+				font-size: 1.25em;
+				line-height: 1.2;
+				text-align: center;
+
+				@include mq(min, md) {
+					height: 80px;
+				}
+			}
+		}
+	}
 
 }

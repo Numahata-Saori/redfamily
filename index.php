@@ -21,8 +21,8 @@ require_once ('include/header.php');
 	<div class="main-visual">
 		<h1 class="main-visual__img">
 			<picture>
-				<source srcset="assets/img/main-visual_sp.png" alt="" media="(max-width: 767px)">
-				<img src="assets/img/main-visual_pc.png" alt="">
+				<source srcset="<?php echo $path . $pathChild ?>main-visual_sp.png" alt="" media="(max-width: 767px)">
+				<img src="<?php echo $path . $pathChild ?>main-visual_pc.png" alt="">
 			</picture>
 		</h1>
 	</div>
@@ -36,7 +36,7 @@ require_once ('include/header.php');
 							<span class="txt-blue">A</span><span class="txt-orange">B</span><span class="txt-pink">O</span><span class="txt-green">U</span><span class="txt-blue">T</span>
 						</p>
 						<h2 class="home-title__ja txt-red">RedFamilyについて</h2>
-						<div class="dots-inner"><img src="assets/img/decor-dots.svg" alt=""></div>
+						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 					</div>
 					<div class="home-about__content">
 						<p class="home-about__text">私たちは、子どもたち一人ひとりが持つ<br class="non-md">無限の可能性を信じています。</p>
@@ -60,28 +60,28 @@ require_once ('include/header.php');
 					<div class="home-title">
 						<p><img src="" alt=""></p>
 						<h2 class="home-title__ja txt-orange">Red Family Instagram</h2>
-						<div class="dots-inner"><img src="assets/img/decor-dots.svg" alt=""></div>
+						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 					</div>
 					<div class="sns__content swiper-wrap">
 						<div class="swiper">
 							<div class="sns__list swiper-wrapper">
 								<div class="sns__img swiper-slide">
-									<img src="assets/img/sns-img01.jpg" alt="">
+									<img src="<?php echo $path . $pathChild ?>sns-img01.jpg" alt="">
 								</div>
 								<div class="sns__img swiper-slide">
-									<img src="assets/img/sns-img01.jpg" alt="">
+									<img src="<?php echo $path . $pathChild ?>sns-img01.jpg" alt="">
 								</div>
 								<div class="sns__img swiper-slide">
-									<img src="assets/img/sns-img01.jpg" alt="">
+									<img src="<?php echo $path . $pathChild ?>sns-img01.jpg" alt="">
 								</div>
 								<div class="sns__img swiper-slide">
-									<img src="assets/img/sns-img01.jpg" alt="">
+									<img src="<?php echo $path . $pathChild ?>sns-img01.jpg" alt="">
 								</div>
 								<div class="sns__img swiper-slide">
-									<img src="assets/img/sns-img01.jpg" alt="">
+									<img src="<?php echo $path . $pathChild ?>sns-img01.jpg" alt="">
 								</div>
 								<div class="sns__img swiper-slide">
-									<img src="assets/img/sns-img01.jpg" alt="">
+									<img src="<?php echo $path . $pathChild ?>sns-img01.jpg" alt="">
 								</div>
 
 							</div>
@@ -107,7 +107,7 @@ require_once ('include/header.php');
 							<span class="txt-pink">N</span><span class="txt-orange">E</span><span class="txt-green">W</span><span class="txt-pink">S</span>
 						</p>
 						<h2 class="home-title__ja txt-blue">お知らせ&イベント情報</h2>
-						<div class="dots-inner"><img src="assets/img/decor-dots.svg" alt=""></div>
+						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 					</div>
 					<div class="announce__content">
 						<ul class="announce__list">
@@ -138,10 +138,10 @@ require_once ('include/header.php');
 			<div class="common">
 				<div class="course-instructor__inner common__inner">
 					<div class="course">
-						<p class="course__img"><img src="assets/img/course-img.jpg" alt=""></p>
+						<p class="course__img"><img src="<?php echo $path . $pathChild ?>course-img.jpg" alt=""></p>
 						<div class="course__content">
 							<div class="home-title course__title-area">
-								<div class="dots-inner"><img src="assets/img/decor-dots.svg" alt=""></div>
+								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 								<p class="home-title__en">
 									<span class="txt-pink">CLASS</span>
 								</p>
@@ -160,10 +160,10 @@ require_once ('include/header.php');
 						</div>
 					</div><!-- /.course -->
 					<div class="instructor">
-						<p class="instructor__img"><img src="assets/img/instructor-img.jpg" alt=""></p>
+						<p class="instructor__img"><img src="<?php echo $path . $pathChild ?>instructor-img.jpg" alt=""></p>
 						<div class="instructor__content">
 							<div class="home-title instructor__title-area">
-								<div class="dots-inner"><img src="assets/img/decor-dots.svg" alt=""></div>
+								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 								<p class="home-title__en">
 									<span class="txt-orange">INSTRUCTOR</span>
 								</p>
@@ -194,12 +194,12 @@ require_once ('include/header.php');
 						<span class="txt-orange">S</span><span class="txt-blue">C</span><span class="txt-green">H</span><span class="txt-pink">E</span><span class="txt-blue">D</span><span class="txt-green">U</span><span class="txt-pink">L</span><span class="txt-orange">E</span>
 						</p>
 						<h2 class="home-title__ja txt-pink">STUDIOスケジュール</h2>
-						<div class="dots-inner"><img src="assets/img/decor-dots.svg" alt=""></div>
+						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 					</div>
 					<div class="schedule__content">
 						<p class="schedule__desc">最適な環境でダンスを楽しんでいただけるよう、各スタジオの特徴を活かしたクラスを用意しております。</p>
 						<div class="schedule__img">
-							<a class="js_img-modal" href="<?php echo $path ?>assets/img/redfamily_studio-schedule.jpg"><img src="assets/img/redfamily_studio-schedule.jpg" alt=""></a>
+							<a class="js_img-modal" href="<?php echo $path . $pathChild ?>redfamily_studio-schedule.jpg"><img src="<?php echo $path . $pathChild ?>redfamily_studio-schedule.jpg" alt=""></a>
 						</div>
 					</div>
 					<div class="schedule__btn-box">
