@@ -46,7 +46,7 @@ require_once ('include/header.php');
 						<p class="home-about__text"> 一緒に、子どもたちの輝く未来を<br class="non-md">創り上げましょう。</p>
 					</div>
 					<div class="about-btn common-btn common-btn-arrow">
-						<a class="common-btn__inner" href="about/">詳しくみる</a>
+						<a class="common-btn__inner" href="<?php echo $path ?>about/">詳しくみる</a>
 					</div>
 				</div>
 			</div>
@@ -126,7 +126,7 @@ require_once ('include/header.php');
 						</ul>
 					</div>
 					<div class="announce-btn common-btn common-btn-arrow">
-						<a class="common-btn__inner" href="news/">もっとみる</a>
+						<a class="common-btn__inner" href="<?php echo $path ?>news/">もっとみる</a>
 					</div>
 				</div>
 			</div>
@@ -155,7 +155,7 @@ require_once ('include/header.php');
 								</p>
 							</div>
 							<div class="course-btn common-btn common-btn-arrow">
-								<a class="common-btn__inner" href="course/">もっとみる</a>
+								<a class="common-btn__inner" href="<?php echo $path ?>course/">もっとみる</a>
 							</div>
 						</div>
 					</div><!-- /.course -->
@@ -177,7 +177,7 @@ require_once ('include/header.php');
 								</p>
 							</div>
 							<div class="instructor-btn common-btn common-btn-arrow">
-								<a class="common-btn__inner" href="instructor/">もっとみる</a>
+								<a class="common-btn__inner" href="<?php echo $path ?>instructor/">もっとみる</a>
 							</div>
 						</div>
 					</div><!-- /.instructor -->
@@ -199,19 +199,19 @@ require_once ('include/header.php');
 					<div class="schedule__content">
 						<p class="schedule__desc">最適な環境でダンスを楽しんでいただけるよう、各スタジオの特徴を活かしたクラスを用意しております。</p>
 						<div class="schedule__img">
-							<a class="js_img-modal" href="assets/img/redfamily_studio-schedule.jpg"><img src="assets/img/redfamily_studio-schedule.jpg" alt=""></a>
+							<a class="js_img-modal" href="<?php echo $path ?>assets/img/redfamily_studio-schedule.jpg"><img src="assets/img/redfamily_studio-schedule.jpg" alt=""></a>
 						</div>
 					</div>
 					<div class="schedule__btn-box">
 						<div class="schedule-btn-mini common-btn common-btn-arrow">
-							<a class="common-btn__inner schedule-btn-mini__inner" href="course/">クラスごとのスケジュールをみる</a>
+							<a class="common-btn__inner schedule-btn-mini__inner" href="<?php echo $path ?>course/">クラスごとのスケジュールをみる</a>
 						</div>
 						<div class="schedule-btn-mini common-btn common-btn-arrow">
-							<a class="common-btn__inner schedule-btn-mini__inner" href="studio/">スタジオごとのスケジュールをみる</a>
+							<a class="common-btn__inner schedule-btn-mini__inner" href="<?php echo $path ?>studio/">スタジオごとのスケジュールをみる</a>
 						</div>
 					</div>
 					<div class="schedule-btn common-btn common-btn-arrow">
-						<a class="common-btn__inner schedule-btn__inner" href="contact/">無料体験レッスン<br class="non-md">随時受付中</a>
+						<a class="common-btn__inner schedule-btn__inner" href="<?php echo $path ?>contact/">無料体験レッスン<br class="non-md">随時受付中</a>
 					</div>
 				</div>
 			</div>

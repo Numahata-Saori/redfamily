@@ -79,7 +79,7 @@ require_once $path . 'include/header.php';
 					<p class="about-secondary__summary">当スクールのインストラクターは、㈳日本こどもフィットネス協会の認定資格をはじめ、障害者スポーツ指導者、ハワイアンフラ講師、健康運動実践指導者など、多岐にわたる資格を持つ専門家です。<br>
 					基礎から応用まで、質の高い指導を行い、生徒一人ひとりがダンスの楽しさとともに技術を磨くことができるようサポートします。</p>
 					<div class="about-secondary__btn common-btn common-btn-arrow">
-						<a class="common-btn__inner" href="course/">レッスン・クラスについて</a>
+						<a class="common-btn__inner" href="<?php echo $path ?>course/">レッスン・クラスについて</a>
 					</div>
 				</div>
 			</div>
@@ -369,7 +369,7 @@ endforeach;
 					<p class="piano-recruitment__text">Red Familyでは、ダンスの世界だけでなく、音楽の才能を伸ばしたいと考えるお子さまに向けて、ピアノ教室も開講しています。<br>
 					ダンスと音楽は表現の豊かさを共有しており、ピアノを学ぶことで、リズム感や感性をさらに磨き上げることができます。</p>
 					<div class="piano-recruitment__btn common-btn common-btn-arrow">
-						<a class="common-btn__inner" href="piano/">ピアノ教室について</a>
+						<a class="common-btn__inner" href="<?php echo $path ?>piano/">ピアノ教室について</a>
 					</div>
 				</div>
 			</div>
