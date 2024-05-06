@@ -105,7 +105,7 @@
 	}
 
 	&__ja {
-		color: $color_black-light;
+		color: $color_black-highlight;
 		font-size: 1.5rem;
 		font-weight: 700;
 		line-height: 1;
@@ -118,7 +118,7 @@
 	padding: 0.5em 0;
 
 	&__item {
-		color: $color_black-light;
+		color: $color_black-highlight;
 		font-size: 0.785rem;
 		display: inline-block;
 		line-height: 1;
@@ -132,6 +132,7 @@
 	}
 
 	&__link {
+		color: $color_black-highlight;
 		display: inline-block;
 		span {
 			display: block;
