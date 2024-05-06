@@ -19,11 +19,20 @@ require_once $path . 'include/header.php';
 	<main class="child">
 		<div class="child-about child-title child-top">
 			<div class="child-top__inner">
-				<div class="child-title__inner">
+				<div class="child-title__wrap">
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 					<h2 class="child-title__ja"><?php echo $title ?></h2>
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 				</div>
+				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+					<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+						<a class="breadcrumbs__link" itemprop="item" href="<?php echo $path; ?>">
+							<span itemprop="name">ホーム</span>
+						</a>
+						<meta itemprop="position" content="1" />
+					</li>
+					<li class="breadcrumbs__item"><?php echo $title ?></li>
+				</ul>
 			</div>
 		</div>
 
@@ -237,20 +246,20 @@ endforeach;
 							<img src="<?php echo $path . $pathChild ?>about/nursery-school-img02.png" alt="">
 						</div>
 						<div class="nursery-school__box">
-							<ul class="nursery-school__list">
-								<ol class="nursery-school__item nursery-school-icon">
+							<ol class="nursery-school__list">
+								<li class="nursery-school__item nursery-school-icon">
 									<p class="nursery-school__text">岸和田 八木こども園 1</p>
-								</ol>
-								<ol class="nursery-school__item nursery-school-icon">
+								</li>
+								<li class="nursery-school__item nursery-school-icon">
 									<p class="nursery-school__text">岸和田 八木こども園 2</p>
-								</ol>
-								<ol class="nursery-school__item nursery-school-icon">
+								</li>
+								<li class="nursery-school__item nursery-school-icon">
 									<p class="nursery-school__text">和泉 キッズマユミ</p>
-								</ol>
-								<ol class="nursery-school__item nursery-school-icon">
+								</li>
+								<li class="nursery-school__item nursery-school-icon">
 									<p class="nursery-school__text">奈良 ちべん保育園</p>
-								</ol>
-							</ul>
+								</li>
+							</ol>
 						</div>
 					</div>
 					<div class="nursery-school__secondary">
@@ -259,26 +268,26 @@ endforeach;
 							<h2 class="nursery-school__title child-sub-title__ja">課外ダンス</h2>
 						</div>
 						<div class="nursery-school__box">
-							<ul class="nursery-school__list">
-								<ol class="nursery-school__item nursery-school-icon">
+							<ol class="nursery-school__list">
+								<li class="nursery-school__item nursery-school-icon">
 									<p class="nursery-school__text">岸和田 ピープル久米田</p>
-								</ol>
-								<ol class="nursery-school__item nursery-school-icon">
+								</li>
+								<li class="nursery-school__item nursery-school-icon">
 									<p class="nursery-school__text">岸和田 ピープル八木南</p>
-								</ol>
-								<ol class="nursery-school__item nursery-school-icon">
+								</li>
+								<li class="nursery-school__item nursery-school-icon">
 									<p class="nursery-school__text">岸和田 ピープル大芝</p>
-								</ol>
-								<ol class="nursery-school__item nursery-school-icon">
+								</li>
+								<li class="nursery-school__item nursery-school-icon">
 									<p class="nursery-school__text">忠岡 ピープル忠岡</p>
-								</ol>
-								<ol class="nursery-school__item nursery-school-icon">
+								</li>
+								<li class="nursery-school__item nursery-school-icon">
 									<p class="nursery-school__text">和泉 キッズマユミ</p>
-								</ol>
-								<ol class="nursery-school__item nursery-school-icon">
+								</li>
+								<li class="nursery-school__item nursery-school-icon">
 									<p class="nursery-school__text">奈良 ちべん保育園</p>
-								</ol>
-							</ul>
+								</li>
+							</ol>
 						</div>
 					</div>
 				</div>
@@ -308,50 +317,50 @@ endforeach;
 							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">岸和田市民講座</h2>
 						</div>
-						<ul class="parent-child__list">
-							<ol class="parent-child__item">
+						<ol class="parent-child__list">
+							<li class="parent-child__item">
 								<h3 class="parent-child__name">葛城地区公民館</h3>
 								<div class="parent-child__detail">
 									<p class="parent-child__text">親子リズム体操（親子）</p>
 									<p class="parent-child__text">キッドビクス（年中～小６）</p>
 								</div>
-							</ol>
-							<ol class="parent-child__item">
+							</li>
+							<li class="parent-child__item">
 								<h3 class="parent-child__name">光明池区民会館</h3>
 								<div class="parent-child__detail">
 									<p class="parent-child__text">親子リズム体操（親子）</p>
 								</div>
-							</ol>
-							<ol class="parent-child__item">
+							</li>
+							<li class="parent-child__item">
 								<h3 class="parent-child__name">山滝地区公民館</h3>
 								<div class="parent-child__detail">
 									<p class="parent-child__text">キッドビクス（年中～小６）</p>
 									<p class="parent-child__text">なつめろ体操（成人）</p>
 								</div>
-							</ol>
-						</ul>
+							</li>
+						</ol>
 					</div>
 					<div class="parent-child__secondary">
 						<div class="parent-child__title-area child-sub-title">
 							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">岸和田市民講座</h2>
 						</div>
-						<ul class="parent-child__list">
-							<ol class="parent-child__item">
+						<ol class="parent-child__list">
+							<li class="parent-child__item">
 								<h3 class="parent-child__name">光明池区民会館</h3>
 								<div class="parent-child__detail">
 									<p class="parent-child__text">フラダンス</p>
 								</div>
-							</ol>
-							<ol class="parent-child__item">
+							</li>
+							<li class="parent-child__item">
 								<h3 class="parent-child__name">光明池区民会館</h3>
 								<div class="parent-child__detail">
 									<p class="parent-child__text">エアロビクス（成人）</p>
 									<p class="parent-child__text">フラダンス（成人）</p>
 									<p class="parent-child__text">脳トレ筋トレ楽トレ（成人）</p>
 								</div>
-							</ol>
-						</ul>
+							</li>
+						</ol>
 					</div>
 				</div>
 			</div>
@@ -373,11 +382,11 @@ endforeach;
 					</div>
 				</div>
 			</div>
-			<div class="shape-bottom--contact-mini"></div>
+			<div class="shape-bottom--contact"></div>
 		</section>
 
 <?php
-require_once $path . 'include/contact.php';
+require_once $path . 'include/contact-mini.php';
 ?>
 
 	</main>

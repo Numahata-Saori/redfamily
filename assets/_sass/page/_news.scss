@@ -1,0 +1,8 @@
+@use '../global/color' as *;
+@use '../global/breakpoints' as *;
+@use '../global/mixin' as *;
+@use '../global/common' as *;
+
+.child-news {
+	background: $color_pastel-blue-light-bg;
+}

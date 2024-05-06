@@ -6,7 +6,7 @@
 			<div class="header__head">
 				<div class="header__logo">
 					<!-- <a class="" <?php /* echo isset($is_home) ? '': 'href="index.php"' */ ?>> -->
-					<a class="" href="<?php echo $path; ?>/">
+					<a class="" href="<?php echo $path; ?>">
 						<img src="<?php echo $path; ?>assets/img/logo.png" alt="Red family">
 					</a>
 				</div>

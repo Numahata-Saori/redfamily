@@ -215,7 +215,7 @@ require_once ('include/header.php');
 					</div>
 				</div>
 			</div>
-			<div class="shape-bottom--contact-mini"></div>
+			<div class="shape-bottom--contact"></div>
 		</section><!-- /.schedule -->
 
 <?php
