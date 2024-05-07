@@ -2113,6 +2113,84 @@ p {
 	line-height: 1;
 	text-align: center;
 }
+.child-instructor__detail {
+	background: #fdf0f4;
+}
+.child-instructor__detail .instructor-detail__content {
+	background: #fff;
+	border-radius: 1.25rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.5rem;
+	padding: 2.5rem 1.25rem;
+}
+.child-instructor__detail .instructor-detail__head {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.625rem;
+}
+.child-instructor__detail .instructor-detail__img {
+	width: 240px;
+	height: 240px;
+}
+.child-instructor__detail .instructor-detail__img img {
+	border-radius: 100vh;
+	width: 100%;
+	height: 100%;
+}
+.child-instructor__detail .instructor-detail__name {
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1;
+}
+.child-instructor__detail .instructor-detail__body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.5rem;
+	width: 100%;
+}
+.child-instructor__detail .instructor-detail__title {
+	font-size: 1.25rem;
+	font-weight: 700;
+	line-height: 1;
+}
+.child-instructor__detail .instructor-profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.25rem;
+	width: 100%;
+}
+.child-instructor__detail .instructor-profile__list {
+	width: 100%;
+}
+.child-instructor__detail .instructor-profile__item {
+	border-bottom: 1px solid #adadad;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 1.25rem;
+	text-align: center;
+}
+.child-instructor__detail .instructor-profile__item:first-of-type {
+	gap: 0.625rem;
+}
+.child-instructor__detail .instructor-profile__item:not(:first-of-type) {
+	gap: 1.25rem;
+	padding-top: 1.25rem;
+}
+.child-instructor__detail .instructor-profile__subtitle {
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 1;
+}
+.child-instructor__detail .instructor-profile__text {
+	font-size: 0.875rem;
+	line-height: 1.4;
+}
 
 .child-news {
 	background: #f0f4ff;

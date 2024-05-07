@@ -88,7 +88,48 @@ require_once $path . 'include/header.php';
 					</ol>
 				</div>
 			</div>
-			<div class="shape-bottom--yellow-light"></div>
+			<div class="shape-bottom--pink-light"></div>
+		</section>
+
+		<section class="child-instructor__detail">
+			<div class="common">
+				<div class="instructor-detail common__inner">
+					<div class="instructor-detail__content" id="yurika">
+						<div class="instructor-detail__head">
+							<div class="instructor-detail__img">
+								<img src="<?php echo $path . $pathChild ?>instructor/instructor-yurika.jpg" alt="yurika">
+							</div>
+							<p class="instructor-detail__name">YURIKA</p>
+						</div>
+						<p class="instructor-detail__text">HIPHOP ダンスを中心にキッドビクスプログラム（親子クラス、こどもクラス）から成人クラスまで 幅広くレッスンしています。<br>
+						からだを動かすことによって、心が元気になる。必ずダンスが上手になる。目標意識を持って色んな事に挑戦しています。</p>
+						<div class="instructor-detail__body">
+							<div class="instructor-profile">
+								<p class="instructor-detail__title">プロフィール</p>
+								<ol class="instructor-profile__list">
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__text">Red Family 代表</p>
+										<p class="instructor-profile__text">㈳日本こどもフィットネス協会公認<br>教育ディレクター</p>
+										<p class="instructor-profile__text">白鳳短期大学非常勤講師</p>
+									</li>
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__subtitle">誕生日</p>
+										<p class="instructor-profile__text">10月30日 さそり座</p>
+									</li>
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__subtitle">趣味 / 特技</p>
+										<p class="instructor-profile__text">ピアノ・エレクトーンを弾くこと</p>
+									</li>
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__subtitle">座右の銘</p>
+										<p class="instructor-profile__text">成功に必要なのは、<br class="non-md">耐える強さとやり抜く情熱、ありがとう！<br>感謝の言葉<br>♡夢を現実に♡</p>
+									</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 
 <?php
