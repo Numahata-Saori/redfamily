@@ -5,4 +5,31 @@
 
 .child-instructor {
 	background: $color_pastel-yellow-light-bg;
+
+	&__main {
+		.instructor-main {
+			&__list {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				gap: 1.875rem;
+			}
+
+			&__link {
+				@include flex(column, center, center);
+				gap: 0.625rem;
+				padding: 0 0.625rem;
+			}
+
+			&__img {
+				border-radius: 100vh;
+				box-shadow: 2px 2px 4px 0px $color_img-shadow;
+			}
+
+			&__name {
+				font-size: 1.125em;
+				line-height: 1;
+				text-align: center;
+			}
+		}
+	}
 }

@@ -36,13 +36,13 @@ require_once $path . 'include/header.php';
 			</div>
 		</div>
 
-		<section class="child-studio__main">
+		<section class="child-studio__main child-main">
 			<div class="shape-top--orange-light"></div>
 			<div class="common">
 				<div class="studio-main common__inner">
-					<div class="studio-main__head">
-						<p class="studio-main__view">スタジオ詳細をみる</p>
-						<p class="studio-main__note">クリックするとスタジオ詳細が確認できます！</p>
+					<div class="child-main__head">
+						<p class="child-main__view">スタジオ詳細をみる</p>
+						<p class="child-main__note">クリックするとスタジオ詳細が確認できます！</p>
 					</div>
 					<div class="studio-main__content">
 						<div class="studio-main__title child-sub-title">
