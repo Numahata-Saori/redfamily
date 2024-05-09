@@ -2096,6 +2096,17 @@ p {
 	grid-template-columns: repeat(2, 1fr);
 	gap: 1.875rem;
 }
+@media screen and (min-width: 768px) {
+	.child-instructor__main .instructor-main__list {
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1.25rem;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.child-instructor__main .instructor-main__list {
+		grid-template-columns: repeat(6, 1fr);
+	}
+}
 .child-instructor__main .instructor-main__link {
 	display: flex;
 	flex-direction: column;
@@ -2113,61 +2124,84 @@ p {
 	line-height: 1;
 	text-align: center;
 }
-.child-instructor__detail {
+.child-instructor__representative {
 	background: #fdf0f4;
 }
-.child-instructor__detail .instructor-detail__content {
+.child-instructor__staff {
+	background: #fffce3;
+}
+.child-instructor__representative .instructor-detail, .child-instructor__staff .instructor-detail {
+	align-items: center;
+}
+.child-instructor__representative .instructor-detail__content, .child-instructor__staff .instructor-detail__content {
 	background: #fff;
 	border-radius: 1.25rem;
+	box-shadow: 2px 2px 4px 0px #ebebeb;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 2.5rem;
 	padding: 2.5rem 1.25rem;
+	width: 100%;
 }
-.child-instructor__detail .instructor-detail__head {
+@media screen and (min-width: 768px) {
+	.child-instructor__representative .instructor-detail__content, .child-instructor__staff .instructor-detail__content {
+		padding: 60px 2.5rem;
+	}
+}
+.child-instructor__representative .instructor-detail__head, .child-instructor__staff .instructor-detail__head {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 0.625rem;
 }
-.child-instructor__detail .instructor-detail__img {
+.child-instructor__representative .instructor-detail__img, .child-instructor__staff .instructor-detail__img {
 	width: 240px;
 	height: 240px;
 }
-.child-instructor__detail .instructor-detail__img img {
+.child-instructor__representative .instructor-detail__img img, .child-instructor__staff .instructor-detail__img img {
 	border-radius: 100vh;
 	width: 100%;
 	height: 100%;
 }
-.child-instructor__detail .instructor-detail__name {
+.child-instructor__representative .instructor-detail__name, .child-instructor__staff .instructor-detail__name {
 	font-size: 1.5em;
 	font-weight: 700;
 	line-height: 1;
 }
-.child-instructor__detail .instructor-detail__body {
+.child-instructor__representative .instructor-detail__text, .child-instructor__staff .instructor-detail__text {
+	font-size: 1em;
+	line-height: 1.6;
+	text-align: center;
+}
+.child-instructor__representative .instructor-detail__body, .child-instructor__staff .instructor-detail__body {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	gap: 2.5rem;
 	width: 100%;
 }
-.child-instructor__detail .instructor-detail__title {
+@media screen and (min-width: 1280px) {
+	.child-instructor__representative .instructor-detail__body, .child-instructor__staff .instructor-detail__body {
+		flex-direction: row;
+	}
+}
+.child-instructor__representative .instructor-detail__title, .child-instructor__staff .instructor-detail__title {
 	font-size: 1.25rem;
 	font-weight: 700;
 	line-height: 1;
 }
-.child-instructor__detail .instructor-profile {
+.child-instructor__representative .instructor-profile, .child-instructor__staff .instructor-profile {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 1.25rem;
 	width: 100%;
 }
-.child-instructor__detail .instructor-profile__list {
+.child-instructor__representative .instructor-profile__list, .child-instructor__staff .instructor-profile__list {
 	width: 100%;
 }
-.child-instructor__detail .instructor-profile__item {
+.child-instructor__representative .instructor-profile__item, .child-instructor__staff .instructor-profile__item {
 	border-bottom: 1px solid #adadad;
 	display: flex;
 	flex-direction: column;
@@ -2175,21 +2209,39 @@ p {
 	padding-bottom: 1.25rem;
 	text-align: center;
 }
-.child-instructor__detail .instructor-profile__item:first-of-type {
+.child-instructor__representative .instructor-profile__item:first-of-type, .child-instructor__staff .instructor-profile__item:first-of-type {
 	gap: 0.625rem;
 }
-.child-instructor__detail .instructor-profile__item:not(:first-of-type) {
+.child-instructor__representative .instructor-profile__item:not(:first-of-type), .child-instructor__staff .instructor-profile__item:not(:first-of-type) {
 	gap: 1.25rem;
 	padding-top: 1.25rem;
 }
-.child-instructor__detail .instructor-profile__subtitle {
+.child-instructor__representative .instructor-profile__subtitle, .child-instructor__staff .instructor-profile__subtitle {
 	font-size: 1em;
 	font-weight: 700;
 	line-height: 1;
 }
-.child-instructor__detail .instructor-profile__text {
+.child-instructor__representative .instructor-profile__text, .child-instructor__staff .instructor-profile__text {
 	font-size: 0.875rem;
 	line-height: 1.4;
+}
+.child-instructor__representative .instructor-qualification, .child-instructor__staff .instructor-qualification {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.25rem;
+	width: 100%;
+}
+.child-instructor__representative .instructor-qualification__list, .child-instructor__staff .instructor-qualification__list {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.625rem;
+	width: 100%;
+}
+.child-instructor__representative .instructor-qualification__item, .child-instructor__staff .instructor-qualification__item {
+	font-size: 0.785rem;
+	line-height: 1.2;
 }
 
 .child-news {

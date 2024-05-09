@@ -194,6 +194,7 @@ require_once $path . 'include/header.php';
 					</div>
 				</div>
 			</div>
+			<div class="shape-bottom--contact"></div>
 		</section>
 
 <?php

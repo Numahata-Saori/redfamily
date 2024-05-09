@@ -91,7 +91,7 @@ require_once $path . 'include/header.php';
 			<div class="shape-bottom--pink-light"></div>
 		</section>
 
-		<section class="child-instructor__detail">
+		<section class="child-instructor__representative">
 			<div class="common">
 				<div class="instructor-detail common__inner">
 					<div class="instructor-detail__content" id="yurika">
@@ -101,8 +101,8 @@ require_once $path . 'include/header.php';
 							</div>
 							<p class="instructor-detail__name">YURIKA</p>
 						</div>
-						<p class="instructor-detail__text">HIPHOP ダンスを中心にキッドビクスプログラム（親子クラス、こどもクラス）から成人クラスまで 幅広くレッスンしています。<br>
-						からだを動かすことによって、心が元気になる。必ずダンスが上手になる。目標意識を持って色んな事に挑戦しています。</p>
+						<p class="instructor-detail__text">HIPHOP ダンスを中心にキッドビクスプログラム（親子クラス、こどもクラス）から<br class="non-sp">成人クラスまで 幅広くレッスンしています。<br>
+						からだを動かすことによって、心が元気になる。<br class="non-sp">必ずダンスが上手になる。目標意識を持って色んな事に挑戦しています。</p>
 						<div class="instructor-detail__body">
 							<div class="instructor-profile">
 								<p class="instructor-detail__title">プロフィール</p>
@@ -126,10 +126,140 @@ require_once $path . 'include/header.php';
 									</li>
 								</ol>
 							</div>
+							<div class="instructor-qualification">
+								<p class="instructor-detail__title">取得資格一覧</p>
+								<ol class="instructor-qualification__list">
+									<li class="instructor-qualification__item">㈳日本こどもフィットネス協会認定資格</li>
+									<li class="instructor-qualification__item">40H Complete</li>
+									<li class="instructor-qualification__item">6H Basic Certificate</li>
+									<li class="instructor-qualification__item">6H Play Fitness Certificate</li>
+									<li class="instructor-qualification__item">6H Kids Coach Certificate</li>
+									<li class="instructor-qualification__item">3H Primary Certificate ｷﾝﾀﾞｰｷｯﾄﾞﾋﾞｸｽ</li>
+									<li class="instructor-qualification__item">キッドビクス・ダンス検定専門指導員</li>
+									<li class="instructor-qualification__item">エアロビクス・ダンス検定専門指導員</li>
+									<li class="instructor-qualification__item">ヒップホップ・ダンス検定専門指導員</li>
+									<li class="instructor-qualification__item">20H Value Certificate ｷｯｽﾞﾋｯﾌﾟﾎｯﾌﾟｲﾝｽﾄﾗｸﾀｰ</li>
+									<li class="instructor-qualification__item">3H 全国こどもチャレンジカップ審査リード レベルⅢ</li>
+									<li class="instructor-qualification__item">3H 全国こどもチャレンジカップ審査リード レベルⅡ</li>
+									<li class="instructor-qualification__item">健康運動実践指導者</li>
+									<li class="instructor-qualification__item">障害者スポーツ指導員</li>
+									<li class="instructor-qualification__item">Zumba Instructor</li>
+									<li class="instructor-qualification__item">PFA (太平洋フィットネス連盟) Pilates Coach</li>
+									<li class="instructor-qualification__item">ハワイアンフラ講師</li>
+									<li class="instructor-qualification__item">AFAA.Plc (アメリカ・エアロビクス＆フィットネス協会)公認 エアロビクスインストラクター</li>
+									<li class="instructor-qualification__item">こどものためのリトミック指導資格</li>
+								</ol>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</section>
+
+		<section class="child-instructor__staff">
+			<div class="shape-top--pink-light"></div>
+			<div class="common">
+				<div class="instructor-detail common__inner">
+					<div class="instructor-detail__content" id="miwako">
+						<div class="instructor-detail__head">
+							<div class="instructor-detail__img">
+								<img src="<?php echo $path . $pathChild ?>instructor/instructor-miwako.jpg" alt="miwako">
+							</div>
+							<p class="instructor-detail__name">MIWAKO</p>
+						</div>
+						<p class="instructor-detail__text">日頃は、スポーツクラブ JOYFIT 岸和田でスタッフリーダーとして活躍中！</p>
+						<div class="instructor-detail__body">
+							<div class="instructor-profile">
+								<p class="instructor-detail__title">プロフィール</p>
+								<ol class="instructor-profile__list">
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__text">㈳日本こどもフィットネス協会公認<br>インストラクター</p>
+									</li>
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__subtitle">誕生日</p>
+										<p class="instructor-profile__text">1月3日 やぎ座</p>
+									</li>
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__subtitle">趣味</p>
+										<p class="instructor-profile__text">ショッピング、スポーツ</p>
+									</li>
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__subtitle">特技</p>
+										<p class="instructor-profile__text">うたた寝、子育て（笑）</p>
+									</li>
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__subtitle">座右の銘</p>
+										<p class="instructor-profile__text">“ひまわり”の様な人でありたい</p>
+									</li>
+								</ol>
+							</div>
+							<div class="instructor-qualification">
+								<p class="instructor-detail__title">取得資格一覧</p>
+								<ol class="instructor-qualification__list">
+									<li class="instructor-qualification__item">㈳日本こどもフィットネス協会認定資格</li>
+									<li class="instructor-qualification__item">6H Basic Certificate</li>
+									<li class="instructor-qualification__item">3H Primary Certificate ｷﾝﾀﾞｰｷｯﾄﾞﾋﾞｸｽ</li>
+									<li class="instructor-qualification__item">エアロビクスインストラクター</li>
+									<li class="instructor-qualification__item">レスミルズジャパン(ボディステップ・レスミルズ CORE・シバム)</li>
+									<li class="instructor-qualification__item">フィットネスフラ</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+
+					<div class="instructor-detail__content" id="natsuki">
+						<div class="instructor-detail__head">
+							<div class="instructor-detail__img">
+								<img src="<?php echo $path . $pathChild ?>instructor/instructor-natsuki.jpg" alt="natsuki">
+							</div>
+							<p class="instructor-detail__name">NATSUKI</p>
+						</div>
+						<p class="instructor-detail__text">音楽に合わせて楽しく DANCE!!<br>
+						人前で踊るのが恥ずかしい、下手やからできない!!<br>そんなメンタルも鍛えて、人前で踊ることができるようになるし、<br class="non-sp">ダンスもうまくなる。もっと人に見てほしい。<br>ダンスってこんなに楽しかったんだって思えるようなスタジオです。<br>元気いっぱい、笑顔いっぱい、パワフルな先生たちが待ってます♡</p>
+						<div class="instructor-detail__body">
+							<div class="instructor-profile">
+								<p class="instructor-detail__title">プロフィール</p>
+								<ol class="instructor-profile__list">
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__text">㈳日本こどもフィットネス協会公認<br>インストラクター</p>
+									</li>
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__subtitle">誕生日</p>
+										<p class="instructor-profile__text">11月14日 さそり座</p>
+									</li>
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__subtitle">趣味 / 特技</p>
+										<p class="instructor-profile__text">バレーボール</p>
+									</li>
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__subtitle">座右の銘</p>
+										<p class="instructor-profile__text">あしたやろうはバカ野郎</p>
+									</li>
+								</ol>
+							</div>
+							<div class="instructor-qualification">
+								<p class="instructor-detail__title">取得資格一覧</p>
+								<ol class="instructor-qualification__list">
+									<li class="instructor-qualification__item">㈳日本こどもフィットネス協会認定資格</li>
+									<li class="instructor-qualification__item">40H Complete Certificate</li>
+									<li class="instructor-qualification__item">20H Value Certificate フィットネスインストラクター</li>
+									<li class="instructor-qualification__item">6H Basic Certificate</li>
+									<li class="instructor-qualification__item">3H 全国こどもチャレンジカップ審査リード レベルⅢ</li>
+									<li class="instructor-qualification__item">㈳日本フィットネス協会認定資格</li>
+									<li class="instructor-qualification__item">AQWI(アクアウォーキングインストラクター)</li>
+									<li class="instructor-qualification__item">AQBI(アクアビクスインストラクター)</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+
+				</div>
+			</div>
+			<div class="shape-bottom--contact"></div>
 		</section>
 
 <?php
