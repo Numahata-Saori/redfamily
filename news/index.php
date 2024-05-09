@@ -32,7 +32,12 @@ require_once $path . 'include/header.php';
 						</a>
 						<meta itemprop="position" content="1" />
 					</li>
-					<li class="breadcrumbs__item"><?php echo strip_tags($title) ?></li>
+					<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+						<a class="breadcrumbs__link" itemprop="item" href="<?php echo $path; ?>news/">
+							<span itemprop="name"><?php echo strip_tags($title) ?></span>
+						</a>
+						<meta itemprop="position" content="2" />
+					</li>
 				</ul>
 			</div>
 		</div>
