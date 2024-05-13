@@ -4,7 +4,10 @@
 @use '../global/common' as *;
 
 .child-about {
-	background: $color_pastel-pink-light-bg;
+
+	&__top {
+		background: $color_pastel-pink-light-bg;
+	}
 
 	&__secondary {
 		background: $color_pastel-pink-light-bg;
@@ -169,8 +172,7 @@
 		background: $color_pastel-yellow-light-bg;
 
 		.nursery-school {
-			gap: 60px;
-
+			gap: 3.75rem;
 
 			&__gallery {
 				@include flex(column, null, flex-start);
@@ -248,7 +250,7 @@
 
 		.parent-child {
 			$block: &;
-			gap: 60px;
+			gap: 3.75rem;
 
 			&__gallery {
 				display: grid;

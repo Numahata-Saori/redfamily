@@ -16,8 +16,8 @@ require_once $path . 'include/head.php';
 require_once $path . 'include/header.php';
 ?>
 
-	<main class="child">
-		<div class="child-about child-title child-top">
+	<main class="child child-about">
+		<div class="child-about__top child-title child-top">
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>

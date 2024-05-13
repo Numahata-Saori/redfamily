@@ -4,5 +4,220 @@
 @use '../global/common' as *;
 
 .child-challenge {
-	background: $color_pastel-yellow-light-bg;
+
+	&__top {
+		background: $color_pastel-yellow-light-bg;
+	}
+
+	.ribbon-head {
+		color: $color_white;
+		@include flex(null, center, center);
+		gap: 0.625rem;
+		line-height: 1;
+		padding: 0.625rem;
+		clip-path: polygon(100% 0, calc(100% - 0.625rem) 50%, 100% 100%, 0% 100%, 0.625rem 50%, 0% 0%);
+		min-width: 280px;
+		@include mq(min, md) {
+			width: 100%;
+			padding: 1.25rem;
+		}
+	}
+
+	&__title {
+		font-size: 1.25rem;
+		font-weight: 700;
+		@include mq(min, md) {
+			font-size: 2rem;
+		}
+	}
+
+	.line-marker {
+		text-align: center;
+		line-height: 1.6;
+		margin-bottom: 1.25rem;
+		@include mq(min, md) {
+			line-height: 1;
+		}
+
+		span {
+			@include textLineMarker(rgba($color_pastel-orange, 0.5));
+			padding: 0 0.625rem;
+		}
+	}
+
+	&__main {
+		.challenge-main {
+			align-items: center;
+			gap: 3.75rem;
+
+			&__btn {
+				background: $color_pastel-pink;
+			}
+
+			&__link {
+				line-height: 1.3;
+			}
+
+			&__content {
+				@include flex(column, null, center);
+				gap: 2.5rem;
+				width: 100%;
+			}
+
+			&__head {
+				background: $color_pastel-orange;
+			}
+
+			&__body {
+				width: 100%;
+			}
+
+			&__item {
+				border-bottom: 1px solid $color_black-border;
+				@include flex(column, null, center);
+				gap: 0.625rem;
+				padding: 1.25rem 0.625rem;
+			}
+
+			&__subtitle {
+				font-size: 1em;
+				font-weight: 700;
+				line-height: 1;
+			}
+
+			&__text {
+				font-size: 0.9375em;
+				line-height: 1;
+				@include mq(min, md) {
+					font-size: 1.125em;
+				}
+			}
+		}
+	}
+
+	&__secondary {
+		background: $color_pastel-yellow-light-bg;
+
+		.challenge-secondary {
+			&__head {
+				background: $color_pastel-pink;
+				margin: 0 auto;
+			}
+
+			&__gallery01,
+			&__gallery02,
+			&__gallery04 {
+				@include mq(min, md) {
+					max-width: 800px;
+					width: 100%;
+					margin: 0 auto;
+				}
+			}
+
+			&__gallery02 {
+				display: grid;
+				gap: 0.625rem;
+				@include mq(min, md) {
+					gap: 1.25rem;
+				}
+			}
+
+			&__gallery03 {
+				display: flex;
+				gap: 0.625rem;
+				height: 155px;
+				@include mq(min, md) {
+					gap: 1.25rem;
+					height: 240px;
+				}
+			}
+
+			&__gallery04 {
+				@include mq(min, md) {
+					display: flex;
+					gap: 1.25rem;
+				}
+			}
+
+			img {
+				border-radius: 1.25rem;
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+
+			&__img01 {
+				width: 260px;
+				height: 160px;
+				@include mq(min, md) {
+					width: 600px;
+					height: 300px;
+				}
+				img {
+					@include mq(min, md) {
+						object-position: top;
+					}
+				}
+			}
+
+			&__img02 {
+				height: 160px;
+				width: 160px;
+				@include mq(min, md) {
+					height: 300px;
+					width: 300px;
+				}
+			}
+
+			&__img03 {
+				height: 300px;
+				width: 100%;
+				@include mq(min, md) {
+					height: 420px;
+				}
+				img {
+					@include mq(min, md) {
+						object-position: bottom;
+					}
+				}
+			}
+
+			&__img04,
+			&__img05 {
+				height: auto;
+				width: 100%;
+				img {
+					@include mq(min, md) {
+						object-position: bottom;
+					}
+				}
+			}
+
+			&__img06,
+			&__img07 {
+				height: 200px;
+				width: 200px;
+				@include mq(min, md) {
+					height: 300px;
+					width: auto;
+				}
+			}
+
+			&__img02,
+			&__img07 {
+				margin-left: auto;
+				margin-top: -2.5rem;
+				@include mq(min, md) {
+					margin-top: -3.75rem;
+				}
+			}
+
+			&__img07 {
+				@include mq(min, md) {
+					margin-left: 0;
+					margin-top: 0;
+				}
+			}
+		}
+	}
 }

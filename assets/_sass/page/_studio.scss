@@ -149,12 +149,12 @@
 
 	&__detail {
 		background: $color_pastel-orange-light-bg;
-		gap: 60px;
+		gap: 3.75rem;
 
 		.studio-detail {
 			&__content {
 				@include flex(column, null, center);
-				gap: 60px;
+				gap: 3.75rem;
 			}
 
 			&__item {

@@ -4,7 +4,10 @@
 @use '../global/common' as *;
 
 .child-course {
-	background: $color_pastel-yellow-light-bg;
+
+	&__top {
+		background: $color_pastel-yellow-light-bg;
+	}
 
 	&__main {
 		.course-main {
@@ -18,7 +21,7 @@
 				max-width: none;
 			}
 
-			&__btn-inner {
+			&__link {
 				font-size: 1.25em;
 				line-height: 1.2;
 				text-align: center;
@@ -47,7 +50,7 @@
 					padding: 2.5rem;
 				}
 				@include mq(min, xl) {
-					padding: 60px;
+					padding: 3.75rem;
 				}
 			}
 

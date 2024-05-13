@@ -1,7 +1,7 @@
 <?php
 $path = '../';
 $pathChild = 'assets/img/';
-$title = 'お知らせ<span class="non-sp">&</span><br class="non-md">イベント情報
+$title = 'お知らせ<span class="non-sp non-md">&</span><br class="non-md">イベント情報
 ';
 $description = '岸和田市のキッズダンス教室・泉佐野市のキッズダンス教室・岸和田市のHIPHOPダンス教室';
 ?>
@@ -42,12 +42,13 @@ require_once $path . 'include/header.php';
 			</div>
 		</div>
 
-		<section class="child-news__main">
-			<div class="shape-top--blue-light"></div>
+		<section class="child-news__main child-main">
 			<div class="common">
-				<div class="common__inner"></div>
+				<div class="common__inner">
+					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>news/main-img.jpg" alt=""></div>
+				</div>
 			</div>
-			<div class="shape-bottom--blue-light"></div>
+			<div class="shape-bottom--contact"></div>
 		</section>
 
 <?php

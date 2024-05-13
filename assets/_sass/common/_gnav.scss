@@ -19,8 +19,8 @@
 		@include flex(column, center, center);
 		gap: 0.625rem;
 		padding: 0.625rem;
-		height: 60px;
-		width: 60px;
+		height: 3.75rem;
+		width: 3.75rem;
 		z-index: 940;
 
 		position: fixed;
@@ -83,8 +83,8 @@
 
 	&__inner {
 		@include flex(column, flex-start, center);
-		gap: 30px;
-		padding: 60px 40px 40px;
+		gap: 1.875rem;
+		padding: 3.75rem 2.5rem 2.5rem;
 		height: 100%;
 		width: 100%;
 		overflow-y: scroll;
@@ -92,13 +92,13 @@
 
 	&__main {
 		@include flex(column, flex-start, center);
-		gap: 30px;
+		gap: 1.875rem;
 		width: 100%;
 	}
 
 	&__unit {
 		@include flex(column, center, center);
-		gap: 20px;
+		gap: 1.25rem;
 		width: 100%;
 	}
 
@@ -176,7 +176,7 @@
 	@include mq(min, xl) {
 		background: $color_corporate;
 		margin-bottom: -0.1em;
-		padding-bottom: 60px;
+		padding-bottom: 3.75rem;
 
 		.gnav {
 			display: block;
@@ -184,7 +184,7 @@
 			&__inner {
 				flex-direction: row;
 				align-items: flex-start;
-				gap: 40px;
+				gap: 2.5rem;
 				padding: 0;
 				overflow: inherit;
 			}

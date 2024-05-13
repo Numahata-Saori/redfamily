@@ -7,7 +7,7 @@
 * ========================= */
 
 .common {
-	padding: 60px 0;
+	padding: 3.75rem 0;
 
 	@include mq(min, md) {
 		padding: 100px 0;
@@ -21,7 +21,7 @@
 
 		@include mq(min, md) {
 			padding: 0 40px;
-			gap: 60px;
+			gap: 3.75rem;
 		}
 		@include mq(min, xl) {
 			padding: 0;
@@ -81,7 +81,7 @@
 		padding: 0 20px;
 		@include mq(min, md) {
 			padding: 0 40px;
-			gap: 60px;
+			gap: 3.75rem;
 		}
 		@include mq(min, xl) {
 			padding: 0;
@@ -100,7 +100,7 @@
 		padding: 2.5rem 0;
 		@include mq(min, xl) {
 			gap: 2.5rem;
-			padding: 60px 0;
+			padding: 3.75rem 0;
 		}
 	}
 
@@ -243,6 +243,7 @@
 		font-weight: 700;
 		line-height: 1;
 		padding: 1.25rem 1.25rem;
+		text-align: center;
 		width: 100%;
 
 		@include mq(min, md) {

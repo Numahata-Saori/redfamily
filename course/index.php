@@ -16,8 +16,8 @@ require_once $path . 'include/head.php';
 require_once $path . 'include/header.php';
 ?>
 
-	<main class="child">
-		<div class="child-course child-title child-top">
+	<main class="child child-course">
+		<div class="child-course__top child-title child-top">
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
@@ -46,17 +46,20 @@ require_once $path . 'include/header.php';
 			<div class="common">
 				<div class="course-main child-main__inner common__inner">
 					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>course/main-img.jpg" alt=""></div>
-					<p class="child-main__summary">HIPHOPダンスを中心に、幅広い年齢とレベルを対象としたクラスを展開しています。<br>
-					キッドピクスプログラム（親子クラス・こどもクラス）から成人クラスまで、一人ひとりのニーズに合わせたダンスの楽しさを提供します。</p>
+
+					<p class="child-main__summary">HIPHOPダンスを中心に、幅広い年齢とレベルを対象としたクラスを展開しています。<br>キッドピクスプログラム（親子クラス・こどもクラス）から成人クラスまで、一人ひとりのニーズに合わせたダンスの楽しさを提供します。</p>
+
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+
 					<div class="course-main__banner">
 						<picture>
 							<source srcset="<?php echo $path . $pathChild ?>campaign_banner_sp@2x.png" alt="" media="(max-width: 767px)">
 							<img src="<?php echo $path . $pathChild ?>campaign_banner_pc@2x.png" alt="">
 						</picture>
 					</div>
+
 					<div class="course-main__btn common-btn common-btn-arrow">
-						<a class="common-btn__inner course-main__btn-inner" href="<?php echo $path ?>contact/">ご入会について<br class="non-md">詳しくはこちらから</a>
+						<a class="course-main__link common-btn__inner" href="<?php echo $path ?>contact/">ご入会について<br class="non-md">詳しくはこちらから</a>
 					</div>
 				</div>
 			</div>
@@ -101,6 +104,7 @@ require_once $path . 'include/header.php';
 							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">初めてダンスクラス</h2>
 						</div>
+
 						<div class="course-detail__body">
 							<div class="course-detail__img">
 								<img src="<?php echo $path . $pathChild ?>course/course-img01.jpg" alt="">
@@ -108,6 +112,7 @@ require_once $path . 'include/header.php';
 							<p class="course-detail__text">ダンスに初めて触れる子どもたちのためのクラスです。<br>
 							楽しみながらウォームアップからスタートし、基本的なステップとリズム感を育てていきます。遊び心いっぱいで、ダンスの基礎を学びましょう。</p>
 						</div>
+
 						<div class="course-detail__list">
 							<div class="course-detail__btn common-btn common-btn-arrow">
 								<a class="common-btn__inner course-detail__link" href="<?php echo $path ?>studio/">

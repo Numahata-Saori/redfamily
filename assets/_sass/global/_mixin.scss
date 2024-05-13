@@ -1,7 +1,7 @@
 // mixin
 
-@mixin textLineMarker() {
-	background:linear-gradient(transparent 60%, #ff6 60%);
+@mixin textLineMarker($color) {
+	background:linear-gradient(transparent 60%, $color 60%);
 }
 
 @mixin flex($flex:null, $justify:null, $align:null,) {

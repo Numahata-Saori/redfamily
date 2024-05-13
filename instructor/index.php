@@ -2,7 +2,7 @@
 $path = '../';
 $pathChild = 'assets/img/';
 $title = 'インストラクター';
-$description = '説明（Events ページ）';
+$description = '岸和田市のキッズダンス教室・泉佐野市のキッズダンス教室・岸和田市のHIPHOPダンス教室';
 ?>
 
 <!DOCTYPE html>
@@ -16,8 +16,8 @@ require_once $path . 'include/head.php';
 require_once $path . 'include/header.php';
 ?>
 
-	<main class="child">
-		<div class="child-instructor child-title child-top">
+	<main class="child child-instructor">
+		<div class="child-instructor__top child-title child-top">
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
@@ -46,13 +46,17 @@ require_once $path . 'include/header.php';
 			<div class="common">
 				<div class="instructor-main child-main__inner common__inner">
 					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>instructor/main-img.jpg" alt=""></div>
+
 					<p class="child-main__summary">当スクールのインストラクターは全員（社）日本こどもフィットネス協会の認定資格を保有している有資格者です。<br>
 					子どもたちの心と体の成長をサポートする専門的な知識と経験を持つ、信頼できるインストラクターたちが、皆さんを暖かく迎え入れます。</p>
+
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+
 					<div class="child-main__head">
 						<p class="child-main__view">プロフィール詳細をみる</p>
 						<p class="child-main__note">クリックするとプロフィール詳細が確認できます！</p>
 					</div>
+
 					<ol class="instructor-main__list">
 						<li class="instructor-main__item">
 							<a class="instructor-main__link" href="#yurika">
@@ -106,8 +110,9 @@ require_once $path . 'include/header.php';
 							</div>
 							<p class="instructor-detail__name">YURIKA</p>
 						</div>
-						<p class="instructor-detail__text">HIPHOP ダンスを中心にキッドビクスプログラム（親子クラス、こどもクラス）から<br class="non-sp">成人クラスまで 幅広くレッスンしています。<br>
-						からだを動かすことによって、心が元気になる。<br class="non-sp">必ずダンスが上手になる。目標意識を持って色んな事に挑戦しています。</p>
+
+						<p class="instructor-detail__text">HIPHOPダンスを中心にキッドビクスプログラム（親子クラス、こどもクラス）から<br class="non-sp">成人クラスまで幅広くレッスンしています。<br>からだを動かすことによって、心が元気になる。<br class="non-sp">必ずダンスが上手になる。目標意識を持って色んな事に挑戦しています。</p>
+
 						<div class="instructor-detail__body">
 							<div class="instructor-profile">
 								<p class="instructor-detail__title">プロフィール</p>
@@ -131,6 +136,7 @@ require_once $path . 'include/header.php';
 									</li>
 								</ol>
 							</div>
+
 							<div class="instructor-qualification">
 								<p class="instructor-detail__title">取得資格一覧</p>
 								<ol class="instructor-qualification__list">
@@ -172,7 +178,9 @@ require_once $path . 'include/header.php';
 							</div>
 							<p class="instructor-detail__name">MIWAKO</p>
 						</div>
+
 						<p class="instructor-detail__text">日頃は、スポーツクラブ JOYFIT 岸和田でスタッフリーダーとして活躍中！</p>
+
 						<div class="instructor-detail__body">
 							<div class="instructor-profile">
 								<p class="instructor-detail__title">プロフィール</p>
@@ -198,6 +206,7 @@ require_once $path . 'include/header.php';
 									</li>
 								</ol>
 							</div>
+
 							<div class="instructor-qualification">
 								<p class="instructor-detail__title">取得資格一覧</p>
 								<ol class="instructor-qualification__list">
@@ -221,8 +230,10 @@ require_once $path . 'include/header.php';
 							</div>
 							<p class="instructor-detail__name">NATSUKI</p>
 						</div>
+
 						<p class="instructor-detail__text">音楽に合わせて楽しく DANCE!!<br>
 						人前で踊るのが恥ずかしい、下手やからできない!!<br>そんなメンタルも鍛えて、人前で踊ることができるようになるし、<br class="non-sp">ダンスもうまくなる。もっと人に見てほしい。<br>ダンスってこんなに楽しかったんだって思えるようなスタジオです。<br>元気いっぱい、笑顔いっぱい、パワフルな先生たちが待ってます♡</p>
+
 						<div class="instructor-detail__body">
 							<div class="instructor-profile">
 								<p class="instructor-detail__title">プロフィール</p>
@@ -244,6 +255,7 @@ require_once $path . 'include/header.php';
 									</li>
 								</ol>
 							</div>
+
 							<div class="instructor-qualification">
 								<p class="instructor-detail__title">取得資格一覧</p>
 								<ol class="instructor-qualification__list">
