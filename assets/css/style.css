@@ -220,7 +220,6 @@ p {
 .child-main__img img {
 	border-radius: 1.25rem;
 	box-shadow: 2px 2px 4px 0px #ebebeb;
-	filter: brightness(115%);
 	height: 100%;
 	width: 100%;
 }
@@ -393,6 +392,10 @@ p {
 	.dots-inner img {
 		height: 10px;
 	}
+}
+
+.font-min {
+	font-family: "Zen Old Mincho", serif;
 }
 
 /* ============================
@@ -2462,6 +2465,102 @@ p {
 
 .child-procedure {
 	background: #fef6f1;
+}
+.child-procedure__main .campaign {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.25rem;
+}
+.child-procedure__main .campaign__content {
+	background: #fcebed;
+	border-radius: 0.625rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.625rem;
+	padding: 1.25rem;
+	width: 100%;
+}
+.child-procedure__main .campaign__item {
+	background: #fff;
+	border-radius: 0.3125rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.25rem;
+	padding: 0.625rem;
+	width: 100%;
+}
+.child-procedure__main .campaign__head {
+	font-size: 1.25rem;
+	line-height: 1;
+}
+.child-procedure__main .campaign__body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.child-procedure__main .campaign__info {
+	background: #f0a573;
+	border-radius: 100vh;
+	color: #fff;
+	font-size: 0.875rem;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 0.3125rem;
+	padding: 0.3rem 1rem;
+}
+.child-procedure__main .campaign__price {
+	color: #ea6c92;
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 1;
+}
+.child-procedure__main .campaign__before {
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 1;
+	margin-top: 0.625rem;
+	padding: 0 0.625rem;
+	position: relative;
+}
+.child-procedure__main .campaign__before::after {
+	content: "";
+	width: 100%;
+	border-top: 1px solid #333;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+.child-procedure__main .campaign__note {
+	font-size: 0.75rem;
+	line-height: 1;
+}
+.child-procedure__main .campaign__text {
+	font-size: 1em;
+	line-height: 1.8;
+}
+.child-procedure__main .price-emphasis {
+	font-size: 2.25em;
+	line-height: 1;
+	padding-right: 0.1em;
+}
+.child-procedure__main .join {
+	width: 100%;
+}
+.child-procedure__main .join__content:not(:first-of-type) {
+	margin-top: 2.5rem;
+}
+.child-procedure__main .join__btn {
+	background: #f0a573;
+}
+.child-procedure__main .join__text {
+	font-size: 0.875rem;
+	line-height: 1.4;
+	margin-top: 1em;
+	text-align: center;
 }
 
 .child-contact {

@@ -158,7 +158,7 @@
 		img {
 			border-radius: 1.25rem;
 			box-shadow: 2px 2px 4px 0px $color_img-shadow;
-			filter: brightness(115%);
+			// filter: brightness(115%);
 			height: 100%;
 			width: 100%;
 		}
@@ -328,6 +328,10 @@
 	}
 }
 
+
+.font-min {
+	font-family: $font_old-min;
+}
 
 
 

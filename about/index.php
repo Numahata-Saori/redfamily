@@ -46,6 +46,7 @@ require_once $path . 'include/header.php';
 			<div class="common">
 				<div class="child-main__inner common__inner">
 					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>about/main-img.jpg" alt=""></div>
+
 					<p class="child-main__summary">大阪府泉州地域を拠点に、HIPHOPダンスを中心に、幼児から成人までを対象としたキッドビクスプログラムを含む多様なクラスを提供している Red Family。<br>
 					私たちは、一般社団法人日本こどもフィットネス協会の理念に共鳴し、子どもたちが元気に成長することを目指しています。<br>
 					ダンスを通じて、社会性、家族の絆、思いやり、健康的なライフスタイル、運動能力の向上、そしてダンス技術の向上といった無限の可能性を子どもたちに提供します。</p>

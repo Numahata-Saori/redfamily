@@ -5,4 +5,115 @@
 
 .child-procedure {
 	background: $color_pastel-orange-light-bg;
+
+	&__main {
+		.procedure-main {
+
+		}
+
+		.campaign {
+			@include flex(column, null, center);
+			gap: 1.25rem;
+
+			&__content {
+				background: $color_corporate-light02-bg;
+				border-radius: 0.625rem;
+				@include flex(column, center, center);
+				gap: 0.625rem;
+				padding: 1.25rem;
+				width: 100%;
+			}
+
+			&__item {
+				background: $color_white;
+				border-radius: 0.3125rem;
+				@include flex(null, center, center);
+				gap: 1.25rem;
+				padding: 0.625rem;
+				width: 100%;
+			}
+
+			&__head {
+				font-size: 1.25rem;
+				line-height: 1
+			}
+
+			&__body {
+				@include flex(column, null, center);
+			}
+
+			&__info {
+				background: $color_pastel-orange;
+				border-radius: 100vh;
+				color: $color_white;
+				font-size: 0.875rem;
+				font-weight: 700;
+				line-height: 1;
+				margin-bottom: 0.3125rem;
+				padding: 0.3rem 1rem;
+			}
+
+			&__price {
+				color: $color_pastel-pink;
+				font-size: 1em;
+				font-weight: 700;
+				line-height: 1;
+			}
+
+			&__before {
+				font-size: 1em;
+				font-weight: 700;
+				line-height: 1;
+				margin-top: 0.625rem;
+				padding: 0 0.625rem;
+				// text-decoration: line-through;
+				position: relative;
+				&::after {
+					content: '';
+					width: 100%;
+					border-top: 1px solid $color_black;
+					position: absolute;
+					top: 50%;
+					left: 0;
+				}
+			}
+
+			&__note {
+				font-size: 0.75rem;
+				line-height: 1;
+			}
+
+			&__text {
+				font-size: 1em;
+				line-height: 1.8;
+			}
+		}
+
+		.price-emphasis {
+			font-size: 2.25em;
+			line-height: 1;
+			padding-right: 0.1em;
+		}
+
+		.join {
+			width: 100%;
+
+			&__content {
+				&:not(:first-of-type) {
+					margin-top: 2.5rem;
+				}
+			}
+
+			&__btn {
+				background: $color_pastel-orange;
+			}
+
+			&__text {
+				font-size: 0.875rem;
+				line-height: 1.4;
+				margin-top: 1em;
+				text-align: center;
+			}
+		}
+	}
 }
