@@ -8,7 +8,9 @@
 
 	&__main {
 		.procedure-main {
-
+			&__btn {
+				background: $color_contact-btn;
+			}
 		}
 
 		.campaign {
@@ -16,7 +18,7 @@
 			gap: 1.25rem;
 
 			&__content {
-				background: $color_corporate-light02-bg;
+				background: mix($color_corporate, $color_white, 10%);
 				border-radius: 0.625rem;
 				@include flex(column, center, center);
 				gap: 0.625rem;
@@ -66,7 +68,6 @@
 				line-height: 1;
 				margin-top: 0.625rem;
 				padding: 0 0.625rem;
-				// text-decoration: line-through;
 				position: relative;
 				&::after {
 					content: '';
@@ -115,5 +116,73 @@
 				text-align: center;
 			}
 		}
+
+		.belongings {
+			width: 100%;
+
+			&__content {
+				background: mix($color_corporate, $color_white, 5%);
+				border: 1px solid $color_corporate;
+				border-radius: 0.625rem;
+				@include flex(column, null, center);
+				gap: 1.25rem;
+				padding: 1.25rem;
+				width: 100%;
+			}
+
+			&__title {
+				@include textLineMarker(rgba($color_corporate, 0.5));
+				font-size: 1.25em;
+				font-weight: 700;
+				line-height: 1;
+			}
+
+			&__list {
+				@include flex(column, null, flex-start);
+				gap: 1em;
+				width: 100%;
+			}
+
+			&__item {
+				@include flex(null, null, null);
+				gap: 0.625rem;
+
+				&::before {
+					content: '';
+					display: block;
+					background: url(../img/procedure/icon_check.svg);
+					width: 1.25rem;
+					height: 1.25rem;
+				}
+			}
+
+			&__item-inner {
+				@include flex(column, null, null);
+				gap: 0.625rem;
+			}
+
+			&__detail {
+				font-size: 1em;
+				line-height: 1;
+			}
+
+			&__note {
+				font-size: 0.75em;
+				line-height: 1.4;
+			}
+
+			&__info {
+				@include flex(column, null, center);
+				gap: 0.625rem;
+				margin-top: 2.5rem;
+			}
+
+			&__text {
+				font-size: 0.9375em;
+				line-height: 1.4;
+				text-align: center;
+			}
+		}
+
 	}
 }

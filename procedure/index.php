@@ -99,6 +99,35 @@ require_once $path . 'include/header.php';
 					</div>
 
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+
+					<div class="belongings">
+						<div class="belongings__content">
+							<h3 class="belongings__title">入会時にお持ちいただくもの</h3>
+							<ol class="belongings__list">
+								<li class="belongings__item">
+									<p class="belongings__detail">入会金</p>
+								</li>
+								<li class="belongings__item">
+									<p class="belongings__detail">月謝</p>
+								</li>
+								<li class="belongings__item">
+									<div class="belongings__item-inner">
+										<p class="belongings__detail">入会届兼誓約書</p>
+										<p class="belongings__note">ダウンロードして事前にご記入いただくか、または入会時にご記入いただけます。</p>
+									</div>
+								</li>
+							</ol>
+						</div>
+						<div class="belongings__info">
+							<p class="belongings__text">ご入会を希望される場合は、<br class="non-md">まずはお問い合わせからご連絡ください。</p>
+							<p class="belongings__text">ご連絡いただければ、クラス選択のご相談や、<br class="non-md">ご不明点について詳しくご説明いたします。</p>
+							<p class="belongings__text">その後、入会手続きのための<br class="non-md">ご案内をさせていただきます。</p>
+						</div>
+					</div>
+
+					<div class="procedure-main__btn common-btn common-btn-arrow">
+						<a class="common-btn__inner" href="<?php echo $path ?>contact/">お問い合わせ</a>
+					</div>
 				</div>
 			</div>
 			<div class="shape-bottom--orange-light"></div>
