@@ -51,11 +51,15 @@ require_once $path . 'include/header.php';
 <?php
 include $path . 'include/news-data.php';
 
+function sortByDate($a, $b) {
+	return strtotime($b['post']) - strtotime($a['post']);
+}
+
+usort($newsContentsItem, 'sortByDate');
+
 $lastIndex = count($newsContentsItem) - 1;
 
 foreach ($newsContentsItem as $index => $newsContentsItemInfo) :
-	$hasPost = !empty($newsContentsItemInfo['post']);
-	$hasTitle = !empty($newsContentsItemInfo['title']);
 	$hasImg = !empty($newsContentsItemInfo['img']);
 	$hasDate = !empty($newsContentsItemInfo['date']);
 	$hasPlace = !empty($newsContentsItemInfo['place']);
@@ -63,18 +67,12 @@ foreach ($newsContentsItem as $index => $newsContentsItemInfo) :
 	$hasPrice = !empty($newsContentsItemInfo['price']);
 	$hasComment = !empty($newsContentsItemInfo['comment']);
 
-	if ($hasPost || $hasTitle || $hasImg || $hasDate || $hasPlace ||$hasAccess) :
+	if ($hasImg || $hasDate || $hasPlace ||$hasAccess || $hasPrice ||$hasComment) :
 ?>
 						<div class="news-main__content">
-
-<?php if ($hasPost) : ?>
 							<p class="news-main__post"><?php echo $newsContentsItemInfo['post']; ?></p>
-<?php endif; ?>
 
-<?php if ($hasTitle) : ?>
 							<p class="news-main__title"><?php echo $newsContentsItemInfo['title']; ?></p>
-<?php endif; ?>
-
 <?php if ($hasImg) : ?>
 							<p class="news-main__img"><img src="<?php echo $path . $pathChild ?>news/news-img<?php echo $newsContentsItemInfo['img']; ?>.jpg" alt=""></p>
 <?php endif; ?>

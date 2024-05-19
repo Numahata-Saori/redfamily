@@ -2,7 +2,7 @@
 $path = '../';
 $pathChild = 'assets/img/';
 $title = 'ピアノ教室';
-$description = '説明（Events ページ）';
+$description = '岸和田市のキッズダンス教室・泉佐野市のキッズダンス教室・岸和田市のHIPHOPダンス教室';
 ?>
 
 <!DOCTYPE html>

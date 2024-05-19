@@ -113,18 +113,26 @@ require_once $path . 'include/header.php';
 					</div>
 					<div class="announce__content">
 						<ul class="announce__list">
+<?php
+include $path . 'include/news-data.php';
+
+function sortByDate($a, $b) {
+	return strtotime($b['post']) - strtotime($a['post']);
+}
+
+usort($newsContentsItem, 'sortByDate');
+
+$latestNews = array_slice($newsContentsItem, 0, 3);
+
+foreach ($latestNews as $newsContentsItemInfo) :
+?>
 							<li class="announce__item">
-								<p class="announce__date">2024.00.00</p>
-								<p class="announce__title">テキストテキストテキストテキスト</p>
+								<p class="announce__date"><?php echo $newsContentsItemInfo['post']; ?></p>
+								<p class="announce__title"><?php echo $newsContentsItemInfo['title']; ?></p>
 							</li>
-							<li class="announce__item">
-								<p class="announce__date">2024.00.00</p>
-								<p class="announce__title">テキストテキストテキストテキスト</p>
-							</li>
-							<li class="announce__item">
-								<p class="announce__date">2024.00.00</p>
-								<p class="announce__title">テキストテキストテキストテキスト</p>
-							</li>
+<?php
+endforeach;
+?>
 						</ul>
 					</div>
 					<div class="announce-btn common-btn common-btn-arrow">
