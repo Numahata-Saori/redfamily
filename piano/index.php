@@ -63,7 +63,7 @@ require_once $path . 'include/header.php';
 						<div class="piano-main__body">
 							<div class="piano-main__head child-sub-title">
 								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
-								<h2 class="piano-main__title">個々のレベルに合わせた指導</h2>
+								<h2 class="piano-main__title child-sub-title__ja">個々のレベルに合わせた指導</h2>
 							</div>
 							<p class="piano-main__text">初心者から経験者まで、一人ひとりのスキルレベルに合わせた丁寧な指導を心がけています。</p>
 						</div>
@@ -74,9 +74,9 @@ require_once $path . 'include/header.php';
 						<div class="piano-main__body">
 							<div class="piano-main__head child-sub-title">
 								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
-								<h2 class="piano-main__title">楽しみながら学ぶ</h2>
+								<h2 class="piano-main__title child-sub-title__ja">楽しみながら学ぶ</h2>
 							</div>
-							<p class="piano-main__text">音楽の基本から、楽しく学べるようなカリキュラムを提供しています。演奏技術だけでなく、音楽を感じ取り、楽しむ心も育みます。</p>
+							<p class="piano-main__text">音楽の基本から、楽しく学べるようなカリキュラムを提供しています。<br class="non-sp">演奏技術だけでなく、音楽を感じ取り、楽しむ心も育みます。</p>
 						</div>
 					</div>
 				</div>
@@ -92,7 +92,7 @@ require_once $path . 'include/header.php';
 						<h2 class="child-sub-title__ja">ご入会について</h2>
 					</div>
 
-					<p class="piano-secondary__text">ピアノ教室への入会をご希望の方、入会費や月謝、レッスンスケジュールなどはRed Family までお気軽にお問い合わせください。</p>
+					<p class="piano-secondary__text">ピアノ教室への入会をご希望の方、入会費や月謝、レッスンスケジュールなどは<br class="non-sp">Red Family までお気軽にお問い合わせください。</p>
 
 					<div class="piano-secondary__btn common-btn common-btn-arrow">
 						<a class="piano-secondary__link common-btn__inner" href="<?php echo $path ?>contact/">ご入会について<br class="non-md">詳しくはこちらから</a>

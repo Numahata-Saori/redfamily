@@ -16,7 +16,7 @@
 					<div class="contact__item">
 						<a class="contact__item-inner contact-btn" href="tel:09083656461">
 							<p class="contact-btn__title">お電話でお問い合わせ</p>
-							<div class="contact-btn__body common-btn-arrow">
+							<div class="contact-btn__body">
 								<p class="contact-btn__number phone-btn-icon">090-8365-6461</p>
 							</div>
 						</a>
