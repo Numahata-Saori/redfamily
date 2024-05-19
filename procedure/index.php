@@ -8,9 +8,11 @@ $description = '岸和田市のキッズダンス教室・泉佐野市のキッ�
 <!DOCTYPE html>
 
 <html lang="ja">
+
 <?php
 require_once $path . 'include/head.php';
 ?>
+
 <body>
 <?php
 require_once $path . 'include/header.php';
@@ -131,6 +133,30 @@ require_once $path . 'include/header.php';
 				</div>
 			</div>
 			<div class="shape-bottom--orange-light"></div>
+		</section>
+
+		<section class="child-procedure__secondary">
+			<div class="common">
+				<div class="procedure-secondary common__inner">
+					<div class="procedure-secondary__title child-sub-title">
+						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+						<h2 class="child-sub-title__ja">退会・休会について</h2>
+					</div>
+
+					<p class="procedure-secondary__">Red Familyでは、会員の皆様のライフスタイルの変化に柔軟に対応できるよう、退会だけでなく一時休会の選択肢も提供しています。<br>学業や健康上の理由、または一時的にダンスから離れたいというご希望にも、柔軟に対応できるようサポートしています。<br>退会や休会を検討されている場合も、どうぞお気軽にお問い合わせください。</p>
+
+					<div class="procedure-secondary__content">
+						<p class="procedure-secondary__subtitle">各種書類ダウンロード</p>
+						<div class="procedure-secondary__btn common-btn common-btn-arrow">
+							<a class="common-btn__inner" href="<?php echo $path ?>contact/">退会届</a>
+						</div>
+						<div class="procedure-secondary__btn common-btn common-btn-arrow">
+							<a class="common-btn__inner" href="<?php echo $path ?>contact/">休会届</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="shape-bottom--contact"></div>
 		</section>
 
 <?php

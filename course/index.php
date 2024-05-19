@@ -148,7 +148,7 @@ require_once $path . 'include/header.php';
 		</section>
 
 <?php
-require_once $path . 'include/contact.php';
+require_once $path . 'include/contact-mini.php';
 ?>
 
 	</main>

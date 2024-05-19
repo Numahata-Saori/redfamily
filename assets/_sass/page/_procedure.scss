@@ -183,6 +183,27 @@
 				text-align: center;
 			}
 		}
+	}
 
+	&__secondary {
+		background: $color_pastel-orange-light-bg;
+
+		.procedure-secondary {
+			&__content {
+				@include flex(column, null, center);
+				gap: 1.25rem;
+			}
+
+			&__subtitle {
+				font-size: 1.25em;
+				font-weight: 700;
+				line-height: 1;
+				text-align: center;
+			}
+
+			&__btn {
+				background: $color_pastel-orange;
+			}
+		}
 	}
 }

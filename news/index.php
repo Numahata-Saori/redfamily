@@ -44,8 +44,78 @@ require_once $path . 'include/header.php';
 
 		<section class="child-news__main child-main">
 			<div class="common">
-				<div class="common__inner">
+				<div class="child-main__inner common__inner">
 					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>news/main-img.jpg" alt=""></div>
+
+					<div class="news-main">
+<?php
+include $path . 'include/news-data.php';
+
+$lastIndex = count($newsContentsItem) - 1;
+
+foreach ($newsContentsItem as $index => $newsContentsItemInfo) :
+	$hasPost = !empty($newsContentsItemInfo['post']);
+	$hasTitle = !empty($newsContentsItemInfo['title']);
+	$hasImg = !empty($newsContentsItemInfo['img']);
+	$hasDate = !empty($newsContentsItemInfo['date']);
+	$hasPlace = !empty($newsContentsItemInfo['place']);
+	$hasAccess = !empty($newsContentsItemInfo['access']);
+	$hasPrice = !empty($newsContentsItemInfo['price']);
+	$hasComment = !empty($newsContentsItemInfo['comment']);
+
+	if ($hasPost || $hasTitle || $hasImg || $hasDate || $hasPlace ||$hasAccess) :
+?>
+						<div class="news-main__content">
+
+<?php if ($hasPost) : ?>
+							<p class="news-main__post"><?php echo $newsContentsItemInfo['post']; ?></p>
+<?php endif; ?>
+
+<?php if ($hasTitle) : ?>
+							<p class="news-main__title"><?php echo $newsContentsItemInfo['title']; ?></p>
+<?php endif; ?>
+
+<?php if ($hasImg) : ?>
+							<p class="news-main__img"><img src="<?php echo $path . $pathChild ?>news/news-img<?php echo $newsContentsItemInfo['img']; ?>.jpg" alt=""></p>
+<?php endif; ?>
+
+							<ol class="news-main__list">
+<?php if ($hasDate) : ?>
+								<li class="news-main__item">
+									<p class="news-main__subtitle">日時</p>
+									<p class="news-main__text"><?php echo $newsContentsItemInfo['date']; ?></p>
+								</li>
+<?php endif; ?>
+<?php if ($hasPlace) : ?>
+								<li class="news-main__item">
+									<p class="news-main__subtitle">場所</p>
+									<p class="news-main__text"><?php echo $newsContentsItemInfo['place']; ?></p>
+								</li>
+<?php endif; ?>
+<?php if ($hasAccess) : ?>
+								<li class="news-main__item">
+									<p class="news-main__subtitle">アクセス</p>
+									<p class="news-main__text"><?php echo $newsContentsItemInfo['access']; ?></p>
+								</li>
+<?php endif; ?>
+							</ol>
+<?php if ($hasPrice) : ?>
+							<p class="news-main__price"><?php echo $newsContentsItemInfo['price']; ?></p>
+<?php endif; ?>
+<?php if ($hasComment) : ?>
+							<p class="news-main__comment"><?php echo $newsContentsItemInfo['comment']; ?></p>
+<?php endif; ?>
+						</div>
+<?php
+		if ($index !== $lastIndex) :
+?>
+						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+<?php
+		endif;
+	endif;
+endforeach;
+?>
+					</div>
 				</div>
 			</div>
 			<div class="shape-bottom--contact"></div>

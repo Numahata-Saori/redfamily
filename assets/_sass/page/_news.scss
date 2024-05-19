@@ -8,5 +8,79 @@
 
 	&__main {
 		background: $color_pastel-blue-light-bg;
+		width: 100%;
+
+		.news-main {
+			@include flex(column, null, center);
+			gap: 1.875rem;
+			width: 100%;
+
+			&__content {
+				background: $color_white;
+				border-radius: 1.25rem;
+				@include flex(column, null, flex-start);
+				gap: 1.25rem;
+				padding: 2.5rem 1rem;
+				width: 100%;
+			}
+
+			&__post {
+				color: $color_pastel-orange;
+				font-size: 1em;
+				font-weight: 700;
+				line-height: 1;
+			}
+
+			&__title {
+				font-size: 1.25em;
+				line-height: 1.5;
+			}
+
+			&__img {
+				height: 220px;
+
+				img {
+					border-radius: 1.25rem;
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+			&__list {
+				width: 100%;
+			}
+
+			&__item {
+				border-bottom: 1px solid $color_black-border;
+				@include flex(column, null, center);
+				gap: 0.625rem;
+				padding: 1.25rem 0.625rem;
+				width: 100%;
+			}
+
+			&__subtitle {
+				font-size: 1em;
+				font-weight: 700;
+				line-height: 1;
+			}
+
+			&__text {
+				font-size: 0.9375em;
+				line-height: 1;
+			}
+
+			&__price {
+				font-size: 1.25em;
+				font-weight: 700;
+				line-height: 1;
+				text-align: center;
+				width: 100%;
+			}
+
+			&__comment {
+				font-size: 0.9375em;
+				line-height: 1.4;
+			}
+		}
 	}
 }

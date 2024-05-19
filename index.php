@@ -1,5 +1,5 @@
 <?php
-$is_home = true;
+// $is_home = true;
 $path = './';
 $pathChild = 'assets/img/';
 $title = 'Red Familyダンススタジオ｜一般社団法人日本こどもフィットネス協会公認クラブ';
@@ -10,12 +10,14 @@ $description = '岸和田市のキッズダンス教室・泉佐野市のキッ�
 <!DOCTYPE html>
 
 <html lang="ja">
+
 <?php
-require_once ('include/head.php');
+require_once $path . 'include/head.php';
 ?>
+
 <body>
 <?php
-require_once ('include/header.php');
+require_once $path . 'include/header.php';
 ?>
 
 	<div class="main-visual">
@@ -219,13 +221,13 @@ require_once ('include/header.php');
 		</section><!-- /.schedule -->
 
 <?php
-require_once ('include/contact.php');
+require_once $path . 'include/contact-mini.php';
 ?>
 
 	</main>
 
 <?php
-require_once ('include/footer.php');
+require_once $path . 'include/footer.php';
 ?>
 
 </body>
