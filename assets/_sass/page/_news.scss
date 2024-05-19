@@ -14,6 +14,9 @@
 			@include flex(column, null, center);
 			gap: 1.875rem;
 			width: 100%;
+			@include mq(min, md) {
+				gap: 2.5rem;
+			}
 
 			&__content {
 				background: $color_white;
@@ -22,6 +25,10 @@
 				gap: 1.25rem;
 				padding: 2.5rem 1rem;
 				width: 100%;
+				@include mq(min, md) {
+					padding: 2.5rem;
+					gap: 2.5rem;
+				}
 			}
 
 			&__post {
@@ -34,10 +41,18 @@
 			&__title {
 				font-size: 1.25em;
 				line-height: 1.5;
+				width: 100%;
+				@include mq(min, md) {
+					text-align: center;
+				}
 			}
 
 			&__img {
 				height: 220px;
+				width: 100%;
+				@include mq(min, md) {
+					height: 400px;
+				}
 
 				img {
 					border-radius: 1.25rem;
@@ -62,11 +77,17 @@
 				font-size: 1em;
 				font-weight: 700;
 				line-height: 1;
+				@include mq(min, md) {
+					font-size: 1.11111em;
+				}
 			}
 
 			&__text {
 				font-size: 0.9375em;
 				line-height: 1;
+				@include mq(min, md) {
+					font-size: 1em;
+				}
 			}
 
 			&__price {
@@ -80,6 +101,9 @@
 			&__comment {
 				font-size: 0.9375em;
 				line-height: 1.4;
+				@include mq(min, md) {
+					font-size: 1em;
+				}
 			}
 		}
 	}

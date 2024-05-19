@@ -69,35 +69,6 @@ require_once $path . 'include/header.php';
 		<section class="child-course__detail">
 			<div class="common">
 				<div class="course-detail common__inner">
-<?php
-// include $path . 'include/course-data.php';
-
-// foreach ($variable as $key => $value) {
-// 	# code...
-// }
-
-// foreach ($courseDetailItem as $courseDetailItemValue) :
-
-?>
-					<!-- <div class="course-detail__content">
-						<div class="course-detail__title-area child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
-							<h2 class="child-sub-title__ja"><?php echo $courseDetailItemValue['class']; ?></h2>
-						</div>
-						<div class="course-detail__img">
-							<img src="<?php echo $path . $pathChild ?>course/course-img<?php echo $courseDetailItemValue['img']; ?>.jpg" alt="">
-						</div>
-						<p class="course-detail__text"><?php echo $courseDetailItemValue['text']; ?></p>
-						<div class="course-detail__btn common-btn common-btn-arrow">
-							<a class="common-btn__inner course-detail__btn-inner" href="<?php echo $path ?>studio/">
-								<p>Jスタジオ</p>
-								<p>月曜日</p><p>19:00～20:10</p>
-							</a>
-						</div>
-					</div> -->
-<?php
-// endforeach;
-?>
 
 					<div class="course-detail__content">
 						<div class="course-detail__title-area child-sub-title">
@@ -134,7 +105,7 @@ require_once $path . 'include/header.php';
 									<div class="course-detail__time"><p>土曜日</p><p>09:30～10:15</p></div>
 								</a>
 							</div>
-							<div class="course-detail__btn common-btn common-btn-arrow">
+							<div class="course-detail__btn common-btn common-btn-arrow new-mark">
 								<a class="common-btn__inner course-detail__link" href="<?php echo $path ?>studio/">
 									<p class="course-detail__name">光明地区公民館</p>
 									<div class="course-detail__time"><p>第2・4金曜日</p><p>18:00～18:45</p></div>

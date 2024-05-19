@@ -48,7 +48,7 @@ require_once $path . 'include/header.php';
 					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>challenge-cup/main-img.jpg" alt=""></div>
 
 					<div class="challenge-main__btn common-btn common-btn-arrow">
-						<a class="challenge-main__link common-btn__inner" href="<?php echo $path ?>course/">全国こどもチャレンジカップ<br>最新情報はこちらから</a>
+						<a class="challenge-main__link common-btn__inner" href="<?php echo $path ?>course/">全国こどもチャレンジカップ<br class="non-md">最新情報はこちらから</a>
 					</div>
 
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>

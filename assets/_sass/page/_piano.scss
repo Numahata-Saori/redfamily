@@ -4,5 +4,71 @@
 @use '../global/common' as *;
 
 .child-piano {
-	background: $color_pastel-orange-light-bg;
+	background: $color_pastel-green-light-bg;
+
+	&__main {
+		.piano-main {
+			&__hero {
+				@include mq(min, md) {
+					height: 480px;
+				}
+			}
+
+			&__catch-box {
+				@include flex(column, null, center);
+				gap: 1.25rem;
+			}
+
+			&__catch {
+				font-size: 1.25rem;
+				font-weight: 700;
+				line-height: 1.5;
+				text-align: center;
+			}
+
+			&__content {
+				@include flex(column, null, center);
+				gap: 2.5rem;
+			}
+
+			&__body {
+				@include flex(column, null, center);
+				gap: 1.25rem;
+			}
+
+			&__title {
+				font-size: 1.5em;
+				font-weight: 700;
+				line-height: 1;
+			}
+
+			&__text {
+				font-size: 1em;
+				line-height: 1.8;
+			}
+		}
+	}
+
+	&__secondary {
+		background: $color_pastel-green-light-bg;
+
+		.piano-secondary {
+			&__title {
+
+			}
+
+			&__text {
+				font-size: 1em;
+				line-height: 1.8;
+			}
+
+			&__btn {
+				background: $color_contact-btn;
+			}
+
+			&__link {
+				line-height: 1.2;
+			}
+		}
+	}
 }

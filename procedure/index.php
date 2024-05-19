@@ -67,15 +67,21 @@ require_once $path . 'include/header.php';
 							<div class="campaign__item">
 								<p class="campaign__head">入会費</p>
 								<div class="campaign__body">
-									<p class="campaign__info">\キャンペーン中/</p>
-									<p class="campaign__price"><span class="font-min price-emphasis">0</span>円</p>
-									<p class="campaign__before"><span class="font-min">5,000</span>円</p>
+									<div class="campaign__body-inner">
+										<p class="campaign__info">\キャンペーン中/</p>
+										<div class="campaign__price-box">
+											<p class="campaign__price"><span class="font-min price-emphasis">0</span>円</p>
+											<p class="campaign__before"><span class="font-min">5,000</span>円</p>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="campaign__item">
 								<p class="campaign__head">月謝</p>
 								<div class="campaign__body">
-									<p class="campaign__price"><span class="font-min price-emphasis">5,000</span>円</p>
+									<div class="campaign__body-inner">
+										<p class="campaign__price"><span class="font-min price-emphasis">5,000</span>円</p>
+									</div>
 								</div>
 							</div>
 							<p class="campaign__note">「初めてダンスクラス」 週１回の場合</p>
@@ -143,15 +149,17 @@ require_once $path . 'include/header.php';
 						<h2 class="child-sub-title__ja">退会・休会について</h2>
 					</div>
 
-					<p class="procedure-secondary__">Red Familyでは、会員の皆様のライフスタイルの変化に柔軟に対応できるよう、退会だけでなく一時休会の選択肢も提供しています。<br>学業や健康上の理由、または一時的にダンスから離れたいというご希望にも、柔軟に対応できるようサポートしています。<br>退会や休会を検討されている場合も、どうぞお気軽にお問い合わせください。</p>
+					<p class="procedure-secondary__text">Red Familyでは、会員の皆様のライフスタイルの変化に柔軟に対応できるよう、<br class="sp">退会だけでなく一時休会の選択肢も提供しています。<br>学業や健康上の理由、または一時的にダンスから離れたいというご希望にも、<br class="sp">柔軟に対応できるようサポートしています。<br>退会や休会を検討されている場合も、どうぞお気軽にお問い合わせください。</p>
 
 					<div class="procedure-secondary__content">
 						<p class="procedure-secondary__subtitle">各種書類ダウンロード</p>
-						<div class="procedure-secondary__btn common-btn common-btn-arrow">
-							<a class="common-btn__inner" href="<?php echo $path ?>contact/">退会届</a>
-						</div>
-						<div class="procedure-secondary__btn common-btn common-btn-arrow">
-							<a class="common-btn__inner" href="<?php echo $path ?>contact/">休会届</a>
+						<div class="procedure-secondary__btn-box">
+							<div class="procedure-secondary__btn common-btn common-btn-arrow">
+								<a class="common-btn__inner" href="<?php echo $path ?>contact/">退会届</a>
+							</div>
+							<div class="procedure-secondary__btn common-btn common-btn-arrow">
+								<a class="common-btn__inner" href="<?php echo $path ?>contact/">休会届</a>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -31,7 +31,7 @@
 		padding: 0 1.25rem 0.625rem;
 
 		@include mq(min, md) {
-			font-size: 2.25em;
+			font-size: 2em;
 		}
 	}
 
@@ -41,7 +41,7 @@
 		padding-top: 1.25rem;
 
 		@include mq(min, md) {
-			font-size: 1.25em;
+			font-size: 1.11111em;
 			padding-top: 1.5em;
 		}
 	}
@@ -83,8 +83,6 @@
 		position: relative;
 		@include mq(min, md) {
 			padding: 2.5em 1em;
-		}
-		@include mq(min, xl) {
 			gap: 1.875rem;
 		}
 	}
@@ -102,7 +100,7 @@
 		font-weight: 900;
 		line-height: 1;
 		@include mq(min, xl) {
-			font-size: 1.4em;
+			font-size: 1.22222em;
 		}
 
 		&::before,
@@ -127,7 +125,7 @@
 		@extend .common-btn-arrow !optional;
 
 		@include mq(min, md) {
-			height: auto;
+			// height: auto;
 		}
 
 		@include mq(min, xl) {

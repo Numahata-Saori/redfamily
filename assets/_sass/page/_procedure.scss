@@ -16,6 +16,7 @@
 		.campaign {
 			@include flex(column, null, center);
 			gap: 1.25rem;
+			width: 100%;
 
 			&__content {
 				background: mix($color_corporate, $color_white, 10%);
@@ -24,6 +25,10 @@
 				gap: 0.625rem;
 				padding: 1.25rem;
 				width: 100%;
+				@include mq(min, md) {
+					gap: 1.25rem;
+					padding: 2.5rem;
+				}
 			}
 
 			&__item {
@@ -33,15 +38,30 @@
 				gap: 1.25rem;
 				padding: 0.625rem;
 				width: 100%;
+				@include mq(min, md) {
+					gap: 2.5rem;
+					padding: 1.25rem;
+				}
 			}
 
 			&__head {
 				font-size: 1.25rem;
-				line-height: 1
+				line-height: 1;
+				text-align: end;
+				@include mq(min, md) {
+					font-size: 1.5rem;
+				}
 			}
 
 			&__body {
-				@include flex(column, null, center);
+				@include flex(column, null, flex-start);
+			}
+
+			&__body-inner {
+				@include mq(min, md) {
+					width: 240px;
+					text-align: center;
+				}
 			}
 
 			&__info {
@@ -53,6 +73,19 @@
 				line-height: 1;
 				margin-bottom: 0.3125rem;
 				padding: 0.3rem 1rem;
+				@include mq(min, md) {
+					font-size: 1.25rem;
+					padding: 0.625rem 1rem;
+					text-align: center;
+					width: 240px;
+				}
+			}
+
+			&__price-box {
+				@include mq(min, md) {
+					@include flex(null, center, flex-end);
+					gap: 1.25rem;
+				}
 			}
 
 			&__price {
@@ -82,11 +115,17 @@
 			&__note {
 				font-size: 0.75rem;
 				line-height: 1;
+				@include mq(min, md) {
+					font-size: 1em;
+				}
 			}
 
 			&__text {
 				font-size: 1em;
 				line-height: 1.8;
+				@include mq(min, md) {
+					font-size: 1.11111em;
+				}
 			}
 		}
 
@@ -94,6 +133,9 @@
 			font-size: 2.25em;
 			line-height: 1;
 			padding-right: 0.1em;
+			@include mq(min, md) {
+				font-size: 2.666666em;
+			}
 		}
 
 		.join {
@@ -114,6 +156,9 @@
 				line-height: 1.4;
 				margin-top: 1em;
 				text-align: center;
+				@include mq(min, md) {
+					font-size: 1em;
+				}
 			}
 		}
 
@@ -141,6 +186,9 @@
 				@include flex(column, null, flex-start);
 				gap: 1em;
 				width: 100%;
+				@include mq(min, md) {
+					width: auto;
+				}
 			}
 
 			&__item {
@@ -181,6 +229,9 @@
 				font-size: 0.9375em;
 				line-height: 1.4;
 				text-align: center;
+				@include mq(min, md) {
+					font-size: 1em;
+				}
 			}
 		}
 	}
@@ -189,9 +240,18 @@
 		background: $color_pastel-orange-light-bg;
 
 		.procedure-secondary {
+			&__text {
+				font-size: 1em;
+				line-height: 1.8;
+				text-align: center
+			}
+
 			&__content {
 				@include flex(column, null, center);
 				gap: 1.25rem;
+				@include mq(min, md) {
+					gap: 2.5rem;
+				}
 			}
 
 			&__subtitle {
@@ -199,6 +259,15 @@
 				font-weight: 700;
 				line-height: 1;
 				text-align: center;
+			}
+
+			&__btn-box {
+				@include flex(column, null, center);
+				gap: 1.25rem;
+				width: 100%;
+				@include mq(min, md) {
+					gap: 1.75rem;
+				}
 			}
 
 			&__btn {

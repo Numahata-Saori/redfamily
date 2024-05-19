@@ -92,7 +92,7 @@
 				@include flex(column, center, flex-start);
 				gap: 1.25rem;
 				width: 100%;
-				@include mq(min, md) {
+				@include mq(min, xl) {
 					display: grid;
 					grid-template-columns: repeat(2, 1fr);
 				}
@@ -106,6 +106,7 @@
 			&__link {
 				@include flex(column, center, center);
 				gap: 0.375rem;
+				font-size: 1em;
 				padding: 1rem;
 			}
 
@@ -114,33 +115,40 @@
 				font-weight: 700;
 				line-height: 1;
 				@include mq(min, md) {
-					font-size: 0.75em
-				}
-				@include mq(min, xl) {
-					font-size: 1em
+					font-size: 1.11111em;
 				}
 			}
 
 			&__time {
 				@include flex(null, center, center);
 				gap: 0.625rem;
-				font-size: 0.875em;
+				font-size: 0.875rem;
 				font-weight: 700;
 				p {
 					line-height: 1;
 				}
 				@include mq(min, md) {
-					font-size: 0.583335em
 				}
 			}
 
 			&__age {
-				font-size: 0.875em;
+				font-size: 0.875rem;
 				font-weight: 700;
 				line-height: 1;
-				@include mq(min, md) {
-					font-size: 0.583335em
-				}
+			}
+		}
+
+		.new-mark {
+			&::before {
+				content: '';
+				background: url(../img/course/icon-new.png) center center / contain no-repeat;
+				display: inline-block;
+				height: 2.5rem;
+				width: 2.5rem;
+				position: absolute;
+				top: 50%;
+				left: 1.25rem;
+				transform: rotate(-10deg) translateY(-50%);
 			}
 		}
 	}

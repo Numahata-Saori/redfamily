@@ -58,9 +58,6 @@ require_once $path . 'include/header.php';
 		<section class="child-about__secondary">
 			<div class="common">
 				<div class="about-secondary common__inner">
-					<div class="about-secondary__img">
-						<img src="<?php echo $path . $pathChild ?>about/secondary-img.jpg" alt="">
-					</div>
 					<ul class="about-secondary__list">
 						<li class="about-secondary__item">
 							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon01.svg" alt=""></p>
@@ -298,9 +295,11 @@ endforeach;
 						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 						<h2 class="child-sub-title__ja">ピアノ教室随時生徒募集中！</h2>
 					</div>
-					<div class="piano-recruitment__img"><img src="<?php echo $path . $pathChild ?>about/piano-recruitment-img.jpeg" alt=""></div>
-					<p class="piano-recruitment__text">Red Familyでは、ダンスの世界だけでなく、音楽の才能を伸ばしたいと考えるお子さまに向けて、ピアノ教室も開講しています。<br>
-					ダンスと音楽は表現の豊かさを共有しており、ピアノを学ぶことで、リズム感や感性をさらに磨き上げることができます。</p>
+					<div class="piano-recruitment__content">
+						<div class="piano-recruitment__img"><img src="<?php echo $path . $pathChild ?>about/piano-recruitment-img.jpeg" alt=""></div>
+						<p class="piano-recruitment__text">Red Familyでは、ダンスの世界だけでなく、音楽の才能を伸ばしたいと考えるお子さまに向けて、ピアノ教室も開講しています。<br>
+						ダンスと音楽は表現の豊かさを共有しており、ピアノを学ぶことで、リズム感や感性をさらに磨き上げることができます。</p>
+					</div>
 					<div class="piano-recruitment__btn common-btn common-btn-arrow">
 						<a class="common-btn__inner" href="<?php echo $path ?>piano/">ピアノ教室について</a>
 					</div>
