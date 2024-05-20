@@ -1,4 +1,5 @@
 @use '../global/color' as *;
+@use '../global/font' as *;
 @use '../global/breakpoints' as *;
 @use '../global/mixin' as *;
 @use '../global/common' as *;
@@ -47,7 +48,14 @@
 	}
 }
 
-.contact {
+.contact-detail {
+	@include flex(column, center, center);
+	gap: 1.25rem;
+	width: 100%;
+	@include mq(min, xl) {
+		gap: 2.5rem;
+	}
+
 	&__list {
 		@include flex(column, center, center);
 		gap: 1.25rem;
@@ -70,6 +78,25 @@
 		@include mq(min, md) {
 			padding: 2.5em 1em;
 			gap: 1.875rem;
+		}
+	}
+
+	&__mail {
+		color: $color_pastel-orange;
+		@include flex(null, center, center);
+		gap: 0.625rem;
+		font-size: 1.25em;
+		font-weight: 700;
+		line-height: 1;
+		@include mq(min, md) {
+			font-size: 1.333333em;
+		}
+
+		&::before {
+			content: '';
+			display: block;
+			width: 1.5rem;
+			height: 1.125rem;
 		}
 	}
 }

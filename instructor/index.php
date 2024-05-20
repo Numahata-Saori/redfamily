@@ -274,6 +274,86 @@ require_once $path . 'include/header.php';
 
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 
+					<div class="instructor-detail__content" id="yukie">
+						<div class="instructor-detail__head">
+							<div class="instructor-detail__img">
+								<img src="<?php echo $path . $pathChild ?>instructor/instructor-yukie.jpg" alt="yukie">
+							</div>
+							<p class="instructor-detail__name">YUKIE</p>
+						</div>
+
+						<p class="instructor-detail__text">ダンスを大好きになってもらえるようみんなで楽しくレッスンをしながら 2年間専門学校で学んだ事を沢山伝えていきます！</p>
+
+						<div class="instructor-detail__body">
+							<div class="instructor-career">
+								<p class="instructor-detail__title">経歴</p>
+								<ol class="instructor-career__list">
+									<li class="instructor-career__item">2016 KENTO MORI MV 出演</li>
+									<li class="instructor-career__item">2017 ゆずイロハ京セラバックダンサー</li>
+									<li class="instructor-career__item">2017  脳みそ MV ミュージック TV 出演</li>
+									<li class="instructor-career__item">2017  鷹の祭典京セラダンサー出演</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+
+					<div class="instructor-detail__content" id="sachiyo">
+						<div class="instructor-detail__head">
+							<div class="instructor-detail__img">
+								<img src="<?php echo $path . $pathChild ?>instructor/instructor-sachiyo.jpg" alt="sachiyo">
+							</div>
+							<p class="instructor-detail__name">SACHIYO</p>
+						</div>
+
+						<div class="instructor-qualification">
+							<p class="instructor-detail__title">取得資格一覧</p>
+							<ol class="instructor-qualification__list">
+								<li class="instructor-qualification__item">㈳ JKFA 公認インストラクター</li>
+								<li class="instructor-qualification__item">ヒップホップライセンス</li>
+								<li class="instructor-qualification__item">40H キッズビクスゴールドライセンス</li>
+								<li class="instructor-qualification__item">彩の台初めてダンスクラス担当</li>
+								<li class="instructor-qualification__item">彩の台初級クラス担当</li>
+								<li class="instructor-qualification__item">発達支援施設保育士、ダンス講師</li>
+							</ol>
+						</div>
+					</div>
+
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+
+					<div class="instructor-detail__content" id="kirara">
+						<div class="instructor-detail__head">
+							<div class="instructor-detail__img">
+								<img src="<?php echo $path . $pathChild ?>instructor/instructor-kirara.jpg" alt="kirara">
+							</div>
+							<p class="instructor-detail__name">KIRARA</p>
+						</div>
+
+						<div class="instructor-detail__body">
+							<div class="instructor-profile">
+								<p class="instructor-detail__title">プロフィール</p>
+								<ol class="instructor-profile__list">
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__text">㈳日本こどもフィットネス協会公認<br>インストラクター</p>
+									</li>
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__subtitle">誕生日</p>
+										<p class="instructor-profile__text">9月25日 てんびん座</p>
+									</li>
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__subtitle">趣味</p>
+										<p class="instructor-profile__text">体を動かすこと</p>
+									</li>
+									<li class="instructor-profile__item">
+										<p class="instructor-profile__subtitle">座右の銘</p>
+										<p class="instructor-profile__text">be yourself 自分らしさを忘れずに！</p>
+									</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 			<div class="shape-bottom--contact"></div>

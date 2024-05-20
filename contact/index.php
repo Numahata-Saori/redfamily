@@ -51,29 +51,33 @@ require_once $path . 'include/header.php';
 
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
 
-					<div class="contact__list">
-						<div class="contact__item">
-							<a class="contact__item-inner contact-btn" href="tel:09083656461">
-								<p class="contact-btn__title">お電話でお問い合わせ</p>
-								<div class="contact-btn__body common-btn-arrow">
-									<p class="contact-btn__number phone-btn-icon">090-8365-6461</p>
-								</div>
-							</a>
+					<div class="contact-detail">
+						<div class="contact-detail__list">
+							<div class="contact-detail__item">
+								<a class="contact-detail__item-inner contact-btn" href="tel:09083656461">
+									<p class="contact-btn__title">お電話でお問い合わせ</p>
+									<div class="contact-btn__body common-btn-arrow">
+										<p class="contact-btn__number phone-btn-icon">090-8365-6461</p>
+									</div>
+								</a>
+							</div>
+							<div class="contact-detail__item">
+								<a class="contact-detail__item-inner contact-btn--line" href="#">
+									<p class="contact-btn__title">LINEでお問い合わせ</p>
+									<div class="contact-btn__body common-btn-arrow">
+										<p class="contact-btn__text line-btn-icon">お友達登録はこちら</p>
+									</div>
+								</a>
+							</div>
+							<div class="contact-detail__item">
+								<a class="contact-detail__item-inner contact-btn--instagram" href="https://www.instagram.com/dance_studio_red?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+									<p class="contact-btn__title">Instagramはこちら</p>
+									<p class="contact-btn__icon"><img src="<?php echo $path . $pathChild ?>icon-instagram.png" alt=""></p>
+								</a>
+							</div>
 						</div>
-						<div class="contact__item">
-							<a class="contact__item-inner contact-btn--line" href="#">
-								<p class="contact-btn__title">LINEでお問い合わせ</p>
-								<div class="contact-btn__body common-btn-arrow">
-									<p class="contact-btn__text line-btn-icon">お友達登録はこちら</p>
-								</div>
-							</a>
-						</div>
-						<div class="contact__item">
-							<a class="contact__item-inner contact-btn--instagram" href="#">
-								<p class="contact-btn__title">Instagramはこちら</p>
-								<p class="contact-btn__icon"><img src="<?php echo $path . $pathChild ?>icon-instagram.png" alt=""></p>
-							</a>
-						</div>
+
+						<p class="contact-detail__mail mail-btn-icon">redfamily2004@gmail.com</p>
 					</div>
 
 					<div class="contact-form">

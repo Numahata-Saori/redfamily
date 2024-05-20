@@ -1040,7 +1040,7 @@ p {
 	}
 }
 
-.contact__list {
+.contact-detail {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -1049,14 +1049,27 @@ p {
 	width: 100%;
 }
 @media screen and (min-width: 1280px) {
-	.contact__list {
+	.contact-detail {
+		gap: 2.5rem;
+	}
+}
+.contact-detail__list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1.25rem;
+	width: 100%;
+}
+@media screen and (min-width: 1280px) {
+	.contact-detail__list {
 		flex-direction: row;
 	}
 }
-.contact__item {
+.contact-detail__item {
 	width: 100%;
 }
-.contact__item-inner {
+.contact-detail__item-inner {
 	border-radius: 1.25rem;
 	display: flex;
 	flex-direction: column;
@@ -1067,10 +1080,31 @@ p {
 	position: relative;
 }
 @media screen and (min-width: 768px) {
-	.contact__item-inner {
+	.contact-detail__item-inner {
 		padding: 2.5em 1em;
 		gap: 1.875rem;
 	}
+}
+.contact-detail__mail {
+	color: #f0a573;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.625rem;
+	font-size: 1.25em;
+	font-weight: 700;
+	line-height: 1;
+}
+@media screen and (min-width: 768px) {
+	.contact-detail__mail {
+		font-size: 1.333333em;
+	}
+}
+.contact-detail__mail::before {
+	content: "";
+	display: block;
+	width: 1.5rem;
+	height: 1.125rem;
 }
 
 .contact-btn {
@@ -2223,7 +2257,7 @@ p {
 	flex-direction: column;
 	align-items: center;
 	gap: 2.5rem;
-	padding: 2.5rem 1.25rem;
+	padding: 2.5rem 1.15rem;
 	width: 100%;
 }
 @media screen and (min-width: 768px) {
@@ -2254,7 +2288,12 @@ p {
 .child-instructor__representative .instructor-detail__text, .child-instructor__staff .instructor-detail__text {
 	font-size: 1em;
 	line-height: 1.6;
-	text-align: center;
+	text-align: start;
+}
+@media screen and (min-width: 768px) {
+	.child-instructor__representative .instructor-detail__text, .child-instructor__staff .instructor-detail__text {
+		text-align: center;
+	}
 }
 .child-instructor__representative .instructor-detail__body, .child-instructor__staff .instructor-detail__body {
 	display: flex;
@@ -2307,6 +2346,11 @@ p {
 	font-size: 0.875rem;
 	line-height: 1.4;
 }
+@media screen and (min-width: 768px) {
+	.child-instructor__representative .instructor-profile__text, .child-instructor__staff .instructor-profile__text {
+		font-size: 0.888888em;
+	}
+}
 .child-instructor__representative .instructor-qualification, .child-instructor__staff .instructor-qualification {
 	display: flex;
 	flex-direction: column;
@@ -2321,9 +2365,47 @@ p {
 	gap: 0.625rem;
 	width: 100%;
 }
+@media screen and (min-width: 768px) {
+	.child-instructor__representative .instructor-qualification__list, .child-instructor__staff .instructor-qualification__list {
+		align-items: center;
+	}
+}
 .child-instructor__representative .instructor-qualification__item, .child-instructor__staff .instructor-qualification__item {
 	font-size: 0.785rem;
 	line-height: 1.2;
+}
+@media screen and (min-width: 768px) {
+	.child-instructor__representative .instructor-qualification__item, .child-instructor__staff .instructor-qualification__item {
+		font-size: 0.888888em;
+	}
+}
+.child-instructor__representative .instructor-career, .child-instructor__staff .instructor-career {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.25rem;
+	width: 100%;
+}
+.child-instructor__representative .instructor-career__list, .child-instructor__staff .instructor-career__list {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.625rem;
+	width: 100%;
+}
+@media screen and (min-width: 768px) {
+	.child-instructor__representative .instructor-career__list, .child-instructor__staff .instructor-career__list {
+		align-items: center;
+	}
+}
+.child-instructor__representative .instructor-career__item, .child-instructor__staff .instructor-career__item {
+	font-size: 0.875rem;
+	line-height: 1;
+}
+@media screen and (min-width: 768px) {
+	.child-instructor__representative .instructor-career__item, .child-instructor__staff .instructor-career__item {
+		font-size: 1em;
+	}
 }
 
 .child-studio {
