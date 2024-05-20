@@ -29,8 +29,6 @@ $color_img-shadow: mix($color_black,  $color_white, 10%);
 $color_btn-shadow: rgba($color_black, 0.2);
 
 // 背景色
-// $color_pastel-yellow-light40: lighten($color_pastel-yellow, 4);
-// $color_pastel-yellow-light-bg: rgba($color_pastel-yellow, 0.4);
 $color_pastel-pink-light-bg: mix($color_pastel-pink, $color_white, 10%);
 $color_pastel-orange-light-bg: mix($color_pastel-orange, $color_white, 10%);
 $color_pastel-yellow-light-bg: mix($color_pastel-yellow, $color_white, 30%);
@@ -41,10 +39,3 @@ $color_corporate-light02-bg: mix($color_corporate, $color_white, 10%);
 
 // ボタン色
 $color_contact-btn: mix($color_corporate, $color_white, 60%);
-// $color_contact-btn: rgba(229, 57, 71, 0.60);
-
-// フォント
-$font_m-gothic: "Zen Maru Gothic", serif;
-$font_old-min: "Zen Old Mincho", serif;
-$font_reggae: "Reggae One", system-ui;
-$font_m-gothic2: "M PLUS 1p", sans-serif;
