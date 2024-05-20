@@ -16,6 +16,9 @@
 				@include flex(column, null, flex-start);
 				gap: 1.25rem;
 				width: 100%;
+				@include mq(min, md) {
+					gap: 2.5rem;
+				}
 			}
 
 			&__item {
@@ -28,7 +31,6 @@
 				gap: 0.625rem;
 				font-size: 1em;
 				line-height: 1;
-				// height: 1.75rem;
 			}
 
 			&__must {
@@ -39,11 +41,22 @@
 				font-size: 0.875rem;
 				line-height: 1;
 				padding: 0.375rem;
-				// margin-left: 0.625rem;
 			}
 
 			&__textarea {
 				margin-top: 0.625rem;
+
+				.form-input {
+					background: $color_pastel-pink-light-bg;
+					border: none;
+					border-radius: 0.375rem;
+					font-size: 1em;
+					padding: 0.625rem;
+					width: 100%;
+					&:where(:focus-visible) {
+						outline-color: $color_corporate;
+					}
+				}
 			}
 
 			&__checkbox-wrapper {
@@ -57,21 +70,16 @@
 				display: inline-flex;
 				gap: 0.625rem;
 
-				input {
-					border: none;
+				.form-input {
+					&:where(:focus-visible) {
+						outline-color: $color_corporate;
+					}
+				}
+
+				.checkbox-text {
 					font-size: 1em;
 					line-height: 1;
 				}
-			}
-
-			&__input {
-				background: $color_pastel-pink-light-bg;
-				border: none;
-				border-radius: 0.375rem;
-				font-size: 1em;
-				padding: 0.625rem;
-				width: 100%;
-				// height: 40px;
 			}
 
 			&__submitBtn {

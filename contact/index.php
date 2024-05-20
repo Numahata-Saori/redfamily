@@ -87,20 +87,20 @@ require_once $path . 'include/header.php';
 								<div class="contact-form__name">希望連絡方法<p class="contact-form__must">必須</p></div>
 								<div class="contact-form__checkbox-wrapper">
 									<label class="contact-form__checkbox" for="">
-										<input class="" type="radio" name="userCheckbox" value="体験レッスン申し込み">
-										<p>体験レッスン申し込み</p>
+										<input class="form-input" type="radio" name="userCheckbox" value="体験レッスン申し込み">
+										<p class="checkbox-text">体験レッスン申し込み</p>
 									</label>
 									<label class="contact-form__checkbox" for="">
-										<input class="" type="radio" name="userCheckbox" value="入会について">
-										<p>入会について</p>
+										<input class="form-input" type="radio" name="userCheckbox" value="入会について">
+										<p class="checkbox-text">入会について</p>
 									</label>
 									<label class="contact-form__checkbox" for="">
-										<input class="" type="radio" name="userCheckbox" value="退会・休会について">
-										<p>退会・休会について</p>
+										<input class="form-input" type="radio" name="userCheckbox" value="退会・休会について">
+										<p class="checkbox-text">退会・休会について</p>
 									</label>
 									<label class="contact-form__checkbox" for="">
-										<input class="" type="radio" name="userCheckbox" value="その他">
-										<p>その他</p>
+										<input class="form-input" type="radio" name="userCheckbox" value="その他">
+										<p class="checkbox-text">その他</p>
 									</label>
 								</div>
 							</div>
@@ -108,28 +108,28 @@ require_once $path . 'include/header.php';
 							<div class="contact-form__item">
 								<div class="contact-form__name">お名前<p class="contact-form__must">必須</p></div>
 								<div class="contact-form__textarea">
-									<input class="contact-form__input" id="form-userName" type="text" name="userName" required>
+									<input class="form-input" id="form-userName" type="text" name="userName" required>
 								</div>
 							</div>
 
 							<div class="contact-form__item">
 								<div class="contact-form__name">ふりがな<p class="contact-form__must">必須</p></div>
 								<div class="contact-form__textarea">
-									<input class="contact-form__input" id="form-userkana" type="text" name="userkana" required>
+									<input class="form-input" id="form-userkana" type="text" name="userkana" required>
 								</div>
 							</div>
 
 							<div class="contact-form__item">
 								<div class="contact-form__name">メールアドレス<p class="contact-form__must">必須</p></div>
 								<div class="contact-form__textarea">
-									<input class="contact-form__input" id="form__userMail" type="text" name="userMail" required>
+									<input class="form-input" id="form__userMail" type="text" name="userMail" required>
 								</div>
 							</div>
 
 							<div class="contact-form__item">
 								<div class="contact-form__name">電話番号<p class="contact-form__must">必須</p></div>
 								<div class="contact-form__textarea">
-									<input class="contact-form__input" id="form__userPhone" type="text" name="userPhone" required>
+									<input class="form-input" id="form__userPhone" type="text" name="userPhone" required>
 								</div>
 							</div>
 
@@ -137,12 +137,12 @@ require_once $path . 'include/header.php';
 								<div class="contact-form__name">希望連絡方法<p class="contact-form__must">必須</p></div>
 								<div class="contact-form__checkbox-wrapper">
 									<label class="contact-form__checkbox" for="">
-										<input class="" type="radio" name="userCheckbox" value="メール">
-										<p>メール</p>
+										<input class="form-input" type="radio" name="userCheckbox" value="メール">
+										<p class="checkbox-text">メール</p>
 									</label>
 									<label class="contact-form__checkbox" for="">
-										<input class="" type="radio" name="userCheckbox" value="電話">
-										<p>電話</p>
+										<input class="form-input" type="radio" name="userCheckbox" value="電話">
+										<p class="checkbox-text">電話</p>
 									</label>
 								</div>
 							</div>
@@ -150,7 +150,7 @@ require_once $path . 'include/header.php';
 							<div class="contact-form__item">
 								<div class="contact-form__name">お問い合わせ内容<p class="contact-form__must">必須</p></div>
 								<div class="contact-form__textarea">
-									<textarea class="contact-form__input" id="form_userMessage" name="userMessage" rows="10" placeholder="ご用件を入力してください"></textarea>
+									<textarea class="form-input" id="form_userMessage" name="userMessage" rows="10" placeholder="ご用件を入力してください"></textarea>
 								</div>
 							</div>
 
