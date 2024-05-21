@@ -83,9 +83,14 @@
 	}
 
 	&__inner {
+		padding: 3.75rem 2.5rem 2.5rem;
+		height: 100%;
+		width: 100%;
+	}
+
+	&__content {
 		@include flex(column, flex-start, center);
 		gap: 1.875rem;
-		padding: 3.75rem 2.5rem 2.5rem;
 		height: 100%;
 		width: 100%;
 		overflow-y: scroll;

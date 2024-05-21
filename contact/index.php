@@ -90,21 +90,21 @@ require_once $path . 'include/header.php';
 							<div class="contact-form__item">
 								<div class="contact-form__name">希望連絡方法<p class="contact-form__must">必須</p></div>
 								<div class="contact-form__checkbox-wrapper">
-									<label class="contact-form__checkbox" for="">
+									<label class="contact-form__checkbox">
 										<input class="form-input" type="radio" name="userCheckbox" value="体験レッスン申し込み">
-										<p class="checkbox-text">体験レッスン申し込み</p>
+										<span class="checkbox-text">体験レッスン申し込み</span>
 									</label>
-									<label class="contact-form__checkbox" for="">
+									<label class="contact-form__checkbox">
 										<input class="form-input" type="radio" name="userCheckbox" value="入会について">
-										<p class="checkbox-text">入会について</p>
+										<span class="checkbox-text">入会について</span>
 									</label>
-									<label class="contact-form__checkbox" for="">
+									<label class="contact-form__checkbox">
 										<input class="form-input" type="radio" name="userCheckbox" value="退会・休会について">
-										<p class="checkbox-text">退会・休会について</p>
+										<span class="checkbox-text">退会・休会について</span>
 									</label>
-									<label class="contact-form__checkbox" for="">
+									<label class="contact-form__checkbox">
 										<input class="form-input" type="radio" name="userCheckbox" value="その他">
-										<p class="checkbox-text">その他</p>
+										<span class="checkbox-text">その他</span>
 									</label>
 								</div>
 							</div>
@@ -140,13 +140,13 @@ require_once $path . 'include/header.php';
 							<div class="contact-form__item">
 								<div class="contact-form__name">希望連絡方法<p class="contact-form__must">必須</p></div>
 								<div class="contact-form__checkbox-wrapper">
-									<label class="contact-form__checkbox" for="">
+									<label class="contact-form__checkbox">
 										<input class="form-input" type="radio" name="userCheckbox" value="メール">
-										<p class="checkbox-text">メール</p>
+										<span class="checkbox-text">メール</span>
 									</label>
-									<label class="contact-form__checkbox" for="">
+									<label class="contact-form__checkbox">
 										<input class="form-input" type="radio" name="userCheckbox" value="電話">
-										<p class="checkbox-text">電話</p>
+										<span class="checkbox-text">電話</span>
 									</label>
 								</div>
 							</div>
@@ -158,7 +158,7 @@ require_once $path . 'include/header.php';
 								</div>
 							</div>
 
-							<input class="contact-form__submitBtn" id="" type="submit" name=""  value="送信内容を確認する">
+							<input class="contact-form__submitBtn" type="submit" value="この内容で送信する">
 						</div>
 					</div>
 				</div>

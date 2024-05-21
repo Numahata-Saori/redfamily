@@ -870,12 +870,16 @@ p {
 	z-index: 920;
 }
 .gnav__inner {
+	padding: 3.75rem 2.5rem 2.5rem;
+	height: 100%;
+	width: 100%;
+}
+.gnav__content {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
 	gap: 1.875rem;
-	padding: 3.75rem 2.5rem 2.5rem;
 	height: 100%;
 	width: 100%;
 	overflow-y: scroll;
@@ -1010,7 +1014,7 @@ p {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	z-index: 999;
+	z-index: 1;
 }
 @media screen and (min-width: 1280px) {
 	.footer-bottom {

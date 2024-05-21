@@ -4,13 +4,13 @@
 
 $(".js_gnav-btn").click(function () {
 	$(this).toggleClass('active');
-	$("#gnav").toggleClass('open');
+	$(".js_gnav").toggleClass('open');
 	$(".js_show").toggleClass('circleactive');
 });
 
-$("#gnav a").click(function () {
+$(".js_gnav a").click(function () {
 	$(".js_gnav-btn").removeClass('active');
-	$("#gnav").removeClass('open');
+	$(".js_gnav").removeClass('open');
 	$(".js_show").removeClass('circleactive');
 });
 
@@ -46,7 +46,7 @@ $(window).on('load', function () {
 });
 
 // const headerH = $("#header").outerHeight(true);
-// $('#gnav li a').click(function () {
+// $('.js_gnav li a').click(function () {
 // 	const elmHash = $(this).attr('href');
 // 	const pos = $(elmHash).offset().top-headerH;
 // 	$('body,html').animate({scrollTop: pos}, 1000);
