@@ -49,7 +49,7 @@ require_once $path . 'include/header.php';
 
 					<p class="child-main__summary">Red Familyでは、皆様からのお問い合わせを心よりお待ちしております。<br>ご質問やレッスンの申し込み、さらにはご意見など、どのような内容でも結構です。<br>お好きな方法でお問い合わせください。</p>
 
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt="女性がスマートフォンからお問い合わせをする様子"></div>
 
 					<div class="contact-detail">
 						<div class="contact-detail__list">

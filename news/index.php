@@ -45,7 +45,7 @@ require_once $path . 'include/header.php';
 		<section class="child-news__main child-main">
 			<div class="common">
 				<div class="child-main__inner common__inner">
-					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>news/main-img.jpg" alt=""></div>
+					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>news/main-img.jpg" alt="ダンス発表会の写真"></div>
 
 					<div class="news-main">
 <?php
@@ -74,7 +74,7 @@ foreach ($newsContentsItem as $index => $newsContentsItemInfo) :
 
 							<p class="news-main__title"><?php echo $newsContentsItemInfo['title']; ?></p>
 <?php if ($hasImg) : ?>
-							<p class="news-main__img"><img src="<?php echo $path . $pathChild ?>news/news-img<?php echo $newsContentsItemInfo['img']; ?>.jpg" alt=""></p>
+							<p class="news-main__img"><img src="<?php echo $path . $pathChild ?>news/news-img<?php echo $newsContentsItemInfo['img']; ?>.jpg" alt="お知らせイメージ画像"></p>
 <?php endif; ?>
 
 							<ol class="news-main__list">

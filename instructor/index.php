@@ -45,7 +45,7 @@ require_once $path . 'include/header.php';
 			<div class="shape-top--yellow-light"></div>
 			<div class="common">
 				<div class="instructor-main child-main__inner common__inner">
-					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>instructor/main-img.jpg" alt=""></div>
+					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>instructor/main-img.jpg" alt="インストラクター集合写真"></div>
 
 					<p class="child-main__summary">当スクールのインストラクターは全員（社）日本こどもフィットネス協会の認定資格を保有している有資格者です。<br>
 					子どもたちの心と体の成長をサポートする専門的な知識と経験を持つ、信頼できるインストラクターたちが、皆さんを暖かく迎え入れます。</p>
@@ -60,37 +60,37 @@ require_once $path . 'include/header.php';
 					<ol class="instructor-main__list">
 						<li class="instructor-main__item">
 							<a class="instructor-main__link" href="#yurika">
-								<img class="instructor-main__img" src="<?php echo $path . $pathChild ?>instructor/instructor-yurika.jpg" alt="">
+								<img class="instructor-main__img" src="<?php echo $path . $pathChild ?>instructor/instructor-yurika.jpg" alt="YURIKA">
 								<p class="instructor-main__name">YURIKA</p>
 							</a>
 						</li>
 						<li class="instructor-main__item">
 							<a class="instructor-main__link" href="#miwako">
-								<img class="instructor-main__img" src="<?php echo $path . $pathChild ?>instructor/instructor-miwako.jpg" alt="">
+								<img class="instructor-main__img" src="<?php echo $path . $pathChild ?>instructor/instructor-miwako.jpg" alt="MIWAKO">
 								<p class="instructor-main__name">MIWAKO</p>
 							</a>
 						</li>
 						<li class="instructor-main__item">
 							<a class="instructor-main__link" href="#natsuki">
-								<img class="instructor-main__img" src="<?php echo $path . $pathChild ?>instructor/instructor-natsuki.jpg" alt="">
+								<img class="instructor-main__img" src="<?php echo $path . $pathChild ?>instructor/instructor-natsuki.jpg" alt="NATSUKI">
 								<p class="instructor-main__name">NATSUKI</p>
 							</a>
 						</li>
 						<li class="instructor-main__item">
 							<a class="instructor-main__link" href="#yukie">
-								<img class="instructor-main__img" src="<?php echo $path . $pathChild ?>instructor/instructor-yukie.jpg" alt="">
+								<img class="instructor-main__img" src="<?php echo $path . $pathChild ?>instructor/instructor-yukie.jpg" alt="YUKIE">
 								<p class="instructor-main__name">YUKIE</p>
 							</a>
 						</li>
 						<li class="instructor-main__item">
 							<a class="instructor-main__link" href="#sachiyo">
-								<img class="instructor-main__img" src="<?php echo $path . $pathChild ?>instructor/instructor-sachiyo.jpg" alt="">
+								<img class="instructor-main__img" src="<?php echo $path . $pathChild ?>instructor/instructor-sachiyo.jpg" alt="SACHIYO">
 								<p class="instructor-main__name">SACHIYO</p>
 							</a>
 						</li>
 						<li class="instructor-main__item">
 							<a class="instructor-main__link" href="#kirara">
-								<img class="instructor-main__img" src="<?php echo $path . $pathChild ?>instructor/instructor-kirara.jpg" alt="">
+								<img class="instructor-main__img" src="<?php echo $path . $pathChild ?>instructor/instructor-kirara.jpg" alt="KIRARA">
 								<p class="instructor-main__name">KIRARA</p>
 							</a>
 						</li>

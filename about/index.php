@@ -45,7 +45,7 @@ require_once $path . 'include/header.php';
 			<div class="shape-top--pink-light"></div>
 			<div class="common">
 				<div class="child-main__inner common__inner">
-					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>about/main-img.jpg" alt=""></div>
+					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>about/main-img.jpg" alt="スタジオでのレッスン風景の写真"></div>
 
 					<p class="child-main__summary">大阪府泉州地域を拠点に、HIPHOPダンスを中心に、幼児から成人までを対象としたキッドビクスプログラムを含む多様なクラスを提供している Red Family。<br>
 					私たちは、一般社団法人日本こどもフィットネス協会の理念に共鳴し、子どもたちが元気に成長することを目指しています。<br>
@@ -60,31 +60,31 @@ require_once $path . 'include/header.php';
 				<div class="about-secondary common__inner">
 					<ul class="about-secondary__list">
 						<li class="about-secondary__item">
-							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon01.svg" alt=""></p>
+							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon01.svg" alt="元気に挨拶ができるようになる"></p>
 							<p class="about-secondary__text">元気に挨拶が<br>できるようになる</p>
 						</li>
 						<li class="about-secondary__item">
-							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon02.svg" alt=""></p>
+							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon02.svg" alt="友達との仲間意識が芽生える"></p>
 							<p class="about-secondary__text">友達との<br>仲間意識が芽生える</p>
 						</li>
 						<li class="about-secondary__item">
-							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon03.svg" alt=""></p>
+							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon03.svg" alt="思いやりの気持ちが強くなる"></p>
 							<p class="about-secondary__text">思いやりの気持ちが<br>強くなる</p>
 						</li>
 						<li class="about-secondary__item">
-							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon04.svg" alt=""></p>
+							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon04.svg" alt="家族の絆が深まる"></p>
 							<p class="about-secondary__text">家族の絆が深まる</p>
 						</li>
 						<li class="about-secondary__item">
-							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon05.svg" alt=""></p>
+							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon05.svg" alt="からだを動かすことが"></p>
 							<p class="about-secondary__text">からだを動かすことが<br>好きになる</p>
 						</li>
 						<li class="about-secondary__item">
-							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon06.svg" alt=""></p>
+							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon06.svg" alt="運動能力が向上する"></p>
 							<p class="about-secondary__text">運動能力が向上する</p>
 						</li>
 						<li class="about-secondary__item">
-							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon07.svg" alt=""></p>
+							<p class="about-secondary__icon"><img src="<?php echo $path . $pathChild ?>about/secondary-icon07.svg" alt="大好きなダンスをもっと上手になりたい"></p>
 							<p class="about-secondary__text">大好きなダンスを<br>もっと上手になりたい</p>
 						</li>
 					</ul>
@@ -120,7 +120,7 @@ foreach ($presentationItem as $presentationItemValue) :
 ?>
 						<li class="presentation__item">
 							<a class="js_img-modal" href="<?php echo $path . $pathChild ?>about/dance_recital_<?php echo $presentationItemValue['img']; ?>.jpg">
-								<img src="<?php echo $path . $pathChild ?>about/dance_recital_<?php echo $presentationItemValue['img']; ?>.jpg" alt="">
+								<img src="<?php echo $path . $pathChild ?>about/dance_recital_<?php echo $presentationItemValue['img']; ?>.jpg" alt="ダンス発表会 ポスター">
 								<p class="presentation__text">第<?php echo $presentationItemValue['number']; ?>回/<?php echo $presentationItemValue['year']; ?>年</p>
 							</a>
 						</li>
@@ -137,7 +137,7 @@ endforeach;
 			<div class="common">
 				<div class="representative common__inner">
 					<div class="representative__img">
-						<img src="<?php echo $path . $pathChild ?>about/representative-img.jpg" alt="">
+						<img src="<?php echo $path . $pathChild ?>about/representative-img.jpg" alt="赤阪 由合香">
 					</div>
 					<div class="representative__content">
 						<p class="representative__title">キッズダンススタジオ <span class="representative__emphasis">Red Family</span></p>
@@ -163,8 +163,8 @@ endforeach;
 					</div>
 					<div class="nursery-school__main">
 						<div class="nursery-school__gallery">
-							<img src="<?php echo $path . $pathChild ?>about/nursery-school-img01.png" alt="">
-							<img src="<?php echo $path . $pathChild ?>about/nursery-school-img02.png" alt="">
+							<img src="<?php echo $path . $pathChild ?>about/nursery-school-img01.png" alt="保育園の風景写真">
+							<img src="<?php echo $path . $pathChild ?>about/nursery-school-img02.png" alt="保育園の風景写真">
 						</div>
 						<div class="nursery-school__box">
 							<ol class="nursery-school__list">
@@ -222,16 +222,16 @@ endforeach;
 					<div class="parent-child__main">
 						<div class="parent-child__gallery">
 							<div class="parent-child__img01">
-								<img src="<?php echo $path . $pathChild ?>about/parent-child-img01.jpg" alt="">
+								<img src="<?php echo $path . $pathChild ?>about/parent-child-img01.jpg" alt="子どもたちの遊ぶ様子">
 							</div>
 							<div class="parent-child__img02">
-								<img src="<?php echo $path . $pathChild ?>about/parent-child-img02.jpg" alt="">
+								<img src="<?php echo $path . $pathChild ?>about/parent-child-img02.jpg" alt="子どもたちの遊ぶ様子">
 							</div>
 							<div class="parent-child__img03">
-								<img src="<?php echo $path . $pathChild ?>about/parent-child-img03.jpg" alt="">
+								<img src="<?php echo $path . $pathChild ?>about/parent-child-img03.jpg" alt="子どもたちの遊ぶ様子">
 							</div>
 							<div class="parent-child__img04">
-								<img src="<?php echo $path . $pathChild ?>about/parent-child-img04.jpg" alt="">
+								<img src="<?php echo $path . $pathChild ?>about/parent-child-img04.jpg" alt="子どもたちの遊ぶ様子">
 							</div>
 						</div>
 						<div class="parent-child__title-area child-sub-title">
@@ -296,7 +296,7 @@ endforeach;
 						<h2 class="child-sub-title__ja">ピアノ教室随時生徒募集中！</h2>
 					</div>
 					<div class="piano-recruitment__content">
-						<div class="piano-recruitment__img"><img src="<?php echo $path . $pathChild ?>about/piano-recruitment-img.jpeg" alt=""></div>
+						<div class="piano-recruitment__img"><img src="<?php echo $path . $pathChild ?>about/piano-recruitment-img.jpeg" alt="ピアノを弾く女の子の写真"></div>
 						<p class="piano-recruitment__text">Red Familyでは、ダンスの世界だけでなく、音楽の才能を伸ばしたいと考えるお子さまに向けて、ピアノ教室も開講しています。<br>
 						ダンスと音楽は表現の豊かさを共有しており、ピアノを学ぶことで、リズム感や感性をさらに磨き上げることができます。</p>
 					</div>

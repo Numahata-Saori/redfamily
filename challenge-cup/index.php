@@ -45,7 +45,7 @@ require_once $path . 'include/header.php';
 			<div class="shape-top--yellow-light"></div>
 			<div class="common">
 				<div class="challenge-main common__inner">
-					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>challenge-cup/main-img.jpg" alt=""></div>
+					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>challenge-cup/main-img.jpg" alt="全国子どもチャレンジカップの風景写真"></div>
 
 					<div class="challenge-main__btn common-btn common-btn-arrow">
 						<a class="challenge-main__link common-btn__inner" href="<?php echo $path ?>course/">全国こどもチャレンジカップ<br class="non-md">最新情報はこちらから</a>
@@ -80,23 +80,23 @@ require_once $path . 'include/header.php';
 					<div class="child-challenge__title challenge-secondary__head ribbon-head">出場</div>
 
 					<div class="challenge-secondary__gallery01">
-						<div class="challenge-secondary__img01"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img01.jpg" alt=""></div>
-						<div class="challenge-secondary__img02"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img02.jpg" alt=""></div>
+						<div class="challenge-secondary__img01"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img01.jpg" alt="全国子どもチャレンジカップの様子"></div>
+						<div class="challenge-secondary__img02"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img02.jpg" alt="全国子どもチャレンジカップの様子"></div>
 					</div>
 
 					<div class="challenge-secondary__gallery02">
-						<div class="challenge-secondary__img03"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img03.jpg" alt=""></div>
+						<div class="challenge-secondary__img03"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img03.jpg" alt="全国子どもチャレンジカップの様子"></div>
 						<div class="challenge-secondary__gallery03">
-							<div class="challenge-secondary__img04"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img04.jpg" alt=""></div>
-							<div class="challenge-secondary__img05"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img05.jpg" alt=""></div>
+							<div class="challenge-secondary__img04"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img04.jpg" alt="全国子どもチャレンジカップの様子"></div>
+							<div class="challenge-secondary__img05"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img05.jpg" alt="全国子どもチャレンジカップの様子"></div>
 						</div>
 					</div>
 
 					<div class="child-challenge__title challenge-secondary__title line-marker"><span>岸和田市長・岸和田市議会議長を<br class="non-md">表敬訪問</span></div>
 
 					<div class="challenge-secondary__gallery04">
-						<div class="challenge-secondary__img06"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img06.jpg" alt=""></div>
-						<div class="challenge-secondary__img07"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img07.jpg" alt=""></div>
+						<div class="challenge-secondary__img06"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img06.jpg" alt="岸和田市長・岸和田市議会議長訪問時の様子"></div>
+						<div class="challenge-secondary__img07"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img07.jpg" alt="岸和田市長・岸和田市議会議長訪問時の様子"></div>
 					</div>
 				</div>
 			</div>

@@ -47,7 +47,7 @@ require_once $path . 'include/header.php';
 			<div class="shape-top--orange-light"></div>
 			<div class="common">
 				<div class="procedure-main child-main__inner common__inner">
-					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>procedure/main-img.jpg" alt=""></div>
+					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>procedure/main-img.jpg" alt="入会届を記入する様子"></div>
 
 					<p class="child-main__summary">Red Familyへのご入会をご検討いただき、ありがとうございます。<br>当スクールでは、ダンスを愛するすべての子どもたちに、楽しく学べる環境を提供しています。</p>
 
@@ -55,8 +55,8 @@ require_once $path . 'include/header.php';
 
 					<div class="course-main__banner">
 						<picture>
-							<source srcset="<?php echo $path . $pathChild ?>campaign_banner_sp@2x.png" alt="" media="(max-width: 767px)">
-							<img src="<?php echo $path . $pathChild ?>campaign_banner_pc@2x.png" alt="">
+							<source srcset="<?php echo $path . $pathChild ?>campaign_banner_sp@2x.png" media="(max-width: 767px)">
+							<img src="<?php echo $path . $pathChild ?>campaign_banner_pc@2x.png" alt="キャンペーン実施中">
 						</picture>
 					</div>
 

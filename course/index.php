@@ -45,7 +45,7 @@ require_once $path . 'include/header.php';
 			<div class="shape-top--yellow-light"></div>
 			<div class="common">
 				<div class="course-main child-main__inner common__inner">
-					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>course/main-img.jpg" alt=""></div>
+					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>course/main-img.jpg" alt="レッスンの様子"></div>
 
 					<p class="child-main__summary">HIPHOPダンスを中心に、幅広い年齢とレベルを対象としたクラスを展開しています。<br>キッドピクスプログラム（親子クラス・こどもクラス）から成人クラスまで、一人ひとりのニーズに合わせたダンスの楽しさを提供します。</p>
 
@@ -53,8 +53,8 @@ require_once $path . 'include/header.php';
 
 					<div class="course-main__banner">
 						<picture>
-							<source srcset="<?php echo $path . $pathChild ?>campaign_banner_sp@2x.png" alt="" media="(max-width: 767px)">
-							<img src="<?php echo $path . $pathChild ?>campaign_banner_pc@2x.png" alt="">
+							<source srcset="<?php echo $path . $pathChild ?>campaign_banner_sp@2x.png" media="(max-width: 767px)">
+							<img src="<?php echo $path . $pathChild ?>campaign_banner_pc@2x.png" alt="キャンペーン実施中">
 						</picture>
 					</div>
 
@@ -78,7 +78,7 @@ require_once $path . 'include/header.php';
 
 						<div class="course-detail__body">
 							<div class="course-detail__img">
-								<img src="<?php echo $path . $pathChild ?>course/course-img01.jpg" alt="">
+								<img src="<?php echo $path . $pathChild ?>course/course-img01.jpg" alt="初めてダンスクラス">
 							</div>
 							<p class="course-detail__text">ダンスに初めて触れる子どもたちのためのクラスです。<br>楽しみながらウォームアップからスタートし、基本的なステップとリズム感を育てていきます。遊び心いっぱいで、ダンスの基礎を学びましょう。</p>
 						</div>
@@ -121,7 +121,7 @@ require_once $path . 'include/header.php';
 
 						<div class="course-detail__body">
 							<div class="course-detail__img">
-								<img src="<?php echo $path . $pathChild ?>course/course-img02.jpg" alt="">
+								<img src="<?php echo $path . $pathChild ?>course/course-img02.jpg" alt="初級クラス">
 							</div>
 							<p class="course-detail__text">初級クラスでは、ダンスの基本を一歩進んで学びます。<br>「ダンスをより楽しむための」技術と振り付けを、楽しさ溢れるレッスンを通じて習得します。楽しみながらダンススキルを向上させ、より自信を持って踊れるようになります。</p>
 						</div>
@@ -165,7 +165,7 @@ require_once $path . 'include/header.php';
 
 						<div class="course-detail__body">
 							<div class="course-detail__img">
-								<img src="<?php echo $path . $pathChild ?>course/course-img03.jpg" alt="">
+								<img src="<?php echo $path . $pathChild ?>course/course-img03.jpg" alt="初中級クラス">
 							</div>
 							<p class="course-detail__text">初中級クラスは、基本的なダンス技術を既に習得している方向けのクラスです。<br>より複雑な振り付けやテクニックに挑戦し、表現力と技術の幅を広げていきます。ダンスに対する理解を深め、次のレベルへのステップアップを目指します。</p>
 						</div>
@@ -200,7 +200,7 @@ require_once $path . 'include/header.php';
 
 						<div class="course-detail__body">
 							<div class="course-detail__img">
-								<img src="<?php echo $path . $pathChild ?>course/course-img04.jpg" alt="">
+								<img src="<?php echo $path . $pathChild ?>course/course-img04.jpg" alt="中級クラス">
 							</div>
 							<p class="course-detail__text">中級クラスでは、更なる技術向上を目指し、複雑な振り付けに挑戦します。<br>多様なジャンルを経験しながら自身のダンススタイルを探求し、表現力を磨き上げることを目標にしています。ダンサーとしての体力と持久力も鍛えます。</p>
 						</div>
@@ -238,7 +238,7 @@ require_once $path . 'include/header.php';
 
 						<div class="course-detail__body">
 							<div class="course-detail__img">
-								<img src="<?php echo $path . $pathChild ?>course/course-img05.jpg" alt="">
+								<img src="<?php echo $path . $pathChild ?>course/course-img05.jpg" alt="スキルアップクラス">
 							</div>
 							<p class="course-detail__text">スキルアップクラスは、基本的なダンス技術を既に習得している方向けのクラスです。<br>より複雑な振り付けやテクニックに挑戦し、表現力と技術の幅を広げていきます。ダンスに対する理解を深め、次のレベルへのステップアップを目指します。</p>
 						</div>
@@ -282,7 +282,7 @@ require_once $path . 'include/header.php';
 
 						<div class="course-detail__body">
 							<div class="course-detail__img">
-								<img src="<?php echo $path . $pathChild ?>course/course-img06.jpg" alt="">
+								<img src="<?php echo $path . $pathChild ?>course/course-img06.jpg" alt="中上級クラス">
 							</div>
 							<p class="course-detail__text">中上級クラスは、高度なテクニックと表現力のさらなる向上を求めるダンサーのためのクラスです。<br>専門的なスキル習得に加え、創造性を発展させる振り付けに挑戦。ダンサーとしての個性を磨き、集団パフォーマンスにおけるリーダーシップを育成します。</p>
 						</div>
@@ -305,7 +305,7 @@ require_once $path . 'include/header.php';
 
 						<div class="course-detail__body">
 							<div class="course-detail__img">
-								<img src="<?php echo $path . $pathChild ?>course/course-img07.jpg" alt="">
+								<img src="<?php echo $path . $pathChild ?>course/course-img07.jpg" alt="上級クラス">
 							</div>
 							<p class="course-detail__text">上級クラスは、大会、コンテスト、イベントなどに多数参加し、毎年多数のチームが全国こどもチャレンジカップを含む全国大会に出場しています。<br>競技レベルでのパフォーマンスを目指し、高度な技術と表現力を磨き上げます。チームワークと個々の才能を最大限に発揮するための環境を提供します。</p>
 						</div>
@@ -328,7 +328,7 @@ require_once $path . 'include/header.php';
 
 						<div class="course-detail__body--aerobics">
 							<div class="course-detail__img">
-								<img src="<?php echo $path . $pathChild ?>course/course-img08.jpg" alt="">
+								<img src="<?php echo $path . $pathChild ?>course/course-img08.jpg" alt="コアトレ＆エアロビクス基礎">
 							</div>
 						</div>
 
@@ -349,7 +349,7 @@ require_once $path . 'include/header.php';
 			<div class="shape-top--yellow-light"></div>
 			<div class="common">
 				<div class="course-secondary common__inner">
-					<div class="course-secondary__img"><img src="<?php echo $path . $pathChild ?>course/course-secondary-img.jpg" alt=""></div>
+					<div class="course-secondary__img"><img src="<?php echo $path . $pathChild ?>course/course-secondary-img.jpg" alt="スタジオの様子"></div>
 					<div class="course-secondary__btn common-btn common-btn-arrow">
 						<a class="course-secondary__link common-btn__inner" href="<?php echo $path ?>studio/">スタジオの詳細はこちら</a>
 					</div>
