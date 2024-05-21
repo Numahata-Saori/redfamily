@@ -123,6 +123,22 @@
 				gap: 3.75rem;
 			}
 
+			&__head {
+				background: $color_black-highlight;
+				border-radius: 0.625rem;
+				color: $color_white;
+				@include flex(null, center, center);
+				font-size: 1.5em;
+				font-weight: 700;
+				line-height: 1;
+				padding: 0.625rem;
+				width: 100%;
+				@include mq(min, md) {
+					font-size: 1.777777em;
+					padding: 1.25rem;
+				}
+			}
+
 			&__item {
 				@include flex(column, null, center);
 				gap: 2.5rem;
@@ -152,7 +168,6 @@
 				width: 100%;
 
 				.studio-address {
-					// border-collapse: collapse;
 					width: 100%;
 					@include mq(min, md) {
 						display: flex;
@@ -167,8 +182,11 @@
 						padding: 0.625rem;
 						@include mq(min, md) {
 							border-radius: 0.625rem 0 0 0.625rem;
-							width: 300px;
+							width: 200px;
 							padding: 1.25rem
+						}
+						@include mq(min, xl) {
+							width: 300px;
 						}
 					}
 
@@ -180,8 +198,11 @@
 						padding: 0.625rem 1.25rem;
 						@include mq(min, md) {
 							border-radius: 0 0.625rem 0.625rem 0;
-							width: calc(100% - 300px);
+							width: calc(100% - 200px);
 							padding: 1.25rem
+						}
+						@include mq(min, xl) {
+							width: calc(100% - 300px);
 						}
 					}
 
@@ -244,11 +265,11 @@
 					}
 
 					&__class01 {
-						background: mix($color_pastel-orange, $color_white, 80%);
+						background: mix($color_pastel-pink, $color_white, 80%);
 					}
 
 					&__class02 {
-						background: mix($color_pastel-pink, $color_white, 80%);
+						background: mix($color_pastel-orange, $color_white, 80%);
 					}
 
 					&__data {
@@ -269,11 +290,11 @@
 					}
 
 					&__time01 {
-						background: mix($color_pastel-orange, $color_white, 40%);
+						background: mix($color_pastel-pink, $color_white, 40%);
 					}
 
 					&__time02 {
-						background: mix($color_pastel-pink, $color_white, 40%);
+						background: mix($color_pastel-orange, $color_white, 40%);
 					}
 
 					&__name {

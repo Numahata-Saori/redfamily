@@ -28,3 +28,46 @@
 		}
 	}
 }
+
+.footer-bottom {
+	background: repeating-linear-gradient(135deg, rgba($color_white, 0.92), rgba($color_white, 0.92) 0.5rem, mix($color_pastel-pink, rgba($color_white, 0.92), 5%) 0.5rem, mix($color_pastel-pink, rgba($color_white, 0.92), 5%) 1rem);
+
+	position: fixed;
+	pointer-events: auto;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+
+	@include mq(min, xl) {
+		display: none;
+	}
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		padding: 0.625rem;
+	}
+
+	&__item {
+		&:not(:last-of-type) {
+			border-right: 1px solid $color_black-border;
+		}
+	}
+
+	&__btn {
+		@include flex(column, center, center);
+		gap: 0.325rem;
+		padding: 0.325rem;
+	}
+
+	&__icon {
+		width: 30px;
+		height: 30px;
+	}
+
+	&__text {
+		font-size: 0.75rem;
+		line-height: 1;
+	}
+}

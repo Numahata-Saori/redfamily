@@ -55,20 +55,32 @@
 				}
 			}
 
+			&__title {
+				line-height: 1.2;
+			}
+
 			&__body {
 				@include flex(column, null, null);
 				gap: 2.5rem;
 				@include mq(min, xl) {
 					flex-direction: row;
 				}
+
+				&--aerobics {
+					width: 100%;
+					.course-detail__img {
+						width: 100%;
+					}
+				}
 			}
 
 			&__img {
 				width: 100%;
-				height: 260px;
+				height: 220px;
 
 				@include mq(min, xl) {
 					width: calc((100% - 40px) / 2);
+					height: 260px;
 				}
 
 				img {
@@ -80,9 +92,6 @@
 
 			&__text {
 				font-size: 1em;
-				@include mq(min, md) {
-					// font-size: 1.25em;
-				}
 				@include mq(min, xl) {
 					font-size: 1.25em;
 					width: calc((100% - 40px) / 2);
@@ -96,6 +105,11 @@
 				@include mq(min, xl) {
 					display: grid;
 					grid-template-columns: repeat(2, 1fr);
+				}
+
+				&--only {
+					@include flex(null, center, center);
+					width: 100%;
 				}
 			}
 
@@ -117,6 +131,13 @@
 				line-height: 1;
 				@include mq(min, md) {
 					font-size: 1.11111em;
+				}
+			}
+
+			&__time-box {
+				@include mq(min, md) {
+					@include flex(null, center, center);
+					gap: 1.25rem;
 				}
 			}
 
@@ -150,6 +171,31 @@
 				top: 50%;
 				left: 1.25rem;
 				transform: rotate(-10deg) translateY(-50%);
+			}
+		}
+	}
+
+	&__secondary {
+		.course-secondary {
+			@include flex(column, null, center);
+			gap: 2.5rem;
+
+			@include mq(min, md) {
+				gap: 3.75rem;
+			}
+
+			&__img {
+				width: 100%;
+				height: 260px;
+
+				img {
+					border-radius: 1.25rem;
+					width: 100%;
+					height: 100%;
+				}
+			}
+			&__btn {
+				background: $color_pastel-pink;
 			}
 		}
 	}

@@ -22,7 +22,7 @@
 					</div>
 					<div class="header-contact__line common-btn">
 						<a class="header-contact__btn common-btn__inner" href="<?php echo $path; ?>/contact">
-							<p class="header-contact__text line-btn-icon">お問い合わせフォーム</p>
+							<p class="header-contact__text line-btn-icon">お友達登録はこちら</p>
 						</a>
 					</div>
 				</div>

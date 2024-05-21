@@ -12,25 +12,25 @@
 					<h3 class="contact-mini__lead">まずはお気軽に<br class="non-md">お問い合わせください</h3>
 					<p class="contact-mini__text">体験レッスンの申し込みもこちらから</p>
 				</div>
-				<div class="contact__list">
-					<div class="contact__item">
-						<a class="contact__item-inner contact-btn" href="tel:09083656461">
+				<div class="contact-detail__list">
+					<div class="contact-detail__item">
+						<a class="contact-detail__item-inner contact-btn" href="tel:09083656461">
 							<p class="contact-btn__title">お電話でお問い合わせ</p>
 							<div class="contact-btn__body">
 								<p class="contact-btn__number phone-btn-icon">090-8365-6461</p>
 							</div>
 						</a>
 					</div>
-					<div class="contact__item">
-						<a class="contact__item-inner contact-btn--mail" href="#">
+					<div class="contact-detail__item">
+						<a class="contact-detail__item-inner contact-btn--mail" href="<?php echo $path; ?>contact/">
 							<p class="contact-btn__title">メールでお問い合わせ</p>
 							<div class="contact-btn__body common-btn-arrow">
 								<p class="contact-btn__text mail-btn-icon">お問い合わせはこちら</p>
 							</div>
 						</a>
 					</div>
-					<div class="contact__item">
-						<a class="contact__item-inner contact-btn--line" href="#">
+					<div class="contact-detail__item">
+						<a class="contact-detail__item-inner contact-btn--line" href="#">
 							<p class="contact-btn__title">LINEでお問い合わせ</p>
 							<div class="contact-btn__body common-btn-arrow">
 								<p class="contact-btn__text line-btn-icon">お友達登録はこちら</p>

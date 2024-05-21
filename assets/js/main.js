@@ -129,3 +129,21 @@ $(".js_img-modal").modaal({
 		$('html').css('overflow-y','scroll');/*縦スクロールバーを出す*/
 	}
 });
+
+
+/* ============================
+* footerNav余白取得
+* ========================= */
+
+function footerBottomHeight() {
+	const bottomHeight = $('#js-footer-bottom').innerHeight();
+	$('#footer').css('padding-bottom', 'calc(1rem + '+bottomHeight+'px)')
+}
+
+$(function() {
+	footerBottomHeight();
+
+	$(window).resize(function() {
+		footerBottomHeight();
+	});
+});
