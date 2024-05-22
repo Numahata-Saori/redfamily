@@ -7,7 +7,7 @@
 				<div class="header__logo">
 					<!-- <a class="" <?php /* echo isset($is_home) ? '': 'href="index.php"' */ ?>> -->
 					<a class="" href="<?php echo $path; ?>">
-						<img src="<?php echo $path; ?>assets/img/logo.png" alt="Red family">
+						<img src="<?php echo $path . $pathChild; ?>common/logo.png" alt="Red family">
 					</a>
 				</div>
 				<div class="header-contact">
@@ -25,55 +25,60 @@
 							<p class="header-contact__text line-btn-icon">お友達登録はこちら</p>
 						</a>
 					</div>
+					<div class="header-contact__instagram">
+						<a class="header-contact__icon" href="<?php echo $path; ?>/contact">
+							<img src="<?php echo $path . $pathChild ?>common/icon-instagram.svg" alt="">
+						</a>
+					</div>
 				</div>
 			</div>
 			<div class="header__foot">
 				<ul class="header-gnav__list">
 					<li class="header-gnav__item">
 						<a class="header-gnav__link" href="<?php echo $path; ?>about/">
-							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/icon-about.svg" alt=""></p>
+							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/common/icon-about.svg" alt=""></p>
 							<p class="header-gnav__text">RedFamilyについて</p>
 						</a>
 					</li>
 					<li class="header-gnav__item">
 						<a class="header-gnav__link" href="<?php echo $path; ?>news/">
-							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/icon-news.svg" alt=""></p>
+							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/common/icon-news.svg" alt=""></p>
 							<p class="header-gnav__text">お知らせ<br>イベント情報</p>
 						</a>
 					</li>
 					<li class="header-gnav__item">
 						<a class="header-gnav__link" href="<?php echo $path; ?>course/">
-							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/icon-course.svg" alt=""></p>
+							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/common/icon-course.svg" alt=""></p>
 							<p class="header-gnav__text">レッスン・クラス</p>
 						</a>
 					</li>
 					<li class="header-gnav__item">
 						<a class="header-gnav__link" href="<?php echo $path; ?>instructor/">
-							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/icon-instructor.svg" alt=""></p>
+							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/common/icon-instructor.svg" alt=""></p>
 							<p class="header-gnav__text">インストラクター</p>
 						</a>
 					</li>
 					<li class="header-gnav__item">
 						<a class="header-gnav__link" href="<?php echo $path; ?>studio/">
-							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/icon-studio.svg" alt=""></p>
+							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/common/icon-studio.svg" alt=""></p>
 							<p class="header-gnav__text">スタジオ</p>
 						</a>
 					</li>
 					<li class="header-gnav__item">
 						<a class="header-gnav__link" href="<?php echo $path; ?>challenge-cup/">
-							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/icon-challenge-cup.svg" alt=""></p>
+							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/common/icon-challenge-cup.svg" alt=""></p>
 							<p class="header-gnav__text">全国子ども<br>チャレンジカップ</p>
 						</a>
 					</li>
 					<li class="header-gnav__item">
 						<a class="header-gnav__link" href="<?php echo $path; ?>procedure/">
-							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/icon-procedure.svg" alt=""></p>
+							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/common/icon-procedure.svg" alt=""></p>
 							<p class="header-gnav__text">ご入会<br>各種手続き</p>
 						</a>
 					</li>
 					<li class="header-gnav__item">
 						<a class="header-gnav__link" href="<?php echo $path; ?>contact/">
-							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/icon-contact.svg" alt=""></p>
+							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/common/icon-contact.svg" alt=""></p>
 							<p class="header-gnav__text">お問い合わせ</p>
 						</a>
 					</li>

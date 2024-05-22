@@ -84,7 +84,7 @@ const swiper = new Swiper('.swiper', {
 		// }
 		1200:{
 			slidesPerView: 3,
-			spaceBetween: 40,
+			spaceBetween: 8,
 		}
 	},
 	slidesPerGroup: 1,
@@ -106,11 +106,11 @@ const swiper = new Swiper('.swiper', {
 		prevEl: '.swiper-button-prev',
 	},
 
-	autoplay: {
-		delay: 6000,
-		disableOnInteraction: false,
-		waitForTransition: false,
-	},
+	// autoplay: {
+	// 	delay: 6000,
+	// 	disableOnInteraction: false,
+	// 	waitForTransition: false,
+	// },
 
 	allowTouchMove: true,
 });

@@ -20,9 +20,9 @@ require_once $path . 'include/header.php';
 		<div class="child-instructor__top child-title child-top">
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 					<h2 class="child-title__ja"><?php echo $title ?></h2>
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 					<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -50,7 +50,7 @@ require_once $path . 'include/header.php';
 					<p class="child-main__summary">当スクールのインストラクターは全員（社）日本こどもフィットネス協会の認定資格を保有している有資格者です。<br>
 					子どもたちの心と体の成長をサポートする専門的な知識と経験を持つ、信頼できるインストラクターたちが、皆さんを暖かく迎え入れます。</p>
 
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
 					<div class="child-main__head">
 						<p class="child-main__view">プロフィール詳細をみる</p>
@@ -221,7 +221,7 @@ require_once $path . 'include/header.php';
 						</div>
 					</div>
 
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
 					<div class="instructor-detail__content" id="natsuki">
 						<div class="instructor-detail__head">
@@ -272,7 +272,7 @@ require_once $path . 'include/header.php';
 						</div>
 					</div>
 
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
 					<div class="instructor-detail__content" id="yukie">
 						<div class="instructor-detail__head">
@@ -297,7 +297,7 @@ require_once $path . 'include/header.php';
 						</div>
 					</div>
 
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
 					<div class="instructor-detail__content" id="sachiyo">
 						<div class="instructor-detail__head">
@@ -320,7 +320,7 @@ require_once $path . 'include/header.php';
 						</div>
 					</div>
 
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
 					<div class="instructor-detail__content" id="kirara">
 						<div class="instructor-detail__head">

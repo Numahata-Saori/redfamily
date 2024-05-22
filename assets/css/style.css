@@ -323,6 +323,9 @@ p {
 		margin: 0 auto;
 	}
 }
+.common-btn:hover {
+	opacity: 0.6;
+}
 .common-btn__inner {
 	color: #fff;
 	display: flex;
@@ -731,6 +734,15 @@ p {
 	height: 1rem;
 	width: 1rem;
 }
+.header-contact__icon {
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+.header-contact__icon img {
+	width: 100%;
+	height: 100%;
+}
 
 .header-gnav__list {
 	display: flex;
@@ -1041,6 +1053,10 @@ p {
 	width: 30px;
 	height: 30px;
 }
+.footer-bottom__icon img {
+	width: 100%;
+	height: 100%;
+}
 .footer-bottom__text {
 	font-size: 0.75rem;
 	line-height: 1;
@@ -1275,6 +1291,10 @@ p {
 	width: 50px;
 	height: 50px;
 }
+.contact-btn__icon img {
+	width: 100%;
+	height: 100%;
+}
 
 /* ============================
 * HOME page
@@ -1320,6 +1340,43 @@ p {
 	background: #ea6c92;
 }
 
+.sns__icon-box {
+	display: flex;
+	align-items: flex-end;
+	gap: 0.625em;
+	margin-bottom: 0.625rem;
+}
+@media screen and (min-width: 768px) {
+	.sns__icon-box {
+		margin-bottom: 1.25rem;
+	}
+}
+.sns__icon-box::before, .sns__icon-box::after {
+	content: "";
+	display: block;
+	width: 34px;
+	height: 30px;
+}
+.sns__icon-box::before {
+	background: url(../img/top/sns-deco-left.svg) center center/contain no-repeat;
+}
+.sns__icon-box::after {
+	background: url(../img/top/sns-deco-right.svg) center center/contain no-repeat;
+}
+.sns__icon {
+	width: 40px;
+	height: 40px;
+}
+.sns__icon img {
+	width: 100%;
+	height: 100%;
+}
+.sns__block {
+	width: 100%;
+}
+.sns__block .instagram-media {
+	width: 100%;
+}
 .sns .shape-top::before {
 	background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23fffce3"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23fffce3"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23fffce3"/></svg>');
 }
@@ -1492,7 +1549,7 @@ p {
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
-		gap: 2.5rem;
+		gap: 1.875rem;
 	}
 }
 .schedule .schedule-btn-mini {
@@ -1509,6 +1566,13 @@ p {
 }
 .schedule .schedule-btn-mini__inner {
 	justify-content: flex-start;
+	font-size: 1em;
+	padding: 1.5rem 1.875rem;
+}
+@media screen and (min-width: 768px) {
+	.schedule .schedule-btn-mini__inner {
+		font-size: 1.333333em;
+	}
 }
 .schedule .schedule-btn {
 	background: #ef8891;

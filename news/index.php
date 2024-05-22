@@ -21,9 +21,9 @@ require_once $path . 'include/header.php';
 		<div class="child-news child-title child-top">
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 					<h2 class="child-title__ja"><?php echo $title ?></h2>
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 					<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -107,7 +107,7 @@ foreach ($newsContentsItem as $index => $newsContentsItemInfo) :
 <?php
 		if ($index !== $lastIndex) :
 ?>
-						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 <?php
 		endif;
 	endif;

@@ -5,7 +5,7 @@
 			<div class="home-title">
 				<p class="home-title__en contact-mini__title-en">CONTACT</p>
 				<h2 class="home-title__ja txt-red">お問い合わせ</h2>
-				<div class="dots-inner"><img src="<?php echo $path; ?>assets/img/decor-dots.svg" alt=""></div>
+				<div class="dots-inner"><img src="<?php echo $path; ?>assets/img/common/decor-dots.svg" alt=""></div>
 			</div>
 			<!-- <div class="contact-mini__content"> -->
 				<div class="contact-mini__head">

@@ -20,9 +20,9 @@ require_once $path . 'include/header.php';
 		<div class="child-challenge__top child-title child-top">
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 					<h2 class="child-title__ja"><?php echo $title ?></h2>
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 					<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -51,7 +51,7 @@ require_once $path . 'include/header.php';
 						<a class="challenge-main__link common-btn__inner" href="<?php echo $path ?>course/">全国こどもチャレンジカップ<br class="non-md">最新情報はこちらから</a>
 					</div>
 
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
 					<div class="challenge-main__content">
 						<div class="child-challenge__title challenge-main__head ribbon-head">次回大会</div>

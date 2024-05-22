@@ -20,9 +20,9 @@ require_once $path . 'include/header.php';
 		<div class="child-studio child-title child-top">
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 					<h2 class="child-title__ja"><?php echo $title ?></h2>
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 					<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -51,7 +51,7 @@ require_once $path . 'include/header.php';
 					</div>
 					<div class="studio-main__content">
 						<div class="studio-main__title child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">岸和田・和泉</h2>
 						</div>
 						<ol class="studio-main__list">
@@ -77,7 +77,7 @@ require_once $path . 'include/header.php';
 					</div>
 					<div class="studio-main__content">
 						<div class="studio-main__title child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">泉佐野　泉南</h2>
 						</div>
 						<ol class="studio-main__list">
@@ -94,7 +94,7 @@ require_once $path . 'include/header.php';
 					</div>
 					<div class="studio-main__content">
 						<div class="studio-main__title child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">五條</h2>
 						</div>
 						<ol class="studio-main__list gojo">
@@ -116,7 +116,7 @@ require_once $path . 'include/header.php';
 
 						<div class="studio-detail__item" id="jstutio">
 							<div class="child-sub-title">
-								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 								<h2 class="child-sub-title__ja">Jスタジオ</h2>
 							</div>
 							<div class="studio-detail__map-wrap">
@@ -200,7 +200,7 @@ require_once $path . 'include/header.php';
 
 						<div class="studio-detail__item" id="nishiojimachi">
 							<div class="child-sub-title">
-								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 								<h2 class="child-sub-title__ja">西大路町会館</h2>
 							</div>
 							<div class="studio-detail__map-wrap">
@@ -250,7 +250,7 @@ require_once $path . 'include/header.php';
 
 						<div class="studio-detail__item" id="hatsugano1">
 							<div class="child-sub-title">
-								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 								<h2 class="child-sub-title__ja">はつが野1丁目自治会館</h2>
 							</div>
 							<div class="studio-detail__map-wrap">
@@ -300,7 +300,7 @@ require_once $path . 'include/header.php';
 
 						<div class="studio-detail__item" id="hatsugano5">
 							<div class="child-sub-title">
-								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 								<h2 class="child-sub-title__ja">はつが野5丁目自治会館</h2>
 							</div>
 							<div class="studio-detail__map-wrap">
@@ -350,7 +350,7 @@ require_once $path . 'include/header.php';
 
 						<div class="studio-detail__item" id="peoplechild">
 							<div class="child-sub-title">
-								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 								<h2 class="child-sub-title__ja">光明地区公民館</h2>
 							</div>
 							<div class="studio-detail__map-wrap">
@@ -391,7 +391,7 @@ require_once $path . 'include/header.php';
 
 						<div class="studio-detail__item" id="midorigaoka">
 							<div class="child-sub-title">
-								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 								<h2 class="child-sub-title__ja">緑ヶ丘自治会館（シラックアカデミー）</h2>
 							</div>
 							<div class="studio-detail__map-wrap">
@@ -434,7 +434,7 @@ require_once $path . 'include/header.php';
 
 						<div class="studio-detail__item" id="chonan">
 							<div class="child-sub-title">
-								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 								<h2 class="child-sub-title__ja">長南公民館</h2>
 							</div>
 							<div class="studio-detail__map-wrap">
@@ -480,7 +480,7 @@ require_once $path . 'include/header.php';
 
 						<div class="studio-detail__item" id="tajiri">
 							<div class="child-sub-title">
-								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 								<h2 class="child-sub-title__ja">田尻ふれ愛センター</h2>
 							</div>
 							<div class="studio-detail__map-wrap">
@@ -530,7 +530,7 @@ require_once $path . 'include/header.php';
 
 						<div class="studio-detail__item" id="izumisano">
 							<div class="child-sub-title">
-								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 								<h2 class="child-sub-title__ja">泉佐野生涯学習センター</h2>
 							</div>
 							<div class="studio-detail__map-wrap">
@@ -582,7 +582,7 @@ require_once $path . 'include/header.php';
 
 						<div class="studio-detail__item" id="gojo">
 							<div class="child-sub-title">
-								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 								<h2 class="child-sub-title__ja">奈良県 五條市宇智体育館</h2>
 							</div>
 							<div class="studio-detail__map-wrap">

@@ -20,9 +20,9 @@ require_once $path . 'include/header.php';
 		<div class="child-about__top child-title child-top">
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 					<h2 class="child-title__ja"><?php echo $title ?></h2>
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 					<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -102,7 +102,7 @@ require_once $path . 'include/header.php';
 			<div class="common">
 				<div class="presentation common__inner">
 					<div class="presentation__title-area child-sub-title">
-						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 						<h2 class="presentation__title"><span class="presentation__emphasis txt-orange">毎年３月</span>には一年に一度の大舞台<br class="non-xl">「<span class="presentation__emphasis txt-orange">Dance発表会</span>」が開催されます!</h2>
 					</div>
 					<p class="presentation__note">過去の Red Family ダンス発表会</p>
@@ -141,7 +141,7 @@ endforeach;
 					</div>
 					<div class="representative__content">
 						<p class="representative__title">キッズダンススタジオ <span class="representative__emphasis">Red Family</span></p>
-						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 						<p class="representative__address">〒596-0803<br>大阪府岸和田市東大路町 288</p>
 						<div class="representative__tel-box">
 							<p class="representative__tel">TEL:072-443-8116</p>
@@ -158,7 +158,7 @@ endforeach;
 			<div class="common">
 				<div class="nursery-school common__inner">
 					<div class="nursery-school__title-area child-sub-title">
-						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 						<h2 class="nursery-school__title child-sub-title__ja">認定こども園・保育園事業</h2>
 					</div>
 					<div class="nursery-school__main">
@@ -185,7 +185,7 @@ endforeach;
 					</div>
 					<div class="nursery-school__secondary">
 						<div class="nursery-school__title-area child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="nursery-school__title child-sub-title__ja">課外ダンス</h2>
 						</div>
 						<div class="nursery-school__box">
@@ -235,7 +235,7 @@ endforeach;
 							</div>
 						</div>
 						<div class="parent-child__title-area child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">岸和田市民講座</h2>
 						</div>
 						<ol class="parent-child__list">
@@ -263,7 +263,7 @@ endforeach;
 					</div>
 					<div class="parent-child__secondary">
 						<div class="parent-child__title-area child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">岸和田市民講座</h2>
 						</div>
 						<ol class="parent-child__list">
@@ -292,7 +292,7 @@ endforeach;
 			<div class="common">
 				<div class="piano-recruitment common__inner">
 					<div class="piano-recruitment__title-area child-sub-title">
-						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 						<h2 class="child-sub-title__ja">ピアノ教室随時生徒募集中！</h2>
 					</div>
 					<div class="piano-recruitment__content">

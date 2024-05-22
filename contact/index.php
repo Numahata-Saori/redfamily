@@ -20,9 +20,9 @@ require_once $path . 'include/header.php';
 		<div class="child-contact child-title child-top">
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 					<h2 class="child-title__ja"><?php echo $title ?></h2>
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 					<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -49,7 +49,7 @@ require_once $path . 'include/header.php';
 
 					<p class="child-main__summary">Red Familyでは、皆様からのお問い合わせを心よりお待ちしております。<br>ご質問やレッスンの申し込み、さらにはご意見など、どのような内容でも結構です。<br>お好きな方法でお問い合わせください。</p>
 
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt="女性がスマートフォンからお問い合わせをする様子"></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt="女性がスマートフォンからお問い合わせをする様子"></div>
 
 					<div class="contact-detail">
 						<div class="contact-detail__list">
@@ -72,7 +72,7 @@ require_once $path . 'include/header.php';
 							<div class="contact-detail__item">
 								<a class="contact-detail__item-inner contact-btn--instagram" href="https://www.instagram.com/dance_studio_red?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
 									<p class="contact-btn__title">Instagramはこちら</p>
-									<p class="contact-btn__icon"><img src="<?php echo $path . $pathChild ?>icon-instagram.png" alt=""></p>
+									<p class="contact-btn__icon"><img src="<?php echo $path . $pathChild ?>common/icon-instagram.svg" alt=""></p>
 								</a>
 							</div>
 						</div>
@@ -82,7 +82,7 @@ require_once $path . 'include/header.php';
 
 					<div class="contact-form">
 						<div class="contact-form__title child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="contact-form__title child-sub-title__ja">お問い合わせ</h2>
 						</div>
 

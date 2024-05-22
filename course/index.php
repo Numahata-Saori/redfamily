@@ -20,9 +20,9 @@ require_once $path . 'include/header.php';
 		<div class="child-course__top child-title child-top">
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 					<h2 class="child-title__ja"><?php echo $title ?></h2>
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 					<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -49,7 +49,7 @@ require_once $path . 'include/header.php';
 
 					<p class="child-main__summary">HIPHOPダンスを中心に、幅広い年齢とレベルを対象としたクラスを展開しています。<br>キッドピクスプログラム（親子クラス・こどもクラス）から成人クラスまで、一人ひとりのニーズに合わせたダンスの楽しさを提供します。</p>
 
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
 					<div class="course-main__banner">
 						<picture>
@@ -72,7 +72,7 @@ require_once $path . 'include/header.php';
 
 					<div class="course-detail__content">
 						<div class="course-detail__title-area child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">初めてダンスクラス</h2>
 						</div>
 
@@ -115,7 +115,7 @@ require_once $path . 'include/header.php';
 
 					<div class="course-detail__content">
 						<div class="course-detail__title-area child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">初級クラス</h2>
 						</div>
 
@@ -159,7 +159,7 @@ require_once $path . 'include/header.php';
 
 					<div class="course-detail__content">
 						<div class="course-detail__title-area child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">初中級クラス</h2>
 						</div>
 
@@ -194,7 +194,7 @@ require_once $path . 'include/header.php';
 
 					<div class="course-detail__content">
 						<div class="course-detail__title-area child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">中級クラス</h2>
 						</div>
 
@@ -232,7 +232,7 @@ require_once $path . 'include/header.php';
 
 					<div class="course-detail__content">
 						<div class="course-detail__title-area child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">スキルアップクラス</h2>
 						</div>
 
@@ -276,7 +276,7 @@ require_once $path . 'include/header.php';
 
 					<div class="course-detail__content">
 						<div class="course-detail__title-area child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">中上級クラス</h2>
 						</div>
 
@@ -299,7 +299,7 @@ require_once $path . 'include/header.php';
 
 					<div class="course-detail__content">
 						<div class="course-detail__title-area child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="child-sub-title__ja">上級クラス</h2>
 						</div>
 
@@ -322,7 +322,7 @@ require_once $path . 'include/header.php';
 
 					<div class="course-detail__content">
 						<div class="course-detail__title-area child-sub-title">
-							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="course-detail__title child-sub-title__ja">コアトレ＆<br class="non-md">エアロビクス基礎</h2>
 						</div>
 

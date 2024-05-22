@@ -22,9 +22,9 @@ require_once $path . 'include/header.php';
 		<div class="child-procedure child-title child-top">
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 					<h2 class="child-title__ja"><?php echo $title ?></h2>
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 					<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -51,7 +51,7 @@ require_once $path . 'include/header.php';
 
 					<p class="child-main__summary">Red Familyへのご入会をご検討いただき、ありがとうございます。<br>当スクールでは、ダンスを愛するすべての子どもたちに、楽しく学べる環境を提供しています。</p>
 
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
 					<div class="course-main__banner">
 						<picture>
@@ -60,7 +60,7 @@ require_once $path . 'include/header.php';
 						</picture>
 					</div>
 
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
 					<div class="campaign">
 						<div class="campaign__content">
@@ -89,7 +89,7 @@ require_once $path . 'include/header.php';
 						<p class="campaign__text">選択されるクラスや施設によって異なりますので、お気軽にお問い合わせください。</p>
 					</div>
 
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
 					<div class="join">
 						<div class="join__content">
@@ -106,7 +106,7 @@ require_once $path . 'include/header.php';
 						</div>
 					</div>
 
-					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
 					<div class="belongings">
 						<div class="belongings__content">
@@ -145,7 +145,7 @@ require_once $path . 'include/header.php';
 			<div class="common">
 				<div class="procedure-secondary common__inner">
 					<div class="procedure-secondary__title child-sub-title">
-						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>decor-dots.svg" alt=""></div>
+						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 						<h2 class="child-sub-title__ja">退会・休会について</h2>
 					</div>
 
