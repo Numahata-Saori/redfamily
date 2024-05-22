@@ -41,14 +41,14 @@ require_once $path . 'include/header.php';
 			</div>
 		</div>
 
-		<section class="child-main">
+		<section class="child-about__main child-main">
 			<div class="shape-top--pink-light"></div>
 			<div class="common">
-				<div class="child-main__inner common__inner">
+				<div class="about-main child-main__inner common__inner">
 					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>about/main-img.jpg" alt="スタジオでのレッスン風景の写真"></div>
 
-					<p class="child-main__summary">大阪府泉州地域を拠点に、HIPHOPダンスを中心に、幼児から成人までを対象としたキッドビクスプログラムを含む多様なクラスを提供している Red Family。<br>
-					私たちは、一般社団法人日本こどもフィットネス協会の理念に共鳴し、子どもたちが元気に成長することを目指しています。<br>
+					<p class="about-main__text child-main__summary"><span class="emphasis">大阪府泉州地域を拠点</span>に、<span class="emphasis">HIPHOPダンス</span>を中心に、<span class="emphasis">幼児</span>から<span class="emphasis">成人</span>までを対象としたキッドビクスプログラムを含む多様なクラスを提供している<span class="emphasis--corporate">Red Family</span>。<br>
+					私たちは、<span class="emphasis">一般社団法人日本こどもフィットネス協会</span>の理念に共鳴し、子どもたちが<span class="emphasis">元気に成長すること</span>を目指しています。<br>
 					ダンスを通じて、社会性、家族の絆、思いやり、健康的なライフスタイル、運動能力の向上、そしてダンス技術の向上といった無限の可能性を子どもたちに提供します。</p>
 				</div>
 			</div>
@@ -88,8 +88,8 @@ require_once $path . 'include/header.php';
 							<p class="about-secondary__text">大好きなダンスを<br>もっと上手になりたい</p>
 						</li>
 					</ul>
-					<p class="about-secondary__summary">当スクールのインストラクターは、㈳日本こどもフィットネス協会の認定資格をはじめ、障害者スポーツ指導者、ハワイアンフラ講師、健康運動実践指導者など、多岐にわたる資格を持つ専門家です。<br>
-					基礎から応用まで、質の高い指導を行い、生徒一人ひとりがダンスの楽しさとともに技術を磨くことができるようサポートします。</p>
+					<p class="about-secondary__summary">当スクールのインストラクターは、<span class="emphasis">㈳日本こどもフィットネス協会の認定資格</span>をはじめ、<br class="non-sp">障害者スポーツ指導者、ハワイアンフラ講師、健康運動実践指導者など、<span class="emphasis">多岐にわたる資格を持つ専門家</span>です。<br>
+					基礎から応用まで、質の高い指導を行い、<br class="non-sp">生徒一人ひとりが<span class="emphasis">ダンスの楽しさ</span>とともに技術を磨くことができるようサポートします。</p>
 					<div class="about-secondary__btn common-btn common-btn-arrow">
 						<a class="common-btn__inner" href="<?php echo $path ?>course/">レッスン・クラスについて</a>
 					</div>
@@ -297,8 +297,8 @@ endforeach;
 					</div>
 					<div class="piano-recruitment__content">
 						<div class="piano-recruitment__img"><img src="<?php echo $path . $pathChild ?>about/piano-recruitment-img.jpeg" alt="ピアノを弾く女の子の写真"></div>
-						<p class="piano-recruitment__text">Red Familyでは、ダンスの世界だけでなく、音楽の才能を伸ばしたいと考えるお子さまに向けて、ピアノ教室も開講しています。<br>
-						ダンスと音楽は表現の豊かさを共有しており、ピアノを学ぶことで、リズム感や感性をさらに磨き上げることができます。</p>
+						<p class="piano-recruitment__text"><span class="emphasis--corporate">Red Family</span>では、<span class="emphasis">ダンス</span>の世界だけでなく、<span class="emphasis">音楽</span>の才能を伸ばしたいと考えるお子さまに向けて、<span class="emphasis">ピアノ教室</span>も開講しています。<br>
+						<span class="emphasis">ダンス</span>と<span class="emphasis">音楽</span>は<span class="emphasis">表現の豊かさ</span>を共有しており、<span class="emphasis">ピアノを学ぶ</span>ことで、<span class="emphasis">リズム感</span>や<span class="emphasis">感性</span>をさらに磨き上げることができます。</p>
 					</div>
 					<div class="piano-recruitment__btn common-btn common-btn-arrow">
 						<a class="common-btn__inner" href="<?php echo $path ?>piano/">ピアノ教室について</a>

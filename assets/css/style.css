@@ -422,6 +422,21 @@ p {
 	font-family: "Zen Old Mincho", serif;
 }
 
+.emphasis {
+	color: #ea6c92;
+	font-weight: 700;
+}
+
+.emphasis--orange {
+	color: #f0a573;
+	font-weight: 700;
+}
+
+.emphasis--corporate {
+	color: #e53947;
+	font-weight: 700;
+}
+
 /* ============================
 * 改行
 * ========================= */
@@ -1706,6 +1721,9 @@ p {
 .child-about__top {
 	background: #fdf0f4;
 }
+.child-about__main .about-main__text {
+	text-align: start;
+}
 .child-about__secondary {
 	background: #fdf0f4;
 }
@@ -1766,6 +1784,7 @@ p {
 @media screen and (min-width: 768px) {
 	.child-about__secondary .about-secondary__summary {
 		font-size: 1.125rem;
+		text-align: center;
 	}
 }
 .child-about__secondary .about-secondary__btn {
@@ -2132,11 +2151,16 @@ p {
 .child-about__piano-recruitment {
 	background: #eafae8;
 }
+.child-about__piano-recruitment .piano-recruitment__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2.5rem;
+}
 @media screen and (min-width: 1280px) {
 	.child-about__piano-recruitment .piano-recruitment__content {
-		display: flex;
-		justify-content: center;
-		gap: 2.5rem;
+		flex-direction: row;
 	}
 }
 .child-about__piano-recruitment .piano-recruitment__img {
@@ -2146,6 +2170,10 @@ p {
 @media screen and (min-width: 768px) {
 	.child-about__piano-recruitment .piano-recruitment__img {
 		height: 260px;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.child-about__piano-recruitment .piano-recruitment__img {
 		width: 50%;
 	}
 }
@@ -2162,6 +2190,10 @@ p {
 @media screen and (min-width: 768px) {
 	.child-about__piano-recruitment .piano-recruitment__text {
 		font-size: 1.11111em;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.child-about__piano-recruitment .piano-recruitment__text {
 		width: 50%;
 	}
 }
@@ -3253,6 +3285,7 @@ p {
 	margin-top: 0.625rem;
 	padding: 0 0.625rem;
 	position: relative;
+	width: fit-content;
 }
 .child-procedure__main .campaign__before::after {
 	content: "";

@@ -10,6 +10,14 @@
 		background: $color_pastel-pink-light-bg;
 	}
 
+	&__main {
+		.about-main {
+			&__text {
+				text-align: start;
+			}
+		}
+	}
+
 	&__secondary {
 		background: $color_pastel-pink-light-bg;
 		.about-secondary {
@@ -65,6 +73,7 @@
 				line-height: 1.8;
 				@include mq(min, md) {
 					font-size: 1.125rem;
+					text-align: center;
 				}
 			}
 
@@ -455,17 +464,19 @@
 
 		.piano-recruitment {
 			&__content {
+				@include flex(column, center, center);
+				gap: 2.5rem;
 				@include mq(min, xl) {
-					@include flex(null, center, null);
-					gap: 2.5rem;
+					flex-direction: row;
 				}
-
 			}
 			&__img {
 				height: 220px;
 				width: 100%;
 				@include mq(min, md) {
 					height: 260px;
+				}
+				@include mq(min, xl) {
 					width: 50%;
 				}
 
@@ -482,6 +493,8 @@
 				line-height: 1.8;
 				@include mq(min, md) {
 					font-size: 1.11111em;
+				}
+				@include mq(min, xl) {
 					width: 50%;
 				}
 			}

@@ -49,7 +49,7 @@ require_once $path . 'include/header.php';
 				<div class="procedure-main child-main__inner common__inner">
 					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>procedure/main-img.jpg" alt="入会届を記入する様子"></div>
 
-					<p class="child-main__summary">Red Familyへのご入会をご検討いただき、ありがとうございます。<br>当スクールでは、ダンスを愛するすべての子どもたちに、楽しく学べる環境を提供しています。</p>
+					<p class="child-main__summary"><span class="emphasis--corporate">Red Family</span>へのご入会をご検討いただき、ありがとうございます。<br>当スクールでは、<span class="emphasis">ダンス</span>を愛するすべての子どもたちに、<span class="emphasis">楽しく学べる環境</span>を提供しています。</p>
 
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
@@ -149,7 +149,7 @@ require_once $path . 'include/header.php';
 						<h2 class="child-sub-title__ja">退会・休会について</h2>
 					</div>
 
-					<p class="procedure-secondary__text">Red Familyでは、会員の皆様のライフスタイルの変化に柔軟に対応できるよう、<br class="sp">退会だけでなく一時休会の選択肢も提供しています。<br>学業や健康上の理由、または一時的にダンスから離れたいというご希望にも、<br class="sp">柔軟に対応できるようサポートしています。<br>退会や休会を検討されている場合も、どうぞお気軽にお問い合わせください。</p>
+					<p class="procedure-secondary__text"><span class="emphasis--corporate">Red Family</span>では、会員の皆様のライフスタイルの変化に柔軟に対応できるよう、<br class="sp">退会だけでなく一時休会の選択肢も提供しています。<br>学業や健康上の理由、または一時的にダンスから離れたいというご希望にも、<br class="sp">柔軟に対応できるようサポートしています。<br>退会や休会を検討されている場合も、どうぞお気軽にお問い合わせください。</p>
 
 					<div class="procedure-secondary__content">
 						<p class="procedure-secondary__subtitle">各種書類ダウンロード</p>
