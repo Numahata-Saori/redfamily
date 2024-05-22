@@ -17,24 +17,31 @@ $(".js_gnav a").click(function () {
 
 
 /* ============================
-* MAIN
+* headerがスクロール途中で消え、上にスクロールすると復活する
 * ========================= */
 
 let beforePos = 0;
 
 function ScrollAnime() {
-	const elemTop = $('#up-area').offset().top;
-	const scroll = $(window).scrollTop();
-	if(scroll == beforePos) {
-	} else if(elemTop > scroll || 0 > scroll - beforePos){
-		$('#header').removeClass('js_up-move');
-		$('#header').addClass('js_down-move');
+	const upArea = $('#up-area');
+	if (upArea.length) {
+		const elemTop = $('#up-area').offset().top;
+		const scroll = $(window).scrollTop();
+
+		if(scroll == beforePos) {
+		} else if(elemTop > scroll || 0 > scroll - beforePos){
+			$('#header').removeClass('js_up-move');
+			$('#header').addClass('js_down-move');
+		} else {
+			$('#header').removeClass('js_down-move');
+			$('#header').addClass('js_up-move');
+		}
+
+		beforePos = scroll;
 	} else {
-		$('#header').removeClass('js_down-move');
-		$('#header').addClass('js_up-move');
+		console.warn('Element #up-area does not exist.');
 	}
 
-	beforePos = scroll;
 }
 
 $(window).scroll(function () {
@@ -45,13 +52,6 @@ $(window).on('load', function () {
 	ScrollAnime();
 });
 
-// const headerH = $("#header").outerHeight(true);
-// $('.js_gnav li a').click(function () {
-// 	const elmHash = $(this).attr('href');
-// 	const pos = $(elmHash).offset().top-headerH;
-// 	$('body,html').animate({scrollTop: pos}, 1000);
-// 	return false;
-// });
 
 /* ============================
 * ページ内リンク

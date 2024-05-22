@@ -7,7 +7,7 @@ include $path . 'include/gnav.php';
 	</div>
 
 	<footer class="footer" id="footer">
-		<p class="footer__logo"><img src="<?php echo $path; ?>assets/img/logo.png" alt=""></p>
+		<p class="footer__logo"><img src="<?php echo $path . $pathChild; ?>common/logo.png" alt=""></p>
 		<p class="footer__copyright">Copyright &copy; 2012 RedFamily. All rights reserved</p>
 	</footer>
 

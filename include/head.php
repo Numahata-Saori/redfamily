@@ -13,10 +13,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=Zen+Old+Mincho:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
 
-	<!-- <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> -->
-	<!-- <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css"> -->
 	<link rel="stylesheet" href="<?php echo $path; ?>assets/css/reset.css">
-	<!-- A Modern CSS Reset -->
 
 	<!-- swiper -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -29,6 +26,6 @@
 	<link rel="stylesheet" href="<?php echo $path; ?>assets/css/modal.css">
 	<link rel="stylesheet" href="<?php echo $path; ?>assets/css/swiper.css">
 
-	<!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
+	<!-- <link rel="shortcut icon" href="<?php echo $path . $pathChild ?>common/favicon.ico"> -->
 
 </head>
