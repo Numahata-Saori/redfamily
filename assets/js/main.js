@@ -106,11 +106,11 @@ const swiper = new Swiper('.swiper', {
 		prevEl: '.swiper-button-prev',
 	},
 
-	// autoplay: {
-	// 	delay: 6000,
-	// 	disableOnInteraction: false,
-	// 	waitForTransition: false,
-	// },
+	autoplay: {
+		delay: 6000,
+		disableOnInteraction: false,
+		waitForTransition: false,
+	},
 
 	allowTouchMove: true,
 });
