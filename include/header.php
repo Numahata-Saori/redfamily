@@ -21,7 +21,7 @@
 						</a>
 					</div>
 					<div class="header-contact__line common-btn">
-						<a class="header-contact__btn common-btn__inner" href="<?php echo $path; ?>/contact">
+						<a class="header-contact__btn common-btn__inner" href=https://lin.ee/saqiOvQM">
 							<p class="header-contact__text line-btn-icon">お友達登録はこちら</p>
 						</a>
 					</div>

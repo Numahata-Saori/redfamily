@@ -31,6 +31,8 @@
 									</li>
 								</ul>
 							</div>
+						</div>
+						<div class="gnav__main">
 							<div class="gnav__unit">
 								<p class="gnav__title">各種申込書ダウンロード</p>
 								<ul class="gnav__list">
@@ -45,13 +47,13 @@
 									</li>
 								</ul>
 							</div>
-						</div>
-						<div class="gnav__unit">
-							<div class="gnav__btn">
-								<a class="gnav__link--btn" href="https://kids-fitness.or.jp/" target="_blank">日本こどもフィットネス協会</a>
-							</div>
-							<div class="gnav__btn">
-								<a class="gnav__link--btn" href="<?php echo $path; ?>piano/">ピアノ教室 生徒募集中！</a>
+							<div class="gnav__unit">
+								<div class="gnav__btn">
+									<a class="gnav__link--btn" href="https://kids-fitness.or.jp/" target="_blank">日本こどもフィットネス協会</a>
+								</div>
+								<div class="gnav__btn">
+									<a class="gnav__link--btn" href="<?php echo $path; ?>piano/">ピアノ教室 生徒募集中！</a>
+								</div>
 							</div>
 						</div>
 					</div>

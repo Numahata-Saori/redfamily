@@ -1003,10 +1003,12 @@ p {
 		display: block;
 	}
 	.footer-gnav .gnav__inner {
+		padding: 0;
+	}
+	.footer-gnav .gnav__content {
 		flex-direction: row;
 		align-items: flex-start;
 		gap: 2.5rem;
-		padding: 0;
 		overflow: inherit;
 	}
 }

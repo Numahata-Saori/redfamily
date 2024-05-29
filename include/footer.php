@@ -26,7 +26,7 @@ include $path . 'include/gnav.php';
 				</a>
 			</li>
 			<li class="footer-bottom__item">
-				<a class="footer-bottom__btn" href="#">
+				<a class="footer-bottom__btn" href="https://lin.ee/saqiOvQM">
 					<p class="footer-bottom__icon"><img src="<?php echo $path . $pathChild ?>common/icon-line.svg" alt=""></p>
 					<p class="footer-bottom__text">LINE</p>
 				</a>

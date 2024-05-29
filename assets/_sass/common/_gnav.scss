@@ -189,12 +189,20 @@
 			display: block;
 
 			&__inner {
+				padding: 0;
+			}
+
+			&__content {
+				// @include flex(null, flex-start, flex-start);
 				flex-direction: row;
 				align-items: flex-start;
 				gap: 2.5rem;
-				padding: 0;
 				overflow: inherit;
 			}
+
+			// &__content {
+			// 	overflow-y: initial;
+			// }
 		}
 	}
 }

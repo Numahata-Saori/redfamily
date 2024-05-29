@@ -62,7 +62,7 @@ require_once $path . 'include/header.php';
 								</a>
 							</div>
 							<div class="contact-detail__item">
-								<a class="contact-detail__item-inner contact-btn--line" href="#">
+								<a class="contact-detail__item-inner contact-btn--line" href="https://lin.ee/saqiOvQM">
 									<p class="contact-btn__title">LINEでお問い合わせ</p>
 									<div class="contact-btn__body common-btn-arrow">
 										<p class="contact-btn__text line-btn-icon">お友達登録はこちら</p>
