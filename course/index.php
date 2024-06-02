@@ -47,7 +47,7 @@ require_once $path . 'include/header.php';
 				<div class="course-main child-main__inner common__inner">
 					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>course/main-img.jpg" alt="レッスンの様子"></div>
 
-					<p class="child-main__summary"><span class="emphasis">HIPHOPダンス</span>を中心に、<span class="emphasis">幅広い年齢とレベルを対象としたクラスを展開</span>しています。<br><span class="emphasis">キッドピクスプログラム（親子クラス・こどもクラス）</span>から<span class="emphasis">成人クラス</span>まで、<br class="non-sp">一人ひとりのニーズに合わせたダンスの楽しさを提供します。</p>
+					<p class="child-main__summary"><span class="emphasis">HIPHOPダンス</span>を中心に、<br class="non-sp"><span class="emphasis">幅広い年齢とレベルを対象としたクラスを展開</span>しています。<br><span class="emphasis">キッドピクスプログラム(親子クラス・こどもクラス)</span>から<span class="emphasis">成人クラス</span>まで、<br class="non-sp">一人ひとりのニーズに合わせたダンスの楽しさを提供します。</p>
 
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 

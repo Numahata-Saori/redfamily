@@ -47,7 +47,7 @@ require_once $path . 'include/header.php';
 				<div class="instructor-main child-main__inner common__inner">
 					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>instructor/main-img.jpg" alt="インストラクター集合写真"></div>
 
-					<p class="child-main__summary">当スクールのインストラクターは<br class="non-sp">全員<span class="emphasis--orange">（社）日本こどもフィットネス協会の認定資格を保有</span>している有資格者です。<br>
+					<p class="child-main__summary">当スクールのインストラクターは全員<br class="non-sp"><span class="emphasis--orange">(社)日本こどもフィットネス協会の認定資格を保有</span>している有資格者です。<br>
 					子どもたちの心と体の成長をサポートする専門的な知識と経験を持つ、<br class="non-sp"><span class="emphasis--orange">信頼できるインストラクターたち</span>が、皆さんを暖かく迎え入れます。</p>
 
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>

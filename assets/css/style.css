@@ -2955,7 +2955,7 @@ p {
 }
 @media screen and (min-width: 768px) {
 	.child-challenge__main .challenge-main__link {
-		font-size: 1.5em;
+		font-size: 1.333333em;
 	}
 }
 .child-challenge__main .challenge-main__content {
