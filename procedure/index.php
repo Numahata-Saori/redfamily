@@ -23,7 +23,7 @@ require_once $path . 'include/header.php';
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-					<h2 class="child-title__ja"><?php echo $title ?></h2>
+					<h1 class="child-title__ja"><?php echo $title ?></h1>
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -110,7 +110,7 @@ require_once $path . 'include/header.php';
 
 					<div class="belongings">
 						<div class="belongings__content">
-							<h3 class="belongings__title">入会時にお持ちいただくもの</h3>
+							<p class="belongings__title">入会時にお持ちいただくもの</p>
 							<ol class="belongings__list">
 								<li class="belongings__item">
 									<p class="belongings__detail">入会金</p>
@@ -152,7 +152,7 @@ require_once $path . 'include/header.php';
 					<p class="procedure-secondary__text"><span class="emphasis--corporate">Red Family</span>では、会員の皆様のライフスタイルの変化に柔軟に対応できるよう、<br class="sp">退会だけでなく一時休会の選択肢も提供しています。<br>学業や健康上の理由、または一時的にダンスから離れたいというご希望にも、<br class="sp">柔軟に対応できるようサポートしています。<br>退会や休会を検討されている場合も、どうぞお気軽にお問い合わせください。</p>
 
 					<div class="procedure-secondary__content">
-						<p class="procedure-secondary__subtitle">各種書類ダウンロード</p>
+						<h3 class="procedure-secondary__subtitle">各種書類ダウンロード</h3>
 						<div class="procedure-secondary__btn-box">
 							<div class="procedure-secondary__btn common-btn common-btn-arrow">
 								<a class="common-btn__inner" href="<?php echo $path ?>contact/">退会届</a>

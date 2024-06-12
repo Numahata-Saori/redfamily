@@ -21,7 +21,7 @@ require_once $path . 'include/header.php';
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-					<h2 class="child-title__ja"><?php echo $title ?></h2>
+					<h1 class="child-title__ja"><?php echo $title ?></h1>
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -54,9 +54,9 @@ require_once $path . 'include/header.php';
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
 					<div class="challenge-main__content">
-						<div class="child-challenge__title challenge-main__head ribbon-head">次回大会</div>
+						<h2 class="child-challenge__title challenge-main__head ribbon-head">次回大会</h2>
 						<div class="challenge-main__body">
-							<div class="child-challenge__title challenge-main__title line-marker"><span>全国こどもチャレンジカップ<br class="non-md">第17回全国大会</span></div>
+							<h3 class="child-challenge__title challenge-main__title line-marker"><span>全国こどもチャレンジカップ<br class="non-md">第17回全国大会</span></h3>
 							<ol class="challenge-main__list">
 								<li class="challenge-main__item">
 									<p class="challenge-main__subtitle">開催日</p>
@@ -77,7 +77,7 @@ require_once $path . 'include/header.php';
 		<section class="child-challenge__secondary">
 			<div class="common">
 				<div class="challenge-secondary common__inner">
-					<div class="child-challenge__title challenge-secondary__head ribbon-head">出場</div>
+					<h2 class="child-challenge__title challenge-secondary__head ribbon-head">出場</h2>
 
 					<div class="challenge-secondary__gallery01">
 						<div class="challenge-secondary__img01"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img01.jpg" alt="全国子どもチャレンジカップの様子"></div>
@@ -92,7 +92,7 @@ require_once $path . 'include/header.php';
 						</div>
 					</div>
 
-					<div class="child-challenge__title challenge-secondary__title line-marker"><span>岸和田市長・岸和田市議会議長を<br class="non-md">表敬訪問</span></div>
+					<h3 class="child-challenge__title challenge-secondary__title line-marker"><span>岸和田市長・岸和田市議会議長を<br class="non-md">表敬訪問</span></>
 
 					<div class="challenge-secondary__gallery04">
 						<div class="challenge-secondary__img06"><img src="<?php echo $path . $pathChild ?>challenge-cup/secondary-img06.jpg" alt="岸和田市長・岸和田市議会議長訪問時の様子"></div>

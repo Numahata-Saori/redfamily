@@ -39,7 +39,7 @@
 	width: 100%;
 	z-index: 1;
 
-	@include mq(min, xl) {
+	@include mq(min, md) {
 		display: none;
 	}
 

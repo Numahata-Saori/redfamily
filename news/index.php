@@ -1,8 +1,7 @@
 <?php
 $path = '../';
 $pathChild = 'assets/img/';
-$title = 'お知らせ<span class="non-sp non-md">&</span><br class="non-md">イベント情報
-';
+$title = 'お知らせ<span class="non-sp non-md">&</span><br class="non-md">イベント情報';
 $description = '岸和田市のキッズダンス教室・泉佐野市のキッズダンス教室・岸和田市のHIPHOPダンス教室';
 ?>
 
@@ -22,7 +21,7 @@ require_once $path . 'include/header.php';
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-					<h2 class="child-title__ja"><?php echo $title ?></h2>
+					<h1 class="child-title__ja"><?php echo $title ?></h1>
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -63,18 +62,17 @@ foreach ($newsContentsItem as $index => $newsContentsItemInfo) :
 	$hasImg = !empty($newsContentsItemInfo['img']);
 	$hasDate = !empty($newsContentsItemInfo['date']);
 	$hasPlace = !empty($newsContentsItemInfo['place']);
-	$hasAccess = !empty($newsContentsItemInfo['access']);
-	$hasPrice = !empty($newsContentsItemInfo['price']);
+	$hasBiko = !empty($newsContentsItemInfo['biko']);
 	$hasComment = !empty($newsContentsItemInfo['comment']);
 
-	if ($hasImg || $hasDate || $hasPlace ||$hasAccess || $hasPrice ||$hasComment) :
+	if ($hasImg || $hasDate || $hasPlace || $hasBiko ||$hasComment) :
 ?>
 						<div class="news-main__content">
-							<p class="news-main__post"><?php echo $newsContentsItemInfo['post']; ?></p>
+							<p class="news-main__post"><?php echo date('Y-m-d', strtotime($newsContentsItemInfo['post'])); ?></p>
 
-							<p class="news-main__title"><?php echo $newsContentsItemInfo['title']; ?></p>
+							<h2 class="news-main__title"><?php echo $newsContentsItemInfo['title']; ?></h2>
 <?php if ($hasImg) : ?>
-							<p class="news-main__img"><img src="<?php echo $path . $pathChild ?>news/news-img<?php echo $newsContentsItemInfo['img']; ?>.jpg" alt="お知らせイメージ画像"></p>
+							<p class="news-main__img"><img src="<?=$admin_path.$newsContentsItemInfo['id'] ?>" alt="<?=$newsContentsItemInfo['img']?>"></p>
 <?php endif; ?>
 
 							<ol class="news-main__list">
@@ -90,18 +88,12 @@ foreach ($newsContentsItem as $index => $newsContentsItemInfo) :
 									<p class="news-main__text"><?php echo $newsContentsItemInfo['place']; ?></p>
 								</li>
 <?php endif; ?>
-<?php if ($hasAccess) : ?>
-								<li class="news-main__item">
-									<p class="news-main__subtitle">アクセス</p>
-									<p class="news-main__text"><?php echo $newsContentsItemInfo['access']; ?></p>
-								</li>
-<?php endif; ?>
 							</ol>
-<?php if ($hasPrice) : ?>
-							<p class="news-main__price"><?php echo $newsContentsItemInfo['price']; ?></p>
+<?php if ($hasBiko) : ?>
+							<p class="news-main__price"><?php echo $newsContentsItemInfo['biko']; ?></p>
 <?php endif; ?>
 <?php if ($hasComment) : ?>
-							<p class="news-main__comment"><?php echo $newsContentsItemInfo['comment']; ?></p>
+							<p class="news-main__comment"><?php echo str_replace("\n","<br/>",$newsContentsItemInfo['comment']); ?></p>
 <?php endif; ?>
 						</div>
 <?php

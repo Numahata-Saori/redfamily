@@ -21,7 +21,7 @@ require_once $path . 'include/header.php';
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-					<h2 class="child-title__ja"><?php echo $title ?></h2>
+					<h1 class="child-title__ja"><?php echo $title ?></h1>
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -52,7 +52,7 @@ require_once $path . 'include/header.php';
 					<div class="studio-main__content">
 						<div class="studio-main__title child-sub-title">
 							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-							<h2 class="child-sub-title__ja">岸和田・和泉</h2>
+							<p class="child-sub-title__ja">岸和田・和泉</p>
 						</div>
 						<ol class="studio-main__list">
 							<li class="studio-main__item">
@@ -78,7 +78,7 @@ require_once $path . 'include/header.php';
 					<div class="studio-main__content">
 						<div class="studio-main__title child-sub-title">
 							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-							<h2 class="child-sub-title__ja">泉佐野　泉南</h2>
+							<p class="child-sub-title__ja">泉佐野　泉南</p>
 						</div>
 						<ol class="studio-main__list">
 							<li class="studio-main__item">
@@ -95,7 +95,7 @@ require_once $path . 'include/header.php';
 					<div class="studio-main__content">
 						<div class="studio-main__title child-sub-title">
 							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-							<h2 class="child-sub-title__ja">五條</h2>
+							<p class="child-sub-title__ja">五條</p>
 						</div>
 						<ol class="studio-main__list gojo">
 							<li class="studio-main__item">
@@ -112,12 +112,12 @@ require_once $path . 'include/header.php';
 			<div class="common">
 				<div class="studio-detail common__inner">
 					<div class="studio-detail__content">
-						<div class="studio-detail__head">岸和田・和泉</div>
+						<h2 class="studio-detail__head">岸和田・和泉</h2>
 
 						<div class="studio-detail__item" id="jstutio">
 							<div class="child-sub-title">
 								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-								<h2 class="child-sub-title__ja">Jスタジオ</h2>
+								<h3 class="child-sub-title__ja">Jスタジオ</h3>
 							</div>
 							<div class="studio-detail__map-wrap">
 								<div class="studio-detail__map">
@@ -191,7 +191,19 @@ require_once $path . 'include/header.php';
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time01">19:00～20:10</p>
-											<p class="studio-schedule__name">インストラクター<br>Natsuki</p>
+											<p class="studio-schedule__name">インストラクター<br>Miwako</p>
+										</td>
+									</tr>
+									<tr class="studio-schedule__head">
+										<th class="studio-schedule__day">水曜日</th>
+									</tr>
+									<tr class="studio-schedule__subhead">
+										<td class="studio-schedule__class01">ZUMBAクラス（チケット制）</td>
+									</tr>
+									<tr class="studio-schedule__body">
+										<td class="studio-schedule__data">
+											<p class="studio-schedule__time01">19:30～20:20</p>
+											<p class="studio-schedule__name">インストラクター<br>Yurika</p>
 										</td>
 									</tr>
 								</table>
@@ -201,7 +213,7 @@ require_once $path . 'include/header.php';
 						<div class="studio-detail__item" id="nishiojimachi">
 							<div class="child-sub-title">
 								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-								<h2 class="child-sub-title__ja">西大路町会館</h2>
+								<h3 class="child-sub-title__ja">西大路町会館</h3>
 							</div>
 							<div class="studio-detail__map-wrap">
 								<div class="studio-detail__map">
@@ -251,7 +263,7 @@ require_once $path . 'include/header.php';
 						<div class="studio-detail__item" id="hatsugano1">
 							<div class="child-sub-title">
 								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-								<h2 class="child-sub-title__ja">はつが野1丁目自治会館</h2>
+								<h3 class="child-sub-title__ja">はつが野1丁目自治会館</h3>
 							</div>
 							<div class="studio-detail__map-wrap">
 								<div class="studio-detail__map">
@@ -282,7 +294,7 @@ require_once $path . 'include/header.php';
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time01">16:40～17:25</p>
-											<p class="studio-schedule__name">インストラクター<br>Natsuki</p>
+											<p class="studio-schedule__name">インストラクター<br>Yurika</p>
 										</td>
 									</tr>
 									<tr class="studio-schedule__subhead">
@@ -291,7 +303,7 @@ require_once $path . 'include/header.php';
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time02">17:30～18:15</p>
-											<p class="studio-schedule__name">インストラクター<br>Natsuki</p>
+											<p class="studio-schedule__name">インストラクター<br>Yurika</p>
 										</td>
 									</tr>
 								</table>
@@ -301,7 +313,7 @@ require_once $path . 'include/header.php';
 						<div class="studio-detail__item" id="hatsugano5">
 							<div class="child-sub-title">
 								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-								<h2 class="child-sub-title__ja">はつが野5丁目自治会館</h2>
+								<h3 class="child-sub-title__ja">はつが野5丁目自治会館</h3>
 							</div>
 							<div class="studio-detail__map-wrap">
 								<div class="studio-detail__map">
@@ -332,7 +344,7 @@ require_once $path . 'include/header.php';
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time01">15:45～16:30</p>
-											<p class="studio-schedule__name">インストラクター<br>Natsuki</p>
+											<p class="studio-schedule__name">インストラクター<br>Yurika</p>
 										</td>
 									</tr>
 									<tr class="studio-schedule__subhead">
@@ -341,7 +353,7 @@ require_once $path . 'include/header.php';
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time02">16:30～17:15</p>
-											<p class="studio-schedule__name">インストラクター<br>Natsuki</p>
+											<p class="studio-schedule__name">インストラクター<br>Yurika</p>
 										</td>
 									</tr>
 								</table>
@@ -351,7 +363,7 @@ require_once $path . 'include/header.php';
 						<div class="studio-detail__item" id="peoplechild">
 							<div class="child-sub-title">
 								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-								<h2 class="child-sub-title__ja">光明地区公民館</h2>
+								<h3 class="child-sub-title__ja">光明地区公民館</h3>
 							</div>
 							<div class="studio-detail__map-wrap">
 								<div class="studio-detail__map">
@@ -381,8 +393,8 @@ require_once $path . 'include/header.php';
 									</tr>
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
-											<p class="studio-schedule__time01">18:00～18:45</p>
-											<p class="studio-schedule__name">インストラクター<br>Natsuki</p>
+											<p class="studio-schedule__time01">17:45～18:30</p>
+											<p class="studio-schedule__name">インストラクター<br>Yurika</p>
 										</td>
 									</tr>
 								</table>
@@ -392,7 +404,7 @@ require_once $path . 'include/header.php';
 						<div class="studio-detail__item" id="midorigaoka">
 							<div class="child-sub-title">
 								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-								<h2 class="child-sub-title__ja">緑ヶ丘自治会館（シラックアカデミー）</h2>
+								<h3 class="child-sub-title__ja">緑ヶ丘自治会館（シラックアカデミー）</h3>
 							</div>
 							<div class="studio-detail__map-wrap">
 								<div class="studio-detail__map">
@@ -430,12 +442,12 @@ require_once $path . 'include/header.php';
 							</div>
 						</div>
 
-						<div class="studio-detail__head">泉佐野・泉南</div>
+						<h2 class="studio-detail__head">泉佐野・泉南</h2>
 
 						<div class="studio-detail__item" id="chonan">
 							<div class="child-sub-title">
 								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-								<h2 class="child-sub-title__ja">長南公民館</h2>
+								<h3 class="child-sub-title__ja">長南公民館</h3>
 							</div>
 							<div class="studio-detail__map-wrap">
 								<div class="studio-detail__map">
@@ -467,11 +479,11 @@ require_once $path . 'include/header.php';
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time01">19:00～20:00</p>
-											<p class="studio-schedule__name">インストラクター<br>---</p>
+											<p class="studio-schedule__name">インストラクター<br>Kirara</p>
 										</td>
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time01">18:30～19:30</p>
-											<p class="studio-schedule__name">インストラクター<br>Natsuki</p>
+											<p class="studio-schedule__name">インストラクター<br>Kirara</p>
 										</td>
 									</tr>
 								</table>
@@ -481,7 +493,7 @@ require_once $path . 'include/header.php';
 						<div class="studio-detail__item" id="tajiri">
 							<div class="child-sub-title">
 								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-								<h2 class="child-sub-title__ja">田尻ふれ愛センター</h2>
+								<h3 class="child-sub-title__ja">田尻ふれ愛センター</h3>
 							</div>
 							<div class="studio-detail__map-wrap">
 								<div class="studio-detail__map">
@@ -512,7 +524,7 @@ require_once $path . 'include/header.php';
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time01">9:30～10:15</p>
-											<p class="studio-schedule__name">インストラクター<br>---</p>
+											<p class="studio-schedule__name">インストラクター<br>Natsuki</p>
 										</td>
 									</tr>
 									<tr class="studio-schedule__subhead">
@@ -521,7 +533,7 @@ require_once $path . 'include/header.php';
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time02">10:15～11:15</p>
-											<p class="studio-schedule__name">インストラクター<br>---</p>
+											<p class="studio-schedule__name">インストラクター<br>Natsuki</p>
 										</td>
 									</tr>
 								</table>
@@ -531,7 +543,7 @@ require_once $path . 'include/header.php';
 						<div class="studio-detail__item" id="izumisano">
 							<div class="child-sub-title">
 								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-								<h2 class="child-sub-title__ja">泉佐野生涯学習センター</h2>
+								<h3 class="child-sub-title__ja">泉佐野生涯学習センター</h3>
 							</div>
 							<div class="studio-detail__map-wrap">
 								<div class="studio-detail__map">
@@ -562,7 +574,7 @@ require_once $path . 'include/header.php';
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time01">16:20～17:05</p>
-											<p class="studio-schedule__name">インストラクター<br>---</p>
+											<p class="studio-schedule__name">インストラクター<br>Yukie</p>
 										</td>
 									</tr>
 									<tr class="studio-schedule__subhead">
@@ -571,19 +583,19 @@ require_once $path . 'include/header.php';
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time02">15:20～16:20</p>
-											<p class="studio-schedule__name">インストラクター<br>---</p>
+											<p class="studio-schedule__name">インストラクター<br>Yukie</p>
 										</td>
 									</tr>
 								</table>
 							</div>
 						</div>
 
-						<div class="studio-detail__head">五條</div>
+						<h2 class="studio-detail__head">五條</h2>
 
 						<div class="studio-detail__item" id="gojo">
 							<div class="child-sub-title">
 								<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-								<h2 class="child-sub-title__ja">奈良県 五條市宇智体育館</h2>
+								<h3 class="child-sub-title__ja">奈良県 五條市宇智体育館</h3>
 							</div>
 							<div class="studio-detail__map-wrap">
 								<div class="studio-detail__map">
@@ -614,7 +626,7 @@ require_once $path . 'include/header.php';
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time01">9:30～10:05</p>
-											<p class="studio-schedule__name">インストラクター<br>---</p>
+											<p class="studio-schedule__name">インストラクター<br>Yurika</p>
 										</td>
 									</tr>
 									<tr class="studio-schedule__subhead">
@@ -623,7 +635,7 @@ require_once $path . 'include/header.php';
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time02">10:15～11:00</p>
-											<p class="studio-schedule__name">インストラクター<br>---</p>
+											<p class="studio-schedule__name">インストラクター<br>Yurika</p>
 										</td>
 									</tr>
 									<tr class="studio-schedule__subhead">
@@ -632,7 +644,7 @@ require_once $path . 'include/header.php';
 									<tr class="studio-schedule__body">
 										<td class="studio-schedule__data">
 											<p class="studio-schedule__time01">11:00～12:00</p>
-											<p class="studio-schedule__name">インストラクター<br>---</p>
+											<p class="studio-schedule__name">インストラクター<br>Yurika</p>
 										</td>
 									</tr>
 								</table>

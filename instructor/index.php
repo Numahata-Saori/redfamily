@@ -21,7 +21,7 @@ require_once $path . 'include/header.php';
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-					<h2 class="child-title__ja"><?php echo $title ?></h2>
+					<h1 class="child-title__ja"><?php echo $title ?></h1>
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -282,12 +282,16 @@ require_once $path . 'include/header.php';
 							<p class="instructor-detail__name">YUKIE</p>
 						</div>
 
-						<p class="instructor-detail__text">ダンスを大好きになってもらえるようみんなで楽しくレッスンをしながら 2年間専門学校で学んだ事を沢山伝えていきます！</p>
+						<p class="instructor-detail__text">ダンスを大好きになってもらえるよう今まで学んできたこと沢山伝えていきます！<br/>皆で楽しくレッスンしましょう！</p>
 
 						<div class="instructor-detail__body">
 							<div class="instructor-career">
 								<p class="instructor-detail__title">経歴</p>
 								<ol class="instructor-career__list">
+									<li class="instructor-career__item">ダンス＆アクターズ専門学校　卒業</li>
+									<li class="instructor-career__item">㈳JKFA　公認インストラクター</li>
+									<li class="instructor-career__item">ドリカム/Nissy/ゆずイロハ/AISHA/NGHEAD/</li>
+									<li class="instructor-career__item">真之介/G.IAM/jamflavor/ect. バックダンサー出演</li>
 									<li class="instructor-career__item">2016 KENTO MORI MV 出演</li>
 									<li class="instructor-career__item">2017 ゆずイロハ京セラバックダンサー</li>
 									<li class="instructor-career__item">2017  脳みそ MV ミュージック TV 出演</li>
@@ -315,7 +319,8 @@ require_once $path . 'include/header.php';
 								<li class="instructor-qualification__item">40H キッズビクスゴールドライセンス</li>
 								<li class="instructor-qualification__item">彩の台初めてダンスクラス担当</li>
 								<li class="instructor-qualification__item">彩の台初級クラス担当</li>
-								<li class="instructor-qualification__item">発達支援施設保育士、ダンス講師</li>
+								<li class="instructor-qualification__item">発達支援施設指導員　ダンス講師</li>
+								<li class="instructor-qualification__item">保育士</li>
 							</ol>
 						</div>
 					</div>
@@ -329,6 +334,8 @@ require_once $path . 'include/header.php';
 							</div>
 							<p class="instructor-detail__name">KIRARA</p>
 						</div>
+
+						<p class="instructor-detail__text">ダンスが楽しいって思ってもらえるように、全力でダンスの楽しさを伝えます！<br/>そして、みんなのそれぞれの色を引き出したいです！</p>
 
 						<div class="instructor-detail__body">
 							<div class="instructor-profile">

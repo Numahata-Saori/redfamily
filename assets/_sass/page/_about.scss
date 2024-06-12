@@ -73,6 +73,8 @@
 				line-height: 1.8;
 				@include mq(min, md) {
 					font-size: 1.125rem;
+				}
+				@include mq(min, xl) {
 					text-align: center;
 				}
 			}
@@ -145,8 +147,6 @@
 
 	&__representative {
 		.representative {
-			// gap: 1.25px;
-
 			&__img {
 				width: 260px;
 				margin: 0 auto;
@@ -229,7 +229,10 @@
 				@include flex(column, null, flex-start);
 				@include mq(min, md) {
 					flex-direction: row;
-					max-width: 780px;
+					justify-content: space-between;
+				}
+				@include mq(min, xl) {
+					max-width: 800px;
 					margin: 0 auto;
 				}
 
@@ -238,6 +241,9 @@
 						width: 100%;
 						height: auto;
 						@include mq(min, md) {
+							width: 60vw;
+						}
+						@include mq(min, xl) {
 							width: auto;
 							height: 540px;
 						}
@@ -247,6 +253,11 @@
 						width: 180px;
 						margin-top: -2.5rem;
 						@include mq(min, md) {
+							width: 32vw;
+							margin-top: 2.5rem;
+							margin-left: -2.5rem;
+						}
+						@include mq(min, xl) {
 							width: 280px;
 							margin-top: 2.5rem;
 							margin-left: -2.5rem;

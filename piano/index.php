@@ -21,7 +21,7 @@ require_once $path . 'include/header.php';
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-					<h2 class="child-title__ja"><?php echo $title ?></h2>
+					<h1 class="child-title__ja"><?php echo $title ?></h1>
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -47,12 +47,12 @@ require_once $path . 'include/header.php';
 				<div class="piano-main child-main__inner common__inner">
 					<div class="piano-main__hero child-main__img"><img src="<?php echo $path . $pathChild ?>piano/main-img.jpg" alt="ピアノを弾く子どもの写真"></div>
 
-					<p class="child-main__summary">Red Familyでは、ダンスの世界だけでなく、音楽の才能を伸ばしたいと考えるお子さまに向けて、ピアノ教室も開講しています。<br>ダンスと音楽は表現の豊かさを共有しており、ピアノを学ぶことで、リズム感や感性をさらに磨き上げることができます。</p>
+					<p class="child-main__summary"><span class="emphasis--corporate">Red Family</span>では、<span class="emphasis">ダンス</span>の世界だけでなく、<br class="non-sp"><span class="emphasis">音楽</span>の才能を伸ばしたいと考えるお子さまに向けて、<br class="non-sp"><span class="emphasis">ピアノ教室</span>も開講しています。<br><span class="emphasis">ダンス</span>と<span class="emphasis">音楽</span>は表現の豊かさを共有しており、<span class="emphasis">ピアノ</span>を学ぶことで、<br class="non-sp"><span class="emphasis">リズム感</span>や<span class="emphasis">感性</span>をさらに磨き上げることができます。</p>
 
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
 					<div class="piano-main__catch-box">
-						<p class="piano-main__catch">音楽とダンスを通じて、<br class="non-md">子どもたちの無限の可能性を引き出し、豊かな感性を育むことを目指しています。</p>
+						<p class="piano-main__catch"><span class="emphasis">音楽</span>と<span class="emphasis">ダンス</span>を通じて、<br class="non-md">子どもたちの<span class="emphasis">無限の可能性</span>を引き出し、<br class="non-sp"><span class="emphasis">豊かな感性を育む</span>ことを目指しています。</p>
 						<p class="piano-main__catch">ピアノの素晴らしい世界へ<br class="non-md">一緒に踏み出しましょう。</p>
 					</div>
 
@@ -92,7 +92,7 @@ require_once $path . 'include/header.php';
 						<h2 class="child-sub-title__ja">ご入会について</h2>
 					</div>
 
-					<p class="piano-secondary__text">ピアノ教室への入会をご希望の方、入会費や月謝、レッスンスケジュールなどは<br class="non-sp">Red Family までお気軽にお問い合わせください。</p>
+					<p class="piano-secondary__text">ピアノ教室への入会をご希望の方、入会費や月謝、レッスンスケジュールなどは<br class="non-tab">Red Family までお気軽にお問い合わせください。</p>
 
 					<div class="piano-secondary__btn common-btn common-btn-arrow">
 						<a class="piano-secondary__link common-btn__inner" href="<?php echo $path ?>contact/">ご入会について<br class="non-md">詳しくはこちらから</a>

@@ -8,27 +8,238 @@
 * HOME page
 * ========================= */
 
-.main-visual {
+.loading {
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 100vw;
 	height: 100vh;
-	margin-top: -80px;
-	@include mq(min, md) {
-		margin-top: -100px;
+	z-index: 9999;
+
+	.loading-animation {
+		@include flex(null, center, center);
+		width: 100vw;
+		height: 100vh;
+		transition: all 1s;
+		background: url(../img/top/loading_sp.jpg) center center / cover no-repeat;
+
+		@include mq(min, md) {
+			background-image: url(../img/top/loading_pc.jpg);
+		}
 	}
 
-	&__img {
-		height: 100%;
-
-		img {
-			height: 100%;
-			width: 100%;
+	&__text {
+		color: $color_white;
+		font-family: $font_reggae;
+		font-size: 14vw;
+		@include mq(min, md) {
+			font-size: 5.5rem;
+		}
+		@include mq(min, xl) {
+			font-size: 8rem;
 		}
 	}
 }
 
-.home-about {
-	&__inner {
-		background: $color_pastel-yellow-light-bg;
+.each-text-animation {
+	opacity: 0;
+
+	span {
+		opacity: 0;
 	}
+
+	&.appeartext {
+		span {
+			animation: text_anime_on 1s ease-out forwards;
+		}
+	}
+
+	@keyframes text_anime_on {
+		0% {opacity:0;}
+		100% {opacity:1;}
+	}
+}
+
+.main-visual {
+	background: $color_pastel-pink-light-bg;
+	height: calc(100vh - (80px + 80px));
+	position: relative;
+	@include mq(min, md) {
+	}
+	@include mq(min, xl) {
+		height: 100vh;
+	}
+
+	&__inner {
+		position: relative;
+		height: 100%;
+		@include mq(min, xl) {
+			height: 100%;
+			margin: 0 auto;
+			max-width: 1400px;
+			padding-top: 160px;
+		}
+	}
+
+	&__img-area {
+		@include flex(column, space-between, flex-end);
+		padding: 1.25rem 4vw;
+		height: 100%;
+		@include mq(min, xl) {
+			flex-direction: row-reverse;
+			justify-content: center;
+			align-items: flex-start;
+			gap: 3.75rem;
+			padding: 4rem 1.25rem;
+		}
+	}
+
+	// &__img01,
+	// &__img02 {
+	// }
+
+	&__img01 {
+		height: 60%;
+		margin-right: auto;
+		@include mq(min, md) {
+		}
+		@include mq(min, xl) {
+			height: inherit;
+			margin-right: inherit;
+			width: auto;
+		}
+		img {
+			height: 100%;
+			max-height: 90vw;
+
+			@include mq(min, xl) {
+				width: auto;
+				height: 100%;
+			}
+		}
+	}
+
+	&__img02 {
+		height: 40%;
+		margin-left: auto;
+		@include mq(min, md) {
+			max-width: 640px;
+		}
+		@include mq(min, xl) {
+			height: inherit;
+			margin-left: inherit;
+			max-width: 460px;
+			width: 35%;
+
+		}
+		img {
+			height: 100%;
+			@include mq(min, xl) {
+				height: auto;
+				width: 100%;
+			}
+		}
+	}
+
+	&__text-area {
+	}
+
+	&__text-img {
+		position: absolute;
+		top: 42%;
+		left: 0;
+		width: 100%;
+		@include mq(min, md) {
+			top: 40%;
+		}
+		@include mq(min, xl) {
+			display: none;
+		}
+	}
+
+	&__text-box {
+		display: none;
+		@include mq(min, xl) {
+			@include flex(column, null, flex-start);
+			gap: 1.25rem;
+			padding-bottom: 4rem;
+			padding-left: 4rem;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+	}
+
+	&__text {
+		color: mix($color_corporate,  $color_white, 60%);
+		font-size: clamp(1.375rem, -0.18rem + 6.63vw, 3rem);
+		font-weight: 700;
+		line-height: 1.3375;
+		letter-spacing: -0.03em;
+		text-shadow:
+			2px  2px 1px $color_white,
+			-2px  2px 1px $color_white,
+			2px -2px 1px $color_white,
+			-2px -2px 1px $color_white,
+			2px  0px 1px $color_white,
+			0px  2px 1px $color_white,
+			-2px  0px 1px $color_white,
+			0px -2px 1px $color_white;
+		position: relative;
+		@include mq(min, md) {
+			font-size: 2rem;
+			letter-spacing: 0.1em;
+		}
+		@include mq(min, xl) {
+			font-size: 3rem;
+		}
+
+		&:nth-of-type(1) {
+			&::before {
+				content: '';
+				display: block;
+				background: url(../img/top/sparkling-left.svg) center center / 56px 50px no-repeat;
+				width: 56px;
+				height: 50px;
+				position: absolute;
+				top: -2.5rem;
+				left: -3rem;
+				transform: rotate(-10deg);
+			}
+		}
+		&:nth-of-type(1) {
+			&::after {
+				content: '';
+				display: block;
+				background: url(../img/top/star.svg) center center / 48px 50px no-repeat;
+				width: 48px;
+				height: 50px;
+				position: absolute;
+				top: -2rem;
+				right: -1rem;
+				transform: rotate(10deg);
+			}
+		}
+		&:nth-of-type(2) {
+			&::after {
+				content: '';
+				display: block;
+				background: url(../img/top/sparkling-right.svg) center center / 56px 50px no-repeat;
+				width: 56px;
+				height: 50px;
+				position: absolute;
+				top: -2rem;
+				right: -1rem;
+				transform: rotate(10deg);
+			}
+		}
+	}
+
+}
+
+.home-about {
+	background: $color_pastel-yellow-light-bg;
 
 	&__content {
 		@include flex(column, null, center);

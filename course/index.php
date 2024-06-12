@@ -21,7 +21,7 @@ require_once $path . 'include/header.php';
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-					<h2 class="child-title__ja"><?php echo $title ?></h2>
+					<h1 class="child-title__ja"><?php echo $title ?></h1>
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -337,6 +337,28 @@ require_once $path . 'include/header.php';
 								<a class="common-btn__inner course-detail__link" href="<?php echo $path ?>studio/#jstutio">
 									<p class="course-detail__name">Jスタジオ</p>
 									<div class="course-detail__time"><p>第2・4土曜日</p><p>19:00～20:00</p></div>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="course-detail__content">
+						<div class="course-detail__title-area child-sub-title">
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
+							<h2 class="course-detail__title child-sub-title__ja">ZUMBAクラス<br class="non-md">（チケット制）</h2>
+						</div>
+
+						<div class="course-detail__body--aerobics">
+							<div class="course-detail__img">
+								<img src="<?php echo $path . $pathChild ?>course/course-img09.jpg" alt="ZUMBAクラス">
+							</div>
+						</div>
+
+						<div class="course-detail__list--only">
+							<div class="course-detail__btn common-btn common-btn-arrow">
+								<a class="common-btn__inner course-detail__link" href="<?php echo $path ?>studio/#jstutio">
+									<p class="course-detail__name">Jスタジオ</p>
+									<div class="course-detail__time"><p>水曜日</p><p>19:30～20:20</p></div>
 								</a>
 							</div>
 						</div>

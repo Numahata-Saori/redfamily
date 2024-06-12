@@ -2,7 +2,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title><?php echo $title; ?></title>
+	<title><?php echo strip_tags($title) ?></title>
 	<meta name="description" content="<?php echo $description; ?>">
 	<meta name="keywords" content="岸和田市,泉佐野市,HIPHOP,キッズダンス,KIDビクス,赤阪由合香,Jスタジオ,フラダンス教室">
 

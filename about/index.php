@@ -21,7 +21,7 @@ require_once $path . 'include/header.php';
 			<div class="child-top__inner">
 				<div class="child-title__wrap">
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-					<h2 class="child-title__ja"><?php echo $title ?></h2>
+					<h1 class="child-title__ja"><?php echo $title ?></h1>
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 				</div>
 				<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -88,8 +88,8 @@ require_once $path . 'include/header.php';
 							<p class="about-secondary__text">大好きなダンスを<br>もっと上手になりたい</p>
 						</li>
 					</ul>
-					<p class="about-secondary__summary">当スクールのインストラクターは、<span class="emphasis">㈳日本こどもフィットネス協会の認定資格</span>をはじめ、<br class="non-sp">障害者スポーツ指導者、ハワイアンフラ講師、健康運動実践指導者など、<span class="emphasis">多岐にわたる資格を持つ専門家</span>です。<br>
-					基礎から応用まで、質の高い指導を行い、<br class="non-sp">生徒一人ひとりが<span class="emphasis">ダンスの楽しさ</span>とともに技術を磨くことができるようサポートします。</p>
+					<p class="about-secondary__summary">当スクールのインストラクターは、<span class="emphasis">㈳日本こどもフィットネス協会の認定資格</span>をはじめ、<br class="non-tab">障害者スポーツ指導者、ハワイアンフラ講師、健康運動実践指導者など、<span class="emphasis">多岐にわたる資格を持つ専門家</span>です。<br>
+					基礎から応用まで、質の高い指導を行い、<br class="non-tab">生徒一人ひとりが<span class="emphasis">ダンスの楽しさ</span>とともに技術を磨くことができるようサポートします。</p>
 					<div class="about-secondary__btn common-btn common-btn-arrow">
 						<a class="common-btn__inner" href="<?php echo $path ?>course/">レッスン・クラスについて</a>
 					</div>
@@ -103,7 +103,7 @@ require_once $path . 'include/header.php';
 				<div class="presentation common__inner">
 					<div class="presentation__title-area child-sub-title">
 						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-						<h2 class="presentation__title"><span class="presentation__emphasis txt-orange">毎年３月</span>には一年に一度の大舞台<br class="non-xl">「<span class="presentation__emphasis txt-orange">Dance発表会</span>」が開催されます!</h2>
+						<h2 class="presentation__title"><span class="presentation__emphasis txt-orange">毎年３月</span>には一年に一度の大舞台<br class="non-md">「<span class="presentation__emphasis txt-orange">Dance発表会</span>」が開催されます!</h2>
 					</div>
 					<p class="presentation__note">過去の Red Family ダンス発表会</p>
 					<ul class="presentation__list">

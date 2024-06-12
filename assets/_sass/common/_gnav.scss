@@ -26,6 +26,7 @@
 
 		position: fixed;
 		top: 0.625em;
+		// right: calc(3.75rem);
 		right: 0.625em;
 
 		@include mq(min, xl) {

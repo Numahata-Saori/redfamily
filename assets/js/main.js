@@ -1,17 +1,68 @@
 /* ============================
+* loading
+* ========================= */
+
+/** テキストが1文字ずつ出現 */
+function EachTextAnimeControl() {
+	$('.each-text-animation').each(function () {
+		const elemPos = $(this).offset().top - 50;
+		const scroll = $(window).scrollTop();
+		const windowHeight = $(window).height();
+		if (scroll >= elemPos - windowHeight) {
+			$(this).addClass('appeartext');
+			$(this).css('opacity', 1);
+		} else {
+			$(this).removeClass('appeartext');
+			$(this).css('opacity', 0);
+		}
+	});
+}
+
+$(window).on('load', function () {
+	//spanタグを追加する
+	const elementEachText = $('.each-text-animation');
+	elementEachText.each(function () {
+		const textEach = $(this).text();
+		let textBoxEach = '';
+		textEach.split('').forEach(function (t, i) {
+			if (t !== ' ') {
+				if (i < 10) {
+					textBoxEach += '<span style="animation-delay:.' + i + 's;">' + t + '</span>';
+				} else {
+					const n = i / 10;
+					textBoxEach += '<span style="animation-delay:' + n + 's;">' + t + '</span>';
+				}
+			} else {
+				textBoxEach += t;
+			}
+		});
+		$(this).html(textBoxEach);
+	});
+
+	EachTextAnimeControl();
+
+	$(window).scroll(function () {
+		EachTextAnimeControl();
+	});
+
+	$('#loading').delay(2500).fadeOut('slow');
+});
+
+
+/* ============================
 * hamburger menu
 * ========================= */
 
-$(".js_gnav-btn").click(function () {
+$('.js_gnav-btn').click(function () {
 	$(this).toggleClass('active');
-	$(".js_gnav").toggleClass('open');
-	$(".js_show").toggleClass('circleactive');
+	$('.js_gnav').toggleClass('open');
+	$('.js_show').toggleClass('circleactive');
 });
 
-$(".js_gnav a").click(function () {
-	$(".js_gnav-btn").removeClass('active');
-	$(".js_gnav").removeClass('open');
-	$(".js_show").removeClass('circleactive');
+$('.js_gnav a').click(function () {
+	$('.js_gnav-btn').removeClass('active');
+	$('.js_gnav').removeClass('open');
+	$('.js_show').removeClass('circleactive');
 });
 
 
@@ -119,7 +170,7 @@ const swiper = new Swiper('.swiper', {
 * modal
 * ========================= */
 
-$(".js_img-modal").modaal({
+$('.js_img-modal').modaal({
 	type: 'image',
 	overlay_close:true,//モーダル背景クリック時に閉じるか
 	before_open:function(){// モーダルが開く前に行う動作

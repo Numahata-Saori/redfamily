@@ -373,6 +373,12 @@
 		display: block;
 	}
 }
+.non-tab {
+	display: none;
+	@include mq(min, xl) {
+		display: block;
+	}
+}
 .non-md {
 	@include mq(min, md) {
 		display: none;
