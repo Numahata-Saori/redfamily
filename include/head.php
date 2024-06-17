@@ -26,6 +26,6 @@
 	<link rel="stylesheet" href="<?php echo $path; ?>assets/css/modal.css">
 	<link rel="stylesheet" href="<?php echo $path; ?>assets/css/swiper.css">
 
-	<!-- <link rel="shortcut icon" href="<?php echo $path . $pathChild ?>common/favicon.ico"> -->
+	<link rel="shortcut icon" href="<?php echo $path . $pathChild ?>common/favicon.ico">
 
 </head>

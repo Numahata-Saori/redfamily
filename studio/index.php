@@ -59,7 +59,7 @@ require_once $path . 'include/header.php';
 								<a class="studio-main__link jstutio" href="#jstutio"><p class="studio-main__name">Jスタジオ</p></a>
 							</li>
 							<li class="studio-main__item">
-								<a class="studio-main__link nishiojimachi" href="#nishiojimachi"><p class="studio-main__name">西大路町町会館</p></a>
+								<a class="studio-main__link nishiojimachi" href="#nishiojimachi"><p class="studio-main__name">西大路町会館</p></a>
 							</li>
 							<li class="studio-main__item">
 								<a class="studio-main__link hatsugano1" href="#hatsugano1"><p class="studio-main__name">はつが野1丁目<br class="non-md">自治会館</p></a>
@@ -71,7 +71,7 @@ require_once $path . 'include/header.php';
 								<a class="studio-main__link peoplechild" href="#peoplechild"><p class="studio-main__name">光明地区公民館</p></a>
 							</li>
 							<li class="studio-main__item">
-								<a class="studio-main__link midorigaoka" href="#midorigaoka"><p class="studio-main__name">緑ヶ丘自治会館<span>（シラックアカデミー）</span></p></a>
+								<a class="studio-main__link midorigaoka" href="#midorigaoka"><p class="studio-main__name">緑ヶ丘自治会館</p></a>
 							</li>
 						</ol>
 					</div>

@@ -5,7 +5,6 @@
 		<div class="header__inner">
 			<div class="header__head">
 				<div class="header__logo">
-					<!-- <a class="" <?php /* echo isset($is_home) ? '': 'href="index.php"' */ ?>> -->
 					<a class="" href="<?php echo $path; ?>">
 						<img src="<?php echo $path . $pathChild; ?>common/logo.png" alt="Red family">
 					</a>
@@ -16,17 +15,17 @@
 						<p class="header-contact__number phone-btn-icon">090-8365-6461</p>
 					</div>
 					<div class="header-contact__mail common-btn">
-						<a class="header-contact__btn common-btn__inner" href="<?php echo $path; ?>/contact">
+						<a class="header-contact__btn common-btn__inner" href="<?php echo $path; ?>contact">
 							<p class="header-contact__text mail-btn-icon">お問い合わせフォーム</p>
 						</a>
 					</div>
 					<div class="header-contact__line common-btn">
-						<a class="header-contact__btn common-btn__inner" href=https://lin.ee/saqiOvQM">
+						<a class="header-contact__btn common-btn__inner" href=https://lin.ee/saqiOvQM" target="_blank">
 							<p class="header-contact__text line-btn-icon">お友達登録はこちら</p>
 						</a>
 					</div>
 					<div class="header-contact__instagram">
-						<a class="header-contact__icon" href="<?php echo $path; ?>/contact">
+						<a class="header-contact__icon" href="https://www.instagram.com/dance_studio_red?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
 							<img src="<?php echo $path . $pathChild ?>common/icon-instagram.svg" alt="">
 						</a>
 					</div>
@@ -67,7 +66,7 @@
 					<li class="header-gnav__item">
 						<a class="header-gnav__link" href="<?php echo $path; ?>challenge-cup/">
 							<p class="header-gnav__icon"><img src="<?php echo $path; ?>assets/img/common/icon-challenge-cup.svg" alt=""></p>
-							<p class="header-gnav__text">全国子ども<br>チャレンジカップ</p>
+							<p class="header-gnav__text">全国こども<br>チャレンジカップ</p>
 						</a>
 					</li>
 					<li class="header-gnav__item">

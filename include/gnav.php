@@ -21,7 +21,7 @@
 										<a class="gnav__link" href="<?php echo $path; ?>studio/">スタジオ</a>
 									</li>
 									<li class="gnav__item">
-										<a class="gnav__link" href="<?php echo $path; ?>challenge-cup/">全国子どもチャレンジカップ</a>
+										<a class="gnav__link" href="<?php echo $path; ?>challenge-cup/">全国こどもチャレンジカップ</a>
 									</li>
 									<li class="gnav__item">
 										<a class="gnav__link" href="<?php echo $path; ?>procedure/">ご入会・各種手続き</a>

@@ -37,7 +37,7 @@ require_once $path . 'include/header.php';
 				<p class="main-visual__text-img"><img src="<?php echo $path . $pathChild ?>top/main-visual-text_sp.png" alt=""></p>
 				<h1 class="main-visual__text-box">
 					<span class="main-visual__text">踊る喜び、育む未来。</span>
-					<span class="main-visual__text">子どもたちの才能を解き放つ場所。</span>
+					<span class="main-visual__text">こどもたちの才能を解き放つ場所。</span>
 				</h1>
 			</div>
 		</div>
@@ -56,11 +56,11 @@ require_once $path . 'include/header.php';
 						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 					</div>
 					<div class="home-about__content">
-						<p class="home-about__text">私たちは、子どもたち一人ひとりが持つ<br class="non-lg">無限の可能性を信じています。</p>
+						<p class="home-about__text">私たちは、こどもたち一人ひとりが持つ<br class="non-lg">無限の可能性を信じています。</p>
 						<p class="home-about__text">RedFamilyでは、<br class="non-lg">ダンスを通じてその才能を引き出し、<br class="non-lg">自信と創造性を育んでいます。</p>
-						<p class="home-about__text">当スクールでは、<br class="non-lg">子どもたちが自分自身を表現し、<br class="non-lg">仲間との絆を深めながら、<br>楽しみながら学べる環境を提供しています。</p>
+						<p class="home-about__text">当スクールでは、<br class="non-lg">こどもたちが自分自身を表現し、<br class="non-lg">仲間との絆を深めながら、<br>楽しみながら学べる環境を提供しています。</p>
 						<p class="home-about__text"> 皆さんのご家族が<br class="non-lg">Red Family の一員として加わることを<br class="non-lg">心よりお待ちしております。</p>
-						<p class="home-about__text"> 一緒に、子どもたちの輝く未来を<br class="non-lg">創り上げましょう。</p>
+						<p class="home-about__text"> 一緒に、こどもたちの輝く未来を<br class="non-lg">創り上げましょう。</p>
 					</div>
 					<div class="about-btn common-btn common-btn-arrow">
 						<a class="common-btn__inner" href="<?php echo $path ?>about/">詳しくみる</a>
@@ -171,7 +171,7 @@ endforeach;
 								<h3 class="instructor__lead">プロフェッショナルインストラクター</h3>
 								<p class="instructor__text">
 									当スクールのインストラクターは全員、（社）日本こどもフィットネス協会の認定資格を保有している有資格者です。<br>
-									子どもたちの心と体の成長をサポートする専門的な知識と経験を持つ、信頼できるインストラクターたちが、皆さんを暖かく迎え入れます。
+									こどもたちの心と体の成長をサポートする専門的な知識と経験を持つ、信頼できるインストラクターたちが、皆さんを暖かく迎え入れます。
 								</p>
 							</div>
 							<div class="instructor-btn common-btn common-btn-arrow">

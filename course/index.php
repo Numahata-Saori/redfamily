@@ -59,7 +59,7 @@ require_once $path . 'include/header.php';
 					</div>
 
 					<div class="course-main__btn common-btn common-btn-arrow">
-						<a class="course-main__link common-btn__inner" href="<?php echo $path ?>contact/">ご入会について<br class="non-md">詳しくはこちらから</a>
+						<a class="course-main__link common-btn__inner" href="<?php echo $path ?>procedure/">ご入会について<br class="non-md">詳しくはこちらから</a>
 					</div>
 				</div>
 			</div>
@@ -80,7 +80,7 @@ require_once $path . 'include/header.php';
 							<div class="course-detail__img">
 								<img src="<?php echo $path . $pathChild ?>course/course-img01.jpg" alt="初めてダンスクラス">
 							</div>
-							<p class="course-detail__text">ダンスに初めて触れる子どもたちのためのクラスです。<br>楽しみながらウォームアップからスタートし、基本的なステップとリズム感を育てていきます。遊び心いっぱいで、ダンスの基礎を学びましょう。</p>
+							<p class="course-detail__text">ダンスに初めて触れるこどもたちのためのクラスです。<br>楽しみながらウォームアップからスタートし、基本的なステップとリズム感を育てていきます。遊び心いっぱいで、ダンスの基礎を学びましょう。</p>
 						</div>
 
 						<div class="course-detail__list">
@@ -107,7 +107,7 @@ require_once $path . 'include/header.php';
 							<div class="course-detail__btn common-btn common-btn-arrow new-mark">
 								<a class="common-btn__inner course-detail__link" href="<?php echo $path ?>studio/#peoplechild">
 									<p class="course-detail__name">光明地区公民館</p>
-									<div class="course-detail__time"><p>第2・4金曜日</p><p>18:00～18:45</p></div>
+									<div class="course-detail__time"><p>第2・4金曜日</p><p>17:45～18:30</p></div>
 								</a>
 							</div>
 						</div>
@@ -138,7 +138,7 @@ require_once $path . 'include/header.php';
 							</div>
 							<div class="course-detail__btn common-btn common-btn-arrow">
 								<a class="common-btn__inner course-detail__link" href="<?php echo $path ?>studio/#nishiojimachi">
-									<p class="course-detail__name">西大路町町会館</p>
+									<p class="course-detail__name">西大路町会館</p>
 									<div class="course-detail__time"><p>土曜日</p><p>16:30～17:15</p></div>
 								</a>
 							</div>
@@ -261,7 +261,7 @@ require_once $path . 'include/header.php';
 							</div>
 							<div class="course-detail__btn common-btn common-btn-arrow">
 								<a class="common-btn__inner course-detail__link" href="<?php echo $path ?>studio/#nishiojimachi">
-									<p class="course-detail__name">西大路町町会館</p>
+									<p class="course-detail__name">西大路町会館</p>
 									<div class="course-detail__time"><p>土曜日</p><p>17:15～18:15</p></div>
 								</a>
 							</div>
@@ -363,11 +363,16 @@ require_once $path . 'include/header.php';
 							</div>
 						</div>
 					</div>
+
+					<div class="course-detail__btn common-btn common-btn-arrow">
+						<a class="common-btn__inner" href="<?php echo $path ?>studio/">スタジオの詳細はこちら</a>
+					</div>
 				</div>
 			</div>
+			<div class="shape-bottom--contact"></div>
 		</section>
 
-		<section class="child-course__secondary">
+		<!-- <section class="child-course__secondary">
 			<div class="shape-top--yellow-light"></div>
 			<div class="common">
 				<div class="course-secondary common__inner">
@@ -378,7 +383,7 @@ require_once $path . 'include/header.php';
 				</div>
 			</div>
 			<div class="shape-bottom--contact"></div>
-		</section>
+		</section> -->
 
 <?php
 require_once $path . 'include/contact-mini.php';

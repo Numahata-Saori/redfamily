@@ -49,7 +49,7 @@ require_once $path . 'include/header.php';
 				<div class="procedure-main child-main__inner common__inner">
 					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>procedure/main-img.jpg" alt="入会届を記入する様子"></div>
 
-					<p class="child-main__summary"><span class="emphasis--corporate">Red Family</span>へのご入会をご検討いただき、ありがとうございます。<br>当スクールでは、<span class="emphasis">ダンス</span>を愛するすべての子どもたちに、<span class="emphasis">楽しく学べる環境</span>を提供しています。</p>
+					<p class="child-main__summary"><span class="emphasis--corporate">Red Family</span>へのご入会をご検討いただき、ありがとうございます。<br>当スクールでは、<span class="emphasis">ダンス</span>を愛するすべてのこどもたちに、<span class="emphasis">楽しく学べる環境</span>を提供しています。</p>
 
 					<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 
@@ -94,13 +94,13 @@ require_once $path . 'include/header.php';
 					<div class="join">
 						<div class="join__content">
 							<div class="join__btn common-btn common-btn-arrow">
-								<a class="common-btn__inner" href="<?php echo $path ?>assets/pdf/membership-terms.pdf">Red Family 会員規約</a>
+								<a class="common-btn__inner" href="<?php echo $path ?>assets/pdf/membership-terms.pdf" target="_blank">Red Family 会員規約</a>
 							</div>
 							<p class="join__text">ご入会に際しては、「会員規約」に<br class="non-md">ご同意いただく必要があります。</p>
 						</div>
 						<div class="join__content">
 							<div class="join__btn common-btn common-btn-arrow">
-								<a class="common-btn__inner" href="<?php echo $path ?>assets/pdf/membership-notification.pdf">入会届兼誓約書</a>
+								<a class="common-btn__inner" href="<?php echo $path ?>assets/pdf/01_admission-report.pdf" target="_blank">入会届兼誓約書</a>
 							</div>
 							<p class="join__text">「入会届兼誓約書」をダウンロードし<br class="non-md">必要事項をご記入ください。</p>
 						</div>
@@ -155,10 +155,10 @@ require_once $path . 'include/header.php';
 						<h3 class="procedure-secondary__subtitle">各種書類ダウンロード</h3>
 						<div class="procedure-secondary__btn-box">
 							<div class="procedure-secondary__btn common-btn common-btn-arrow">
-								<a class="common-btn__inner" href="<?php echo $path ?>contact/">退会届</a>
+								<a class="common-btn__inner" href="<?php echo $path ?>assets/pdf/02_notice-of-withdrawal.pdf" target="_blank">退会届</a>
 							</div>
 							<div class="procedure-secondary__btn common-btn common-btn-arrow">
-								<a class="common-btn__inner" href="<?php echo $path ?>contact/">休会届</a>
+								<a class="common-btn__inner" href="<?php echo $path ?>assets/pdf/03_notice-of-adjournment.pdf" target="_blank">休会届</a>
 							</div>
 						</div>
 					</div>

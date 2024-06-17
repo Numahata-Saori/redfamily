@@ -48,8 +48,8 @@ require_once $path . 'include/header.php';
 					<div class="child-main__img"><img src="<?php echo $path . $pathChild ?>about/main-img.jpg" alt="スタジオでのレッスン風景の写真"></div>
 
 					<p class="about-main__text child-main__summary"><span class="emphasis">大阪府泉州地域を拠点</span>に、<span class="emphasis">HIPHOPダンス</span>を中心に、<span class="emphasis">幼児</span>から<span class="emphasis">成人</span>までを対象としたキッドビクスプログラムを含む多様なクラスを提供している<span class="emphasis--corporate">Red Family</span>。<br>
-					私たちは、<span class="emphasis">一般社団法人日本こどもフィットネス協会</span>の理念に共鳴し、子どもたちが<span class="emphasis">元気に成長すること</span>を目指しています。<br>
-					ダンスを通じて、社会性、家族の絆、思いやり、健康的なライフスタイル、運動能力の向上、そしてダンス技術の向上といった無限の可能性を子どもたちに提供します。</p>
+					私たちは、<span class="emphasis">一般社団法人日本こどもフィットネス協会</span>の理念に共鳴し、こどもたちが<span class="emphasis">元気に成長すること</span>を目指しています。<br>
+					ダンスを通じて、社会性、家族の絆、思いやり、健康的なライフスタイル、運動能力の向上、そしてダンス技術の向上といった無限の可能性をこどもたちに提供します。</p>
 				</div>
 			</div>
 			<div class="shape-bottom--pink-light"></div>
@@ -157,11 +157,11 @@ endforeach;
 		<section class="child-about__nursery-school">
 			<div class="common">
 				<div class="nursery-school common__inner">
-					<div class="nursery-school__title-area child-sub-title">
-						<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
-						<h2 class="nursery-school__title child-sub-title__ja">認定こども園・保育園事業</h2>
-					</div>
 					<div class="nursery-school__main">
+						<div class="nursery-school__title-area child-sub-title">
+							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
+							<h2 class="nursery-school__title child-sub-title__ja">認定こども園・保育園事業</h2>
+						</div>
 						<div class="nursery-school__gallery">
 							<img src="<?php echo $path . $pathChild ?>about/nursery-school-img01.png" alt="保育園の風景写真">
 							<img src="<?php echo $path . $pathChild ?>about/nursery-school-img02.png" alt="保育園の風景写真">
@@ -187,6 +187,9 @@ endforeach;
 						<div class="nursery-school__title-area child-sub-title">
 							<div class="dots-inner"><img src="<?php echo $path . $pathChild ?>common/decor-dots.svg" alt=""></div>
 							<h2 class="nursery-school__title child-sub-title__ja">課外ダンス</h2>
+						</div>
+						<div class="nursery-school__gallery nursery-school__gallery--dance">
+							<img src="<?php echo $path . $pathChild ?>about/nursery-school-img03.png" alt="課外ダンスの風景写真">
 						</div>
 						<div class="nursery-school__box">
 							<ol class="nursery-school__list">
@@ -222,16 +225,16 @@ endforeach;
 					<div class="parent-child__main">
 						<div class="parent-child__gallery">
 							<div class="parent-child__img01">
-								<img src="<?php echo $path . $pathChild ?>about/parent-child-img01.jpg" alt="子どもたちの遊ぶ様子">
+								<img src="<?php echo $path . $pathChild ?>about/parent-child-img01.jpg" alt="こどもたちの遊ぶ様子">
 							</div>
 							<div class="parent-child__img02">
-								<img src="<?php echo $path . $pathChild ?>about/parent-child-img02.jpg" alt="子どもたちの遊ぶ様子">
+								<img src="<?php echo $path . $pathChild ?>about/parent-child-img02.jpg" alt="こどもたちの遊ぶ様子">
 							</div>
 							<div class="parent-child__img03">
-								<img src="<?php echo $path . $pathChild ?>about/parent-child-img03.jpg" alt="子どもたちの遊ぶ様子">
+								<img src="<?php echo $path . $pathChild ?>about/parent-child-img03.jpg" alt="こどもたちの遊ぶ様子">
 							</div>
 							<div class="parent-child__img04">
-								<img src="<?php echo $path . $pathChild ?>about/parent-child-img04.jpg" alt="子どもたちの遊ぶ様子">
+								<img src="<?php echo $path . $pathChild ?>about/parent-child-img04.jpg" alt="こどもたちの遊ぶ様子">
 							</div>
 						</div>
 						<div class="parent-child__title-area child-sub-title">

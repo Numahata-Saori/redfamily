@@ -225,6 +225,12 @@
 		.nursery-school {
 			gap: 3.75rem;
 
+			&__main,
+			&__secondary {
+				@include flex(column, null, center);
+				gap: 2.5rem
+			}
+
 			&__gallery {
 				@include flex(column, null, flex-start);
 				@include mq(min, md) {
@@ -234,6 +240,17 @@
 				@include mq(min, xl) {
 					max-width: 800px;
 					margin: 0 auto;
+				}
+
+				&--dance {
+					img {
+						width: 100%;
+						height: auto;
+						@include mq(min, md) {
+							width: auto;
+							height: 420px;
+						}
+					}
 				}
 
 				img {
@@ -249,7 +266,6 @@
 						}
 					}
 					&:nth-of-type(2) {
-						aspect-ratio: 1 / 1;
 						width: 180px;
 						margin-top: -2.5rem;
 						@include mq(min, md) {
@@ -272,9 +288,8 @@
 				border-radius: 1.25rem;
 				@include flex(column, center, center);
 				padding: 1.25rem;
-				margin-top: 1.25rem;
+				width: 100%;
 				@include mq(min, md) {
-					margin-top: 2.5rem;
 					padding: 1.875rem;
 				}
 			}

@@ -1076,12 +1076,14 @@ p {
 	padding: 0.325rem;
 }
 .footer-bottom__icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 30px;
 	height: 30px;
 }
 .footer-bottom__icon img {
 	width: 100%;
-	height: 100%;
 }
 .footer-bottom__text {
 	font-size: 0.75rem;
@@ -2153,6 +2155,12 @@ p {
 .child-about__nursery-school .nursery-school {
 	gap: 3.75rem;
 }
+.child-about__nursery-school .nursery-school__main, .child-about__nursery-school .nursery-school__secondary {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.5rem;
+}
 .child-about__nursery-school .nursery-school__gallery {
 	display: flex;
 	flex-direction: column;
@@ -2168,6 +2176,16 @@ p {
 	.child-about__nursery-school .nursery-school__gallery {
 		max-width: 800px;
 		margin: 0 auto;
+	}
+}
+.child-about__nursery-school .nursery-school__gallery--dance img {
+	width: 100%;
+	height: auto;
+}
+@media screen and (min-width: 768px) {
+	.child-about__nursery-school .nursery-school__gallery--dance img {
+		width: auto;
+		height: 420px;
 	}
 }
 .child-about__nursery-school .nursery-school__gallery img:first-of-type {
@@ -2186,7 +2204,6 @@ p {
 	}
 }
 .child-about__nursery-school .nursery-school__gallery img:nth-of-type(2) {
-	aspect-ratio: 1/1;
 	width: 180px;
 	margin-top: -2.5rem;
 }
@@ -2213,11 +2230,10 @@ p {
 	justify-content: center;
 	align-items: center;
 	padding: 1.25rem;
-	margin-top: 1.25rem;
+	width: 100%;
 }
 @media screen and (min-width: 768px) {
 	.child-about__nursery-school .nursery-school__box {
-		margin-top: 2.5rem;
 		padding: 1.875rem;
 	}
 }
@@ -2603,6 +2619,9 @@ p {
 	font-size: 0.875rem;
 	font-weight: 700;
 	line-height: 1;
+}
+.child-course__detail .course-detail__btn {
+	background: #ea6c92;
 }
 .child-course__detail .new-mark::before {
 	content: "";
